@@ -1,0 +1,10 @@
+\begin{tabular}{@{}lrccccccc@{}}
+\toprule
+Method & Aug. $N$ & \shortstack{IID F1\\$\uparrow$} & \shortstack{Attack recall\\$\uparrow$} & \shortstack{HB FPR\\$\downarrow$} & \shortstack{External FPR\\$\downarrow$} & \shortstack{Obf. recall\\$\uparrow$} & \shortstack{Domain F1\\$\uparrow$} & \shortstack{Struct. FPR\\$\downarrow$} \\
+\midrule
+Baseline & 0 & $0.9815\,\pm\,0.0017$ & $0.9871\,\pm\,0.0047$ & $0.4158\,\pm\,0.1170$ & $0.2067\,\pm\,0.0350$ & $0.9857\,\pm\,0.0119$ & $0.9033\,\pm\,0.0409$ & $0.7748\,\pm\,0.1033$ \\
+Curated-HN & 343 & $0.9828\,\pm\,0.0020$ & \textbf{0.9892}$\,\pm\,0.0017$ & \textbf{0.0587}$\,\pm\,0.0163$ & $0.1846\,\pm\,0.0341$ & \textbf{0.9921}$\,\pm\,0.0011$ & \textbf{0.9131}$\,\pm\,0.0348$ & $0.5359\,\pm\,0.1259$ \\
+Random-Real & 1000 & \textbf{0.9840}$\,\pm\,0.0009$ & $0.9877\,\pm\,0.0013$ & $0.2015\,\pm\,0.0638$ & $0.0731\,\pm\,0.0104$ & $0.9891\,\pm\,0.0028$ & $0.8899\,\pm\,0.0115$ & $0.4356\,\pm\,0.1309$ \\
+ProvGuard & 1000 & $0.9826\,\pm\,0.0010$ & $0.9869\,\pm\,0.0016$ & $0.1384\,\pm\,0.0465$ & \textbf{0.0423}$\,\pm\,0.0053$ & $0.9877\,\pm\,0.0039$ & $0.8839\,\pm\,0.0090$ & \textbf{0.3754}$\,\pm\,0.1203$ \\
+\bottomrule
+\end{tabular}

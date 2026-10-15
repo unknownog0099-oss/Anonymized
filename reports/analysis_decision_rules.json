@@ -1,0 +1,7 @@
+{
+  "defined_before_provguard_training": true,
+  "H1_H2": "Conservative overall support requires positive crossed-bootstrap 95% lower CI bounds on both usable HB and external HB. Both endpoints nonpositive upper CI bounds -> not supported; mixed/uncertain endpoint evidence -> inconclusive. Endpoint-specific numerical verdicts retained.",
+  "H3": "IID F1 and recall seed-bootstrap lower CI bounds must meet predefined -0.01/-0.02 bounds. Confirmed obfuscated-recall decline (upper CI<0) vetoes preservation; a negative point estimate with uncertain sign makes preservation inconclusive. No formal obfuscated noninferiority margin is asserted.",
+  "practical_criterion": "Point-estimate external FPR absolute reduction >=0.10, IID F1 loss <=0.01, IID recall loss <=0.02 versus baseline.",
+  "interval_limitations": "Five seeds; pointwise intervals. FPR crossed bootstrap resamples paired seeds and shared evaluation prompts. IID/obfuscated preservation uses conditional paired seed bootstrap on fixed benchmark prompts."
+}

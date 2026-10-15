@@ -1,0 +1,107 @@
+{
+  "status": "PASSED",
+  "modular_source_sha256": "e741dfbc18d977d3e4de62d1e8b2569fc525a4b44e148dda36ce9ced7ef01f00",
+  "single_tex_sha256": "eda328b4d7ba9fa99665cc3aa94e19ba8f2e9b616a3501931695bb978cb60b1f",
+  "inline_table_sources": {
+    "paper/tables/primary": {
+      "sha256": "78c6f8773ef08327089408c69723689c69a2b84b2c55dd75a1b8d787fa7cb159"
+    },
+    "paper/tables/statistics": {
+      "sha256": "6ed38fd2674f1b82d1b4518d558fbe4fef30f8922f3ece24e39c33d90e1b4c1b"
+    },
+    "paper/tables/ablation": {
+      "sha256": "8c06b21e0a0b422d4f5b69a3bd6acbf01d2944575d9d8502d27b56ed73e11780"
+    }
+  },
+  "inline_numerical_macros_sha256": "70cac3aabc04c3a74210cc5273693d9e98536ae7c3e0384e22861882ed8462b6",
+  "inline_bibliography_sha256": "24ee3d123e1760140448739378a681301888112ae0fded30282f7f4cbf1da92d",
+  "inline_figures": {
+    "PGMethodology": {
+      "pdf_sha256": "e452b7c6ae77e6cb662836544bb295926746d27dc0a5871cae5a2fca0dfaace0",
+      "vector_primitive_n": 119,
+      "text_span_n": 39,
+      "width_bp": 522.719970703125,
+      "height_bp": 205.9199981689453,
+      "retiled_hatch_regions": 0
+    },
+    "PGExternalHB": {
+      "pdf_sha256": "c3babdac3404844f4d7f47333a8dc9fe1de5ac8b3f0d14aca0245e4820ff82c8",
+      "vector_primitive_n": 1423,
+      "text_span_n": 18,
+      "width_bp": 254.5537567138672,
+      "height_bp": 166.6356201171875,
+      "retiled_hatch_regions": 3
+    },
+    "PGAblation": {
+      "pdf_sha256": "b1faec8b4324c5bdb3e25f3df2e7dde1e5ed7c00e1e4568d26da7b87a9e1e38f",
+      "vector_primitive_n": 85,
+      "text_span_n": 14,
+      "width_bp": 253.86257934570312,
+      "height_bp": 172.1543731689453,
+      "retiled_hatch_regions": 0
+    },
+    "PGHardness": {
+      "pdf_sha256": "a87dfb7466e2dbc1663ea68261f9aa21188d4d8e5be9a95306130d9c7f24bb4b",
+      "vector_primitive_n": 1538,
+      "text_span_n": 20,
+      "width_bp": 253.33615112304688,
+      "height_bp": 166.55874633789062,
+      "retiled_hatch_regions": 0
+    },
+    "PGPrimaryResults": {
+      "pdf_sha256": "a9a3f2d0d093fda10fe23cf885761580a0aac909a862a382e14226009ade7838",
+      "vector_primitive_n": 9462,
+      "text_span_n": 15,
+      "width_bp": 503.7202453613281,
+      "height_bp": 191.57962036132812,
+      "retiled_hatch_regions": 9
+    },
+    "PGSecurityUsability": {
+      "pdf_sha256": "04d6b1a8b0bc76abc728587a23811b1856b36e88a364ea2a29734e191f742682",
+      "vector_primitive_n": 160,
+      "text_span_n": 24,
+      "width_bp": 518.8201293945312,
+      "height_bp": 234.3800048828125,
+      "retiled_hatch_regions": 0
+    },
+    "PGGraphicalAbstract": {
+      "pdf_sha256": "6d738ae68a0d239b6d468f087e02093dd469df5bbb5fd90a3445dff1fe8453b1",
+      "vector_primitive_n": 81,
+      "text_span_n": 47,
+      "width_bp": 886.3200073242188,
+      "height_bp": 403.9200134277344,
+      "retiled_hatch_regions": 0
+    }
+  },
+  "external_project_file_references": 0,
+  "standard_library_dependencies": [
+    "IEEEtran",
+    "tikz",
+    "helvet",
+    "cite",
+    "amsmath",
+    "amssymb",
+    "amsfonts",
+    "graphicx",
+    "textcomp",
+    "xcolor",
+    "booktabs",
+    "url"
+  ],
+  "initial_directory_files": [
+    "ProvGuard.tex"
+  ],
+  "isolated_compile_page_count": 6,
+  "isolated_pdf_text_identical": true,
+  "isolated_compile_standard_tex_library_only": true,
+  "final_pdf_sha256": "c793cc7145cecf2bbf5fc924653dffd43ec4f02392cf745ff4b45858c3e3ee10",
+  "rendered_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "release_metadata_sanitized": true
+}

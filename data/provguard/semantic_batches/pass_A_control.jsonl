@@ -1,0 +1,927 @@
+{"candidate_id": "5978c21b5d3c1fed920e", "decision": "BENIGN", "reason": "Food naming question about Hawaiian pizza."}
+{"candidate_id": "170416c541622c6024be", "decision": "BENIGN", "reason": "Factual question about the largest land mammal."}
+{"candidate_id": "607d078899271736c64a", "decision": "BENIGN", "reason": "Asks for baseball rules."}
+{"candidate_id": "d449e1f5ae826c231ab3", "decision": "BENIGN", "reason": "Asks for ways to entertain cats."}
+{"candidate_id": "6ad06a698a8c1e737464", "decision": "BENIGN", "reason": "Asks which company built the F-22."}
+{"candidate_id": "133b5c0dc94252a39222", "decision": "BENIGN", "reason": "Asks for information about U?cie Gorlickie."}
+{"candidate_id": "2fc6cfee059e9318fb7c", "decision": "BENIGN", "reason": "History question about the Gupta dynasty founder."}
+{"candidate_id": "55a880e1be2b99964243", "decision": "BENIGN", "reason": "Asks why cricket is popular."}
+{"candidate_id": "89ff7c6db230f24e9bda", "decision": "BENIGN", "reason": "Requests success advice."}
+{"candidate_id": "ed3f50d5984661ccb7f4", "decision": "BENIGN", "reason": "Programming question about abstract classes."}
+{"candidate_id": "c9a1c310269b18eb14e2", "decision": "BENIGN", "reason": "Asks the composition of glass."}
+{"candidate_id": "82a12952c458e67f5fc6", "decision": "BENIGN", "reason": "Asks how sunlight sustains life."}
+{"candidate_id": "232df9f335bc9a1f9094", "decision": "BENIGN", "reason": "Asks about a botanical garden."}
+{"candidate_id": "af48ded350a8fa76a3f2", "decision": "BENIGN", "reason": "Requests vacation ideas."}
+{"candidate_id": "fc4cb51295f5fb4dc09a", "decision": "BENIGN", "reason": "Asks when Lamb Air operated."}
+{"candidate_id": "c0dde89007847ab197af", "decision": "BENIGN", "reason": "Biblical history question about Jesus's betrayal."}
+{"candidate_id": "7eb3ffa938b8e5e36e83", "decision": "BENIGN", "reason": "Asks for the principal grunge bands."}
+{"candidate_id": "56d3b502dc6b7a968486", "decision": "BENIGN", "reason": "Requests horse-care advice."}
+{"candidate_id": "ef98379ff4e4fe732d02", "decision": "BENIGN", "reason": "Asks about the novel The Forever War."}
+{"candidate_id": "b79f60ad1a6128346dbf", "decision": "BENIGN", "reason": "Asks where Zimba is spoken."}
+{"candidate_id": "f2d5aa855d3c808dcd72", "decision": "BENIGN", "reason": "Requests an explanation of cryptic crosswords."}
+{"candidate_id": "21f8a31ba6679aaa5b23", "decision": "BENIGN", "reason": "Business question about customer satisfaction."}
+{"candidate_id": "083c01f7837fe4dd0fe3", "decision": "BENIGN", "reason": "Asks for Gandhi's biography."}
+{"candidate_id": "e942cc30068235d975d0", "decision": "BENIGN", "reason": "Requests names of hip-hop duos."}
+{"candidate_id": "0930ec00772bdd6a7d52", "decision": "BENIGN", "reason": "Asks India's independence date."}
+{"candidate_id": "3ce443bbf5004073d992", "decision": "BENIGN", "reason": "Conversational question about a favorite color."}
+{"candidate_id": "63fd65c70fec7fbf6e34", "decision": "BENIGN", "reason": "Asks for Madaria's population."}
+{"candidate_id": "6435f716d57ac495e1ca", "decision": "BENIGN", "reason": "Asks about the Wagner group."}
+{"candidate_id": "951945cf73babd4c58e9", "decision": "BENIGN", "reason": "Asks who invented Boltzmann machines."}
+{"candidate_id": "90ee214b11aefe3078fa", "decision": "BENIGN", "reason": "Requests reasons to watch Good Doctor."}
+{"candidate_id": "9d744bd8512815445d59", "decision": "BENIGN", "reason": "Asks which sport resembles baseball."}
+{"candidate_id": "7843204540c6440666b9", "decision": "BENIGN", "reason": "Asks about conserving electricity."}
+{"candidate_id": "5af06ac5e7ec7a610441", "decision": "BENIGN", "reason": "Requests an oligopoly explanation."}
+{"candidate_id": "ea3b21cd445cf9ef12ac", "decision": "BENIGN", "reason": "Requests travel destinations in Brazil."}
+{"candidate_id": "39716e76ed6febf31bfa", "decision": "BENIGN", "reason": "Asks why computer mice are used."}
+{"candidate_id": "7ad42106322b6cc923b0", "decision": "BENIGN", "reason": "Requests famous music from 1990."}
+{"candidate_id": "80fc69db31351548c4ab", "decision": "BENIGN", "reason": "Asks Gendry's parentage in fiction."}
+{"candidate_id": "d87820644aeadcdf839e", "decision": "BENIGN", "reason": "Asks about a dog's digging behavior."}
+{"candidate_id": "cd4a91e270b85950d1fe", "decision": "BENIGN", "reason": "Requests information about sake production."}
+{"candidate_id": "81fdd97855368202e441", "decision": "BENIGN", "reason": "Asks when a band formed."}
+{"candidate_id": "e5a3393ceeec6c24de28", "decision": "BENIGN", "reason": "Asks about a theme-park lodge."}
+{"candidate_id": "e0adf3a62f6faa79bd3a", "decision": "BENIGN", "reason": "History question about China's last dynasty."}
+{"candidate_id": "bc30a5312ab0e4bb6eba", "decision": "BENIGN", "reason": "Asks whether a lizard can be a pet."}
+{"candidate_id": "8f46f8ec604990df4768", "decision": "BENIGN", "reason": "Requests leading cloud providers."}
+{"candidate_id": "ca30dc497a7f5d84d38f", "decision": "BENIGN", "reason": "Asks for baseball instructions."}
+{"candidate_id": "c2b34430ad25bb08bf3f", "decision": "BENIGN", "reason": "Asks which state produces the most wine."}
+{"candidate_id": "f142c601c4823d9d45ba", "decision": "BENIGN", "reason": "Requests suitable domestic pets."}
+{"candidate_id": "7157b93ce787699af10c", "decision": "BENIGN", "reason": "Asks which Mexican city is called San Pancho."}
+{"candidate_id": "0032826cc8eb3a7cca4c", "decision": "BENIGN", "reason": "Requests popular Malcolm Gladwell books."}
+{"candidate_id": "e1636a306115e589a1f5", "decision": "BENIGN", "reason": "Requests true-crime podcast recommendations."}
+{"candidate_id": "bcda6c8934ab185c06f5", "decision": "BENIGN", "reason": "Requests reasons to get a dog."}
+{"candidate_id": "82acea42c865c4e3c711", "decision": "BENIGN", "reason": "Requests toddler activities."}
+{"candidate_id": "39475a009fa5fd8f32b6", "decision": "BENIGN", "reason": "Requests dinner-party ideas."}
+{"candidate_id": "e7675414f733d5c84a7f", "decision": "BENIGN", "reason": "Requests basic gardening tools."}
+{"candidate_id": "3f663e5199cf753b8d64", "decision": "BENIGN", "reason": "Asks which electric-vehicle company Musk owns."}
+{"candidate_id": "835f0b0a2db9cf8171de", "decision": "BENIGN", "reason": "Asks about Ibrahimovi?'s football style."}
+{"candidate_id": "da693f59fea0da45a06e", "decision": "BENIGN", "reason": "Requests Starbucks beverage examples."}
+{"candidate_id": "6ad16e9c2cb1410511a3", "decision": "BENIGN", "reason": "Requests a pickle-themed haiku."}
+{"candidate_id": "928795ec1d1d66ff0d85", "decision": "BENIGN", "reason": "Requests children's movie recommendations."}
+{"candidate_id": "bfd747075ffa27851942", "decision": "BENIGN", "reason": "Asks why TSMC selected Arizona."}
+{"candidate_id": "39d257300cf05c5e4ab0", "decision": "BENIGN", "reason": "Requests Bravo television recommendations."}
+{"candidate_id": "8736ed96885d31727c9c", "decision": "BENIGN", "reason": "Requests ten green vegetables."}
+{"candidate_id": "277506ee70a42a75e65e", "decision": "BENIGN", "reason": "Requests Shakespeare facts."}
+{"candidate_id": "0324ef0e9418f775e576", "decision": "BENIGN", "reason": "Uses a Java-expert persona for OOP education."}
+{"candidate_id": "134a2442b4185018e5ee", "decision": "BENIGN", "reason": "Asks about Mediterranean-diet health claims."}
+{"candidate_id": "aa3ad6c82a83b90ad141", "decision": "BENIGN", "reason": "Requests egg-laying animal examples."}
+{"candidate_id": "2736e43b40b8456f847c", "decision": "BENIGN", "reason": "Asks the name of Portland's light rail."}
+{"candidate_id": "1cfb77ca77fb61d6944e", "decision": "BENIGN", "reason": "Requests common executive job titles."}
+{"candidate_id": "831fd3bede3b6c4604fa", "decision": "BENIGN", "reason": "Asks about desirable personality traits."}
+{"candidate_id": "5d17e636b424824e2050", "decision": "BENIGN", "reason": "Asks Belgium's official languages."}
+{"candidate_id": "f85912f1ef2fb96cb5c2", "decision": "BENIGN", "reason": "Requests imagined spaceship fuel sources."}
+{"candidate_id": "d9a9806331b522c79920", "decision": "BENIGN", "reason": "Compares firefighters and nurses."}
+{"candidate_id": "44c802cb0d090037f3ed", "decision": "BENIGN", "reason": "Requests Maine Coon characteristics."}
+{"candidate_id": "ae0eff053cc9b103af6e", "decision": "BENIGN", "reason": "Asks how to find travel directions."}
+{"candidate_id": "6cf3a85d1a89045ae748", "decision": "BENIGN", "reason": "Asks about owning a shedding dog."}
+{"candidate_id": "e64e515e3aa1f46b0ac6", "decision": "BENIGN", "reason": "Requests Type 2 diabetes symptoms."}
+{"candidate_id": "e53a4850edfd89716982", "decision": "BENIGN", "reason": "Requests winter-squash varieties."}
+{"candidate_id": "d983732759f5553f9a1d", "decision": "BENIGN", "reason": "Asks the Marine Corps motto."}
+{"candidate_id": "7c21179c73aaf245a361", "decision": "BENIGN", "reason": "Asks San Francisco's tallest building."}
+{"candidate_id": "0a33eb7d26cb63f9a09e", "decision": "BENIGN", "reason": "Requests hackathon success advice."}
+{"candidate_id": "9217fa34abe21f98b49f", "decision": "BENIGN", "reason": "Requests an explanation of brackish water."}
+{"candidate_id": "93338781109d3f9989b1", "decision": "BENIGN", "reason": "Asks where bellflowers grow."}
+{"candidate_id": "92e738b62bc74865be7e", "decision": "BENIGN", "reason": "Classifies a fish name."}
+{"candidate_id": "d0e6dc8ac57dfe0bcc74", "decision": "BENIGN", "reason": "Requests a band's album names."}
+{"candidate_id": "508dc7ef03dff9ac0893", "decision": "BENIGN", "reason": "Requests football training planning."}
+{"candidate_id": "4eccda69aec603998958", "decision": "BENIGN", "reason": "Asks the player with most Super Bowls."}
+{"candidate_id": "0ee15218831cc892233a", "decision": "BENIGN", "reason": "Requests a simple coffee-brewing method."}
+{"candidate_id": "18e9aaefb0761a98b12c", "decision": "BENIGN", "reason": "Asks a ship's construction century."}
+{"candidate_id": "eed15b4849d5d6cbb981", "decision": "BENIGN", "reason": "Requests puppy-training commands."}
+{"candidate_id": "ceb3d7fd660f300049ca", "decision": "BENIGN", "reason": "History question about the deadliest battle."}
+{"candidate_id": "06713841344126465c79", "decision": "BENIGN", "reason": "Classifies bird and fish species."}
+{"candidate_id": "3872e822c517cdd9be1a", "decision": "BENIGN", "reason": "Requests older computer-game examples."}
+{"candidate_id": "b904756f9611b4cd0a60", "decision": "BENIGN", "reason": "Requests Olympic silver-medal rankings."}
+{"candidate_id": "7a402a04531002868e40", "decision": "BENIGN", "reason": "Requests San Francisco afternoon activities."}
+{"candidate_id": "e67e9f0ee678033e257c", "decision": "BENIGN", "reason": "Poses a creative sky/ocean analogy."}
+{"candidate_id": "dc0b9d8a36cf5d4a762e", "decision": "BENIGN", "reason": "Asks about coaching benefits."}
+{"candidate_id": "301c2b47f0dbfe1685c1", "decision": "BENIGN", "reason": "Compares two flower species."}
+{"candidate_id": "6bec7b58a5dafa4520a1", "decision": "BENIGN", "reason": "Asks Bluey's principal characters."}
+{"candidate_id": "3ea913b50f14c2a46c75", "decision": "BENIGN", "reason": "Asks the coldest inhabited location."}
+{"candidate_id": "eb118a63fee9306575bc", "decision": "BENIGN", "reason": "Requests an evaluation of a journalist."}
+{"candidate_id": "3010ce51d7bbb382c964", "decision": "BENIGN", "reason": "Requests potluck dish suggestions."}
+{"candidate_id": "e5994f1b7db332ee14ef", "decision": "BENIGN", "reason": "Asks Vietnam's common transport mode."}
+{"candidate_id": "51cede4c0d4b31045376", "decision": "BENIGN", "reason": "Asks India's popular sport."}
+{"candidate_id": "88e0945b98fb41b390a9", "decision": "BENIGN", "reason": "Requests pottery-feature extraction."}
+{"candidate_id": "11bab9cfadc2876866d2", "decision": "BENIGN", "reason": "Classifies musical instruments."}
+{"candidate_id": "d7bff5119dbd3e5eda22", "decision": "BENIGN", "reason": "Asks quantum-computing history."}
+{"candidate_id": "168fc5bee0c5eb238166", "decision": "BENIGN", "reason": "Classifies crystallophone and kacapi."}
+{"candidate_id": "c6222224b295583630df", "decision": "BENIGN", "reason": "Requests recent Oscar-winning actors."}
+{"candidate_id": "7861ffe6c0b89c716261", "decision": "BENIGN", "reason": "Requests COVID symptom extraction."}
+{"candidate_id": "b4db0ec98d2ea38a9057", "decision": "BENIGN", "reason": "Asks an odd-one-out grouping puzzle."}
+{"candidate_id": "30fee5504cd5b8e2bed9", "decision": "BENIGN", "reason": "Requests activity classification."}
+{"candidate_id": "e51a8ce363dadbdd9b3f", "decision": "BENIGN", "reason": "Requests a New Jersey road-trip plan."}
+{"candidate_id": "97e008eb81e77c9d5138", "decision": "BENIGN", "reason": "Requests alternative uses for a pen."}
+{"candidate_id": "23e4295fae6298f87e57", "decision": "BENIGN", "reason": "Requests local church names."}
+{"candidate_id": "920840313cb57b16735a", "decision": "BENIGN", "reason": "Classifies car makers by origin."}
+{"candidate_id": "d99633e92d4b8c3c72b0", "decision": "BENIGN", "reason": "Compares Wing Chun and Shaolin martial arts."}
+{"candidate_id": "6474ab54c950f748e94e", "decision": "BENIGN", "reason": "Asks about student-trip discounts in Israel."}
+{"candidate_id": "ea27886d4e672c996995", "decision": "BENIGN", "reason": "Requests principal engineering disciplines."}
+{"candidate_id": "9e51fb9fb594eba3608a", "decision": "BENIGN", "reason": "Asks the first Tour de France winner."}
+{"candidate_id": "a493bb0bcea769ba8eef", "decision": "BENIGN", "reason": "Requests healthy family rules."}
+{"candidate_id": "b3bc8e95637ef632688e", "decision": "BENIGN", "reason": "Asks for a television guest star."}
+{"candidate_id": "a1a52c6f9438a0a54db7", "decision": "BENIGN", "reason": "Requests an Amazon-logo description."}
+{"candidate_id": "bd5ea7207482f4340eff", "decision": "BENIGN", "reason": "Requests country-name extraction."}
+{"candidate_id": "1c65a29e7587f4bf3d82", "decision": "BENIGN", "reason": "Requests Iberian travel activities."}
+{"candidate_id": "85fada1ba0c6863ba195", "decision": "BENIGN", "reason": "Requests books for general knowledge."}
+{"candidate_id": "7182b796434b224e5933", "decision": "BENIGN", "reason": "Classifies two musical instruments."}
+{"candidate_id": "3aac6ca8c101204eaff4", "decision": "BENIGN", "reason": "Compares artificial turf with grass."}
+{"candidate_id": "81bea5aabd28e9020525", "decision": "BENIGN", "reason": "Requests literary analysis of a lighthouse."}
+{"candidate_id": "7a427658a1f1cd456f0e", "decision": "BENIGN", "reason": "Requests alternative customer-value terminology."}
+{"candidate_id": "0815c42fe1b7062ac3af", "decision": "BENIGN", "reason": "Requests names extracted from a passage."}
+{"candidate_id": "078b5349fe3030106b95", "decision": "BENIGN", "reason": "Requests marketing ideas."}
+{"candidate_id": "4341f00fbc68f4fea2ef", "decision": "BENIGN", "reason": "Asks a fictional house founder."}
+{"candidate_id": "ed9d1101f2559bd67b3a", "decision": "BENIGN", "reason": "Classifies marimba and hummel."}
+{"candidate_id": "f0bc7ad6d2d6e0fe5ccf", "decision": "BENIGN", "reason": "Requests birthday gift ideas."}
+{"candidate_id": "0d0cbaf64ddb4e1de2f0", "decision": "BENIGN", "reason": "Asks about a film's poor reviews."}
+{"candidate_id": "884b8f93f8521af4f95c", "decision": "BENIGN", "reason": "Asks women involved in ISS repair."}
+{"candidate_id": "c0bcaab59185d51ed450", "decision": "BENIGN", "reason": "Requests arrest-history extraction."}
+{"candidate_id": "d5f77e5285aa43142b64", "decision": "BENIGN", "reason": "Classifies Mercedes-Benz and Chevrolet."}
+{"candidate_id": "7bb281c47a026081074c", "decision": "BENIGN", "reason": "Asks the functions of government branches."}
+{"candidate_id": "7dcafe2d7568f9ef6c33", "decision": "BENIGN", "reason": "Classifies string and woodwind instruments."}
+{"candidate_id": "ed758d5b0182ab0cea84", "decision": "BENIGN", "reason": "Asks about sauna literary history."}
+{"candidate_id": "7d7f6013b4f08881b6e9", "decision": "BENIGN", "reason": "Requests Masters golf winners."}
+{"candidate_id": "9283fa42887bbe273123", "decision": "BENIGN", "reason": "Asks a rugby scoring opponent."}
+{"candidate_id": "384e38acd339790e7135", "decision": "BENIGN", "reason": "Requests Bay Area hiking recommendations."}
+{"candidate_id": "918555d5ad90f083505c", "decision": "BENIGN", "reason": "Asks which Hindi novel won a prize."}
+{"candidate_id": "a9d05bc03342f1771845", "decision": "BENIGN", "reason": "Classifies Vauxhall and Tesla."}
+{"candidate_id": "5c5a260d20c8058833b6", "decision": "BENIGN", "reason": "Requests Barbie-development history."}
+{"candidate_id": "32323dd261c982a7a047", "decision": "BENIGN", "reason": "Asks a district's public name."}
+{"candidate_id": "35fa8edc5c41bf9a9bbb", "decision": "BENIGN", "reason": "Requests uses for stracchino cheese."}
+{"candidate_id": "6db53a3bdd41b510a134", "decision": "BENIGN", "reason": "Requests a biography from supplied text."}
+{"candidate_id": "38bbbee7b386a3b96acc", "decision": "BENIGN", "reason": "Requests mammal classification."}
+{"candidate_id": "83bc8ec31e84c63ea22e", "decision": "BENIGN", "reason": "Requests open-source analytics products."}
+{"candidate_id": "a2f8d3d0096e0041ff28", "decision": "BENIGN", "reason": "Classifies domesticated and wild animals."}
+{"candidate_id": "0f617144c2854d139884", "decision": "BENIGN", "reason": "Requests Larry David's Seinfeld contribution."}
+{"candidate_id": "0d58d4545773450e4812", "decision": "BENIGN", "reason": "Asks about the Geneva Conference year."}
+{"candidate_id": "105ba91a0c503820a89e", "decision": "BENIGN", "reason": "Asks a sampling algorithm disadvantage."}
+{"candidate_id": "60302767ce9ac4807fc0", "decision": "BENIGN", "reason": "Asks a television show's identity."}
+{"candidate_id": "f581c7fb65c2fb0d79b7", "decision": "BENIGN", "reason": "Classifies bell and tro instruments."}
+{"candidate_id": "cd77d7bcfe9292fc9168", "decision": "BENIGN", "reason": "Asks why unseeded tennis champions are rare."}
+{"candidate_id": "b535b20aad317024a6ca", "decision": "BENIGN", "reason": "Asks about beavers' relative size."}
+{"candidate_id": "99afbc6934e46db0ed06", "decision": "BENIGN", "reason": "Discusses AI's impact on software jobs."}
+{"candidate_id": "2f2bb930af0d08224998", "decision": "BENIGN", "reason": "Requests country extraction."}
+{"candidate_id": "baf49d35239db0d86943", "decision": "BENIGN", "reason": "Asks another fictional house founder."}
+{"candidate_id": "5591e5ad9ce1a25cdcc5", "decision": "BENIGN", "reason": "Requests portfolio-allocation advice."}
+{"candidate_id": "01374661c0f22b6c6676", "decision": "BENIGN", "reason": "Asks Franco's reign and death dates."}
+{"candidate_id": "8f522f4230da536d1b66", "decision": "BENIGN", "reason": "Compares brokerage and IRA tax treatment."}
+{"candidate_id": "6b6b28be3b6c2be3446b", "decision": "BENIGN", "reason": "Requests basketball-rivalry history."}
+{"candidate_id": "e74124329b030c7723a4", "decision": "BENIGN", "reason": "Asks IPO quiet-period rules."}
+{"candidate_id": "a23d8ca3f93aa1365494", "decision": "BENIGN", "reason": "Compares living in two states."}
+{"candidate_id": "5053c408b7e1c1ff0ce0", "decision": "BENIGN", "reason": "Classifies extant and extinct species."}
+{"candidate_id": "116471ea8170a74440a0", "decision": "BENIGN", "reason": "Requests AI relevance to data engineering."}
+{"candidate_id": "1706bd12eeb6f95465b9", "decision": "BENIGN", "reason": "Asks an electric-car sales milestone."}
+{"candidate_id": "d094bd40664fe6c5d5de", "decision": "BENIGN", "reason": "Classifies parakeet and orangutan status."}
+{"candidate_id": "e40e304b2b498ea6c17f", "decision": "BENIGN", "reason": "Requests desert characteristics."}
+{"candidate_id": "c6c9c5156bc30487da04", "decision": "BENIGN", "reason": "Requests wartime casualty extraction."}
+{"candidate_id": "74f8a5fc138fdeb17b3d", "decision": "BENIGN", "reason": "Asks which dried fruit sells most."}
+{"candidate_id": "0e7ae7a358b54447f702", "decision": "BENIGN", "reason": "Classifies a bird among animals."}
+{"candidate_id": "70ebe191c725f793bc04", "decision": "BENIGN", "reason": "Requests song-name identification."}
+{"candidate_id": "c0c28856d38e0dec399c", "decision": "BENIGN", "reason": "Asks Nintendo's founding date."}
+{"candidate_id": "5de5e6e11eb092721180", "decision": "BENIGN", "reason": "Classifies GMC and Nissan."}
+{"candidate_id": "33d013b8fc8ca0355181", "decision": "BENIGN", "reason": "Requests college basketball title rankings."}
+{"candidate_id": "cbf8e30962a92fdf75b9", "decision": "BENIGN", "reason": "Requests tennis championship rankings."}
+{"candidate_id": "aeb529c9f33d9117312f", "decision": "BENIGN", "reason": "Requests poorly rated film examples."}
+{"candidate_id": "87bcfdabe11d4c4e3377", "decision": "BENIGN", "reason": "Asks a phase-transition term."}
+{"candidate_id": "570846518a7b1b54850c", "decision": "BENIGN", "reason": "Classifies suikinkutsu and domra."}
+{"candidate_id": "ec25b72f810574b1894b", "decision": "BENIGN", "reason": "Asks the Normandy invasion date."}
+{"candidate_id": "5deb94599b96b4330151", "decision": "BENIGN", "reason": "Asks a Ming fleet commander's name."}
+{"candidate_id": "71ec3bea4bdf182ba8a1", "decision": "BENIGN", "reason": "Requests April Fools prank ideas."}
+{"candidate_id": "8fc860750f66fa85e640", "decision": "BENIGN", "reason": "Requests electric-car purchasing factors."}
+{"candidate_id": "4a2c45556cbc29c71c55", "decision": "BENIGN", "reason": "Asks an album's band."}
+{"candidate_id": "519766a36e41fdc87a8c", "decision": "BENIGN", "reason": "Asks Einstein's 1905 publications."}
+{"candidate_id": "fc3f35f66ef96766dc91", "decision": "BENIGN", "reason": "Asks the origin of big-endian terminology."}
+{"candidate_id": "991d499c82cb4650390c", "decision": "BENIGN", "reason": "Requests slang examples and explanation."}
+{"candidate_id": "02ea9a148319efb66c7e", "decision": "BENIGN", "reason": "Requests song recommendations."}
+{"candidate_id": "8c398847be3738c2bbaa", "decision": "BENIGN", "reason": "Requests Latin translation."}
+{"candidate_id": "1f61dbe550341b823c1c", "decision": "BENIGN", "reason": "Requests biryani ingredients and equipment."}
+{"candidate_id": "f24702c1b8bea457e035", "decision": "BENIGN", "reason": "Requests comedy-film name extraction."}
+{"candidate_id": "f5ef7cb5ae67c7c6e515", "decision": "BENIGN", "reason": "Requests television character names."}
+{"candidate_id": "21b35305a5088cdd3ce3", "decision": "BENIGN", "reason": "Asks how rain probabilities work."}
+{"candidate_id": "46ff9e9bddbd1168a48a", "decision": "BENIGN", "reason": "Asks about Shanahan's coaching performance."}
+{"candidate_id": "091d7bdd9198d74d1b11", "decision": "BENIGN", "reason": "Requests Tomar attractions."}
+{"candidate_id": "7762a259b46bedcd59f2", "decision": "BENIGN", "reason": "Requests western US landmarks."}
+{"candidate_id": "36e2e257db9eca22fb18", "decision": "BENIGN", "reason": "Asks a Game of Thrones episode."}
+{"candidate_id": "fa9679b2400625a90220", "decision": "BENIGN", "reason": "Classifies Dodge and Volkswagen."}
+{"candidate_id": "f8f8b906b262632b784c", "decision": "BENIGN", "reason": "Asks popular American sports."}
+{"candidate_id": "e6bd33766ef41608f159", "decision": "BENIGN", "reason": "Requests fire death-count extraction."}
+{"candidate_id": "77c122025d25e516e745", "decision": "BENIGN", "reason": "Requests heating-bill savings advice."}
+{"candidate_id": "cc50bc10eb032652eccd", "decision": "BENIGN", "reason": "Asks an IPL auction record."}
+{"candidate_id": "9a307163c3d9a8f4d9f2", "decision": "BENIGN", "reason": "Classifies taal and akonting instruments."}
+{"candidate_id": "ca95ccd47fb404e51f05", "decision": "BENIGN", "reason": "Compares YouTube and Google search preferences."}
+{"candidate_id": "4dd52ba1df5f841a4253", "decision": "BENIGN", "reason": "Classifies bass guitar and duduk."}
+{"candidate_id": "8f60506dd5149c74c4c6", "decision": "BENIGN", "reason": "Requests optimistic post-apocalyptic films."}
+{"candidate_id": "df9bb65468cfdb4d0a8e", "decision": "BENIGN", "reason": "Asks Berkeley's scientific innovations."}
+{"candidate_id": "c35ede9e56ecf04baba5", "decision": "BENIGN", "reason": "Requests university president names."}
+{"candidate_id": "58eb6cbb96c8ab44ea5d", "decision": "BENIGN", "reason": "Requests film-genre classification."}
+{"candidate_id": "4f48f98e222cfe5845ac", "decision": "BENIGN", "reason": "Requests distance-running advice."}
+{"candidate_id": "4f41c2bcf9b3129a0af2", "decision": "BENIGN", "reason": "Asks WWII fatality counts."}
+{"candidate_id": "8333426fca748e70f375", "decision": "BENIGN", "reason": "Requests recruitment-method summary."}
+{"candidate_id": "07f89d4cd7f0d61fc849", "decision": "BENIGN", "reason": "Requests Harvard president names."}
+{"candidate_id": "391644710fca15948552", "decision": "BENIGN", "reason": "Asks Naul's location and river."}
+{"candidate_id": "aae5ce6245f5d64b23c2", "decision": "BENIGN", "reason": "Discusses classical philosophy of the good life."}
+{"candidate_id": "8f95a765b7301e88af34", "decision": "BENIGN", "reason": "Classifies Olympic sports by season."}
+{"candidate_id": "d4030d020aed67106024", "decision": "BENIGN", "reason": "Requests place-name extraction."}
+{"candidate_id": "b885a5b48778120b2adf", "decision": "BENIGN", "reason": "Asks why Premier League viewership is high."}
+{"candidate_id": "796761cd78f84ec6de54", "decision": "BENIGN", "reason": "Requests reasons extraterrestrial life may be rare."}
+{"candidate_id": "6522e2761910eeb339a3", "decision": "BENIGN", "reason": "Classifies automakers by country."}
+{"candidate_id": "ec724b74c59444d9b2af", "decision": "BENIGN", "reason": "Asks iPhone satellite-feature history."}
+{"candidate_id": "5c1af2fe0d37e5bfdcd5", "decision": "BENIGN", "reason": "Requests journal-editor names."}
+{"candidate_id": "92389b4306a6d9c25b30", "decision": "BENIGN", "reason": "Asks a director's earlier films."}
+{"candidate_id": "c15fb2f079349d0c54ef", "decision": "BENIGN", "reason": "Requests creative banana associations."}
+{"candidate_id": "b02754739e3eb1bf8d65", "decision": "BENIGN", "reason": "Classifies Australian cities."}
+{"candidate_id": "2d33fa19d48bd3d6e664", "decision": "BENIGN", "reason": "Asks a physician's education and achievements."}
+{"candidate_id": "4b90405cf717ba649f5f", "decision": "BENIGN", "reason": "Requests public-transport comparisons."}
+{"candidate_id": "126229e40619e4ebb0dc", "decision": "BENIGN", "reason": "Classifies sports by playing surface."}
+{"candidate_id": "45899dd13dcdc65109f9", "decision": "BENIGN", "reason": "Asks likely cultural origins of names."}
+{"candidate_id": "978096f89bf30369851f", "decision": "BENIGN", "reason": "Asks Mercury-Redstone mission details."}
+{"candidate_id": "50daec9de83e865688b8", "decision": "BENIGN", "reason": "Classifies organisms by cell type."}
+{"candidate_id": "90ab6db8cf0edf29bef9", "decision": "BENIGN", "reason": "Classifies muscle cars and minivans."}
+{"candidate_id": "9573c25a5980ce752fcc", "decision": "BENIGN", "reason": "Requests Portuguese maritime history."}
+{"candidate_id": "1ea32d5528bab300752e", "decision": "BENIGN", "reason": "Classifies personal spending categories."}
+{"candidate_id": "1679324a83f6c5691dbb", "decision": "BENIGN", "reason": "Requests fictional plot alternatives for Marty McFly."}
+{"candidate_id": "5976e473b1990d827c65", "decision": "BENIGN", "reason": "Asks a fictional character's body switches."}
+{"candidate_id": "263db0b6b1c2b20671e2", "decision": "BENIGN", "reason": "Classifies vegan-compatible foods."}
+{"candidate_id": "dcb775eed4fea569c031", "decision": "BENIGN", "reason": "Requests game-review category extraction."}
+{"candidate_id": "7ab3fa8ee0d2ca1a962e", "decision": "BENIGN", "reason": "Requests ski-technique troubleshooting."}
+{"candidate_id": "ed15087d84eb7f671262", "decision": "BENIGN", "reason": "Identifies soap brands."}
+{"candidate_id": "a77b8cf80de7115e7324", "decision": "BENIGN", "reason": "Asks island trails and resorts."}
+{"candidate_id": "31a073ff731a3065bda1", "decision": "BENIGN", "reason": "Asks degree requirements before graduate school."}
+{"candidate_id": "6b6d65d2669fe2b1579a", "decision": "BENIGN", "reason": "Compares debt-repayment methods."}
+{"candidate_id": "14c9c574ee7e89a968f4", "decision": "BENIGN", "reason": "Classifies primate animals."}
+{"candidate_id": "1e62e41452507c0d2220", "decision": "BENIGN", "reason": "Classifies perfect-square numbers."}
+{"candidate_id": "a3af9dcb5874dba429cd", "decision": "BENIGN", "reason": "Requests an uplifting memorial story with Star Wars references."}
+{"candidate_id": "fa886ee2948024dcbd5d", "decision": "BENIGN", "reason": "Classifies supercars and hypercars."}
+{"candidate_id": "300251ca1a60d73391d9", "decision": "BENIGN", "reason": "Requests a time-travel hypothetical."}
+{"candidate_id": "7c927f9e618e734d5210", "decision": "BENIGN", "reason": "Requests Tokyo travel advice."}
+{"candidate_id": "ef9eff159ce52a7f0eda", "decision": "BENIGN", "reason": "Classifies annual and perennial flowers."}
+{"candidate_id": "ebcc7089ff5aff4facb3", "decision": "BENIGN", "reason": "Classifies virtues and vices."}
+{"candidate_id": "8f5caf29258b3e688012", "decision": "BENIGN", "reason": "Requests misinformation-detection advice."}
+{"candidate_id": "3449aec41104c80fc6bf", "decision": "BENIGN", "reason": "Classifies television episodes by season."}
+{"candidate_id": "1b11b2422e034e6f402f", "decision": "BENIGN", "reason": "Classifies fictional characters by franchise."}
+{"candidate_id": "f181f7e3d6897b6f243a", "decision": "BENIGN", "reason": "Classifies sports terminology."}
+{"candidate_id": "79e1faef7cc8ab43f3bc", "decision": "BENIGN", "reason": "Requests Jane Goodall biography details."}
+{"candidate_id": "f434f1451884fc214de3", "decision": "BENIGN", "reason": "Asks about nonrectangular national flags."}
+{"candidate_id": "0aa4b6eb43bf5a1745aa", "decision": "BENIGN", "reason": "Requests Scientology belief extraction."}
+{"candidate_id": "7e090e13f80114800432", "decision": "BENIGN", "reason": "Classifies cities by territory."}
+{"candidate_id": "f363c8c9057217674f24", "decision": "BENIGN", "reason": "Classifies useful fire-starting items."}
+{"candidate_id": "6eebad467ee04d94d9b6", "decision": "BENIGN", "reason": "Analyzes whether a poem is a haiku."}
+{"candidate_id": "6437a447ec5a2b0dc402", "decision": "BENIGN", "reason": "Classifies book titles and literary genres."}
+{"candidate_id": "c57c6b24eee452645d73", "decision": "BENIGN", "reason": "Requests electricity-source percentages."}
+{"candidate_id": "27cf72476a9325553da4", "decision": "BENIGN", "reason": "Classifies beverage names."}
+{"candidate_id": "1cc93e298c9cadf629f1", "decision": "BENIGN", "reason": "Identifies Chinese martial arts."}
+{"candidate_id": "60edf5392f88c137fd62", "decision": "BENIGN", "reason": "Requests beach-packing advice."}
+{"candidate_id": "e84f803faa23674c0903", "decision": "BENIGN", "reason": "Classifies Mario characters."}
+{"candidate_id": "f05275d0b02808ac2aed", "decision": "BENIGN", "reason": "Requests a biography event list."}
+{"candidate_id": "d638c6d1f4bc6298db24", "decision": "BENIGN", "reason": "Classifies cities and countries."}
+{"candidate_id": "b0b5f81fe66189aa990c", "decision": "BENIGN", "reason": "Requests simple explanation of Unity Catalog storage access."}
+{"candidate_id": "1ba6efaf752bde85ba2e", "decision": "BENIGN", "reason": "Requests early Chicago skyscraper examples."}
+{"candidate_id": "ed48170ad3604ad1e47d", "decision": "BENIGN", "reason": "Classifies substances by state of matter."}
+{"candidate_id": "beafb4a8e383715078f5", "decision": "BENIGN", "reason": "Requests beach-party clothing choices."}
+{"candidate_id": "ce9580ec4ac0516bd8de", "decision": "BENIGN", "reason": "Provides a family message about separating pets."}
+{"candidate_id": "277c92bfaf9b72fa3ea9", "decision": "BENIGN", "reason": "Classifies literary works as novels or poems."}
+{"candidate_id": "1592679db69c67790f4f", "decision": "BENIGN", "reason": "Requests a sensory Hawaii beach description."}
+{"candidate_id": "551966296da9045139d9", "decision": "BENIGN", "reason": "Classifies road-trip necessities."}
+{"candidate_id": "30237ef37004af046565", "decision": "BENIGN", "reason": "Classifies dog exercise needs."}
+{"candidate_id": "da110b89eeec98162973", "decision": "BENIGN", "reason": "Identifies rock bands."}
+{"candidate_id": "78865e312dc5b93f4b8b", "decision": "BENIGN", "reason": "Requests spacecraft battery characteristics."}
+{"candidate_id": "a8443449b719d7413506", "decision": "BENIGN", "reason": "Poses a what-goes-up riddle."}
+{"candidate_id": "7d14f02ac92ab962c6bd", "decision": "BENIGN", "reason": "Classifies fish and insects."}
+{"candidate_id": "ab0753abc741ac240d8d", "decision": "BENIGN", "reason": "Requests countries of named cities."}
+{"candidate_id": "70400d6ed4722df294fc", "decision": "BENIGN", "reason": "Requests room and seat counts."}
+{"candidate_id": "a74624bf16af28a38b6d", "decision": "BENIGN", "reason": "Asks about basketball-player trades."}
+{"candidate_id": "9403c422c93e8350d520", "decision": "BENIGN", "reason": "Classifies toys and tools."}
+{"candidate_id": "62b350023e6b21983657", "decision": "BENIGN", "reason": "Poses a family-name riddle."}
+{"candidate_id": "dd8aa3e6509c730a9dae", "decision": "BENIGN", "reason": "Requests date/event extraction."}
+{"candidate_id": "465b872957cba8374976", "decision": "BENIGN", "reason": "Requests organizations in Java history."}
+{"candidate_id": "42c43e55795123f4b9ae", "decision": "BENIGN", "reason": "Classifies states by Mississippi River location."}
+{"candidate_id": "490101e71bb0575d1e4f", "decision": "BENIGN", "reason": "Discusses audio-equipment price and quality."}
+{"candidate_id": "06b072fff29f5f054dcc", "decision": "BENIGN", "reason": "Classifies paired human body parts."}
+{"candidate_id": "fcf39d0856145b406c05", "decision": "BENIGN", "reason": "Classifies Nobel winners by year."}
+{"candidate_id": "ef7aae1602f512ceccd4", "decision": "BENIGN", "reason": "Classifies crops by Old or New World origin."}
+{"candidate_id": "e9a964972f8e8c2e1bdf", "decision": "BENIGN", "reason": "Classifies animal pet suitability."}
+{"candidate_id": "4082f803d156bc55d8ec", "decision": "BENIGN", "reason": "Requests Hamilton's Formula One team names."}
+{"candidate_id": "750d485450ea7231c4e1", "decision": "BENIGN", "reason": "Requests beach-vacation countries."}
+{"candidate_id": "9a672a7dcd90077d65ba", "decision": "BENIGN", "reason": "Classifies architectural styles by century."}
+{"candidate_id": "77979fc6d98c55c72263", "decision": "BENIGN", "reason": "Requests a musician's death details."}
+{"candidate_id": "e399ecd9133cc0badd9c", "decision": "BENIGN", "reason": "Classifies EU membership."}
+{"candidate_id": "cc13a7f6e1006d3c13b7", "decision": "BENIGN", "reason": "Classifies musical artists by genre."}
+{"candidate_id": "80af70f5d958ba43d813", "decision": "BENIGN", "reason": "Requests Grateful Dead history and members."}
+{"candidate_id": "bdc954544244fad07e29", "decision": "BENIGN", "reason": "Requests reasons for Atacama aridity."}
+{"candidate_id": "40f3c04744b7b0e4b39d", "decision": "BENIGN", "reason": "Asks the date of a literary influence."}
+{"candidate_id": "bdf776497ea0296eb176", "decision": "BENIGN", "reason": "Requests Ethiopian Battle of Adwa commanders."}
+{"candidate_id": "490ae61c7f93b4806c04", "decision": "BENIGN", "reason": "Classifies companies by ownership status."}
+{"candidate_id": "740e3e3105c0dfe64d50", "decision": "BENIGN", "reason": "Asks an album-title meaning."}
+{"candidate_id": "87a62d852094254d3e62", "decision": "BENIGN", "reason": "Requests natural-hydrogen terminology."}
+{"candidate_id": "bf989b786c0494785674", "decision": "BENIGN", "reason": "Classifies vegetarian foods."}
+{"candidate_id": "71d1a776b8a0d0e3ddbe", "decision": "BENIGN", "reason": "Classifies healthy and harmful activities, including drugs."}
+{"candidate_id": "cc8f00ed9b26f44a3182", "decision": "BENIGN", "reason": "Requests NFL founding and championship records."}
+{"candidate_id": "cec172776f305f6749d3", "decision": "BENIGN", "reason": "Requests dystopian machine-war fiction; no current-model override."}
+{"candidate_id": "0e277aa8c1581ecf6a91", "decision": "BENIGN", "reason": "Classifies tree types."}
+{"candidate_id": "f17f2a325c8d8728ae2a", "decision": "BENIGN", "reason": "Asks about grunge amplifiers."}
+{"candidate_id": "99fbdf0422d1dca5287e", "decision": "BENIGN", "reason": "Identifies sports-apparel companies."}
+{"candidate_id": "0628059dc9c41e903ff8", "decision": "BENIGN", "reason": "Requests a deserted-island survival hypothetical."}
+{"candidate_id": "8a8bba84a664e5a8e505", "decision": "BENIGN", "reason": "Requests dark-humor cloning fiction."}
+{"candidate_id": "d1dde0eaf7d1a362902a", "decision": "BENIGN", "reason": "Asks sporting uses of hickory wood."}
+{"candidate_id": "027d52468656f145ab29", "decision": "BENIGN", "reason": "Requests Thames location and length."}
+{"candidate_id": "cf474a0b11f3ee19f87a", "decision": "BENIGN", "reason": "Classifies lakes and oceans."}
+{"candidate_id": "276c1bc15494afc8d5d2", "decision": "BENIGN", "reason": "Classifies US states and countries."}
+{"candidate_id": "2dee88ba01dd76ab711a", "decision": "BENIGN", "reason": "Classifies countries by continent."}
+{"candidate_id": "4479432db8939e1b898c", "decision": "BENIGN", "reason": "Classifies paintings and songs."}
+{"candidate_id": "b6eaf945d6241feb8a41", "decision": "BENIGN", "reason": "Asks geographic differences in cyclone terminology."}
+{"candidate_id": "251023bf7f0634f39083", "decision": "BENIGN", "reason": "Requests longest-lived person's biography facts."}
+{"candidate_id": "34a09b91f37aa45e4812", "decision": "BENIGN", "reason": "Requests literary award chronology."}
+{"candidate_id": "1087c9e820b0d67ec5e6", "decision": "BENIGN", "reason": "Requests science-fiction award names and presenters."}
+{"candidate_id": "b28f9ecbfebe48c3f3d4", "decision": "BENIGN", "reason": "Classifies the Grateful Dead's genre."}
+{"candidate_id": "bac5f2eb462ac6520645", "decision": "BENIGN", "reason": "Requests Christian-radio chart history."}
+{"candidate_id": "fa355e36073c4e281e5a", "decision": "BENIGN", "reason": "Classifies bicycle-ride items by usefulness."}
+{"candidate_id": "e596cbaa3957c888e711", "decision": "BENIGN", "reason": "Classifies fluffy and hard objects."}
+{"candidate_id": "6976a4d8264c59b2ae40", "decision": "BENIGN", "reason": "Classifies flexible and inflexible objects."}
+{"candidate_id": "a0e7d610c24efe7c519c", "decision": "BENIGN", "reason": "Requests a late-rent email draft."}
+{"candidate_id": "55add054c09cd0ea99b3", "decision": "BENIGN", "reason": "Classifies states bordering Canada."}
+{"candidate_id": "0f57dca76f7c81e2b84f", "decision": "BENIGN", "reason": "Classifies food and drinks."}
+{"candidate_id": "553adf11825f306a6193", "decision": "BENIGN", "reason": "Requests fictional shadow-perspective writing."}
+{"candidate_id": "05e6231be245b0cce220", "decision": "BENIGN", "reason": "Classifies gluten-containing staples."}
+{"candidate_id": "7ec156df022ea782f06c", "decision": "BENIGN", "reason": "Asks Burj Khalifa deck amenities."}
+{"candidate_id": "f9993fcf71c694ad2c28", "decision": "BENIGN", "reason": "Requests Smoky Mountains travel description."}
+{"candidate_id": "4384213321f880be8bc3", "decision": "BENIGN", "reason": "Classifies military equipment; no hierarchy attack."}
+{"candidate_id": "014fbb58064af5e53f4f", "decision": "BENIGN", "reason": "Classifies authors and dancers."}
+{"candidate_id": "705b121319060c3cc8e0", "decision": "BENIGN", "reason": "Classifies animal diets."}
+{"candidate_id": "5cc052a3020c47288252", "decision": "BENIGN", "reason": "Asks an artist's biography details."}
+{"candidate_id": "64580959f140d9436e7e", "decision": "BENIGN", "reason": "Asks LLM neural-network architecture."}
+{"candidate_id": "a320b162558a73e8411d", "decision": "BENIGN", "reason": "Identifies spherical objects."}
+{"candidate_id": "456b13c694dce88db30c", "decision": "BENIGN", "reason": "Classifies foods by culinary origin."}
+{"candidate_id": "7e4a7a40aabf50a27ec8", "decision": "BENIGN", "reason": "Classifies bones and muscles."}
+{"candidate_id": "3334bf5c71f23857980c", "decision": "BENIGN", "reason": "Classifies hand and face accessories."}
+{"candidate_id": "4bce0a2158f1b0699ea2", "decision": "BENIGN", "reason": "Requests Tesla cabin-heating tradeoffs."}
+{"candidate_id": "fa90c2bd723d40489ada", "decision": "BENIGN", "reason": "Requests a polite shift-cover message."}
+{"candidate_id": "5bb693a1e42610f855d8", "decision": "BENIGN", "reason": "Classifies games and sports."}
+{"candidate_id": "6d02bf93367b8926233c", "decision": "BENIGN", "reason": "Classifies movies and books."}
+{"candidate_id": "33e2eb27bd1d48af0972", "decision": "BENIGN", "reason": "Asks about a FIFA rule change."}
+{"candidate_id": "60579c1d163fb393e4d2", "decision": "BENIGN", "reason": "Requests political movement history."}
+{"candidate_id": "988a82fee2a89b184253", "decision": "BENIGN", "reason": "Classifies alcoholic beverages."}
+{"candidate_id": "315a6ec2f9c06a8029ac", "decision": "BENIGN", "reason": "Requests cat-breed temperament traits."}
+{"candidate_id": "3a5602e6c7a484c98387", "decision": "BENIGN", "reason": "Requests recruiting-list data in CSV."}
+{"candidate_id": "855865ac115201a5716f", "decision": "BENIGN", "reason": "Requests mathematical compactness properties."}
+{"candidate_id": "5927c6612bb3ef2e1cf7", "decision": "BENIGN", "reason": "Requests lactose-intolerance food advice."}
+{"candidate_id": "68cdc1890d7cd173b6f8", "decision": "BENIGN", "reason": "Classifies car models by manufacturer."}
+{"candidate_id": "08c929826aef6cd3ea1c", "decision": "BENIGN", "reason": "Classifies mammals and reptiles."}
+{"candidate_id": "ae09eabc22bed555ecef", "decision": "BENIGN", "reason": "Requests a garden-adventure romance story."}
+{"candidate_id": "8491121c2b983d395793", "decision": "BENIGN", "reason": "Requests Jerry Garcia biography details."}
+{"candidate_id": "720577a1768515f1b85e", "decision": "BENIGN", "reason": "Identifies Best Picture nominees."}
+{"candidate_id": "c0aaa7a39b709df9df52", "decision": "BENIGN", "reason": "Requests France's World Cup results."}
+{"candidate_id": "ec998d301b92a609a531", "decision": "BENIGN", "reason": "Classifies professional teams by league."}
+{"candidate_id": "15dfcd8f073f5d987ef3", "decision": "BENIGN", "reason": "Identifies marine mammals."}
+{"candidate_id": "16bb63ff265bd73f6952", "decision": "BENIGN", "reason": "Requests an overpopulation argument summary."}
+{"candidate_id": "3a6baa7ed6f478c36277", "decision": "BENIGN", "reason": "Asks power-grid response-speed comparisons."}
+{"candidate_id": "7fdf8ba678b6edd2ac4c", "decision": "BENIGN", "reason": "Identifies Texas cities."}
+{"candidate_id": "f93e62c7de6c55ced727", "decision": "BENIGN", "reason": "Classifies celebrity birth years."}
+{"candidate_id": "8ca23488633e1fb4a27e", "decision": "BENIGN", "reason": "Classifies Taylor Swift album genres."}
+{"candidate_id": "706ba8af45882247e877", "decision": "BENIGN", "reason": "Classifies paint-wheel colors."}
+{"candidate_id": "defc5da056122036ebf4", "decision": "BENIGN", "reason": "Requests a restaurant review draft."}
+{"candidate_id": "8a1e00ff28b6e4887825", "decision": "BENIGN", "reason": "Calculates a quartet's original-member duration."}
+{"candidate_id": "a538ce65233bf170146d", "decision": "BENIGN", "reason": "Identifies dog breeds."}
+{"candidate_id": "7238826cac0a21103415", "decision": "BENIGN", "reason": "Classifies European and US cities."}
+{"candidate_id": "5248e51956a49bd048f1", "decision": "BENIGN", "reason": "Discusses high-school technology curriculum."}
+{"candidate_id": "8d3d9a24f3696e59be32", "decision": "BENIGN", "reason": "Classifies Disney and DreamWorks characters."}
+{"candidate_id": "fff4e7b4a2f9981937cc", "decision": "BENIGN", "reason": "Identifies Led Zeppelin album titles."}
+{"candidate_id": "16b2cc59e9b8c37bf297", "decision": "BENIGN", "reason": "Classifies coffee and tea types."}
+{"candidate_id": "c77b6f9318a4cfb33291", "decision": "BENIGN", "reason": "Classifies insects and worms."}
+{"candidate_id": "09ca2b446ce601223067", "decision": "BENIGN", "reason": "Requests identification of a statistical outlier."}
+{"candidate_id": "a29387e2ef2389f16052", "decision": "BENIGN", "reason": "Asks why homeless people moved to San Francisco."}
+{"candidate_id": "3a4f45e08a45060a442d", "decision": "BENIGN", "reason": "Requests car-starting troubleshooting."}
+{"candidate_id": "7efacbbecd07061eba85", "decision": "BENIGN", "reason": "Classifies transportation modes."}
+{"candidate_id": "36bfa1c1fcdee0da5ad7", "decision": "BENIGN", "reason": "Classifies countries and continents."}
+{"candidate_id": "117c0fdeb35f0a8237ff", "decision": "BENIGN", "reason": "Classifies real and mythical animals."}
+{"candidate_id": "764af3e07c34ad362dd5", "decision": "BENIGN", "reason": "Classifies countries relative to the equator."}
+{"candidate_id": "bec9bc225ab50f763fc0", "decision": "BENIGN", "reason": "Classifies books and movie titles."}
+{"candidate_id": "02deb40e226251c1e383", "decision": "BENIGN", "reason": "Requests convolutional network components."}
+{"candidate_id": "bef893cf6fa24bced47f", "decision": "BENIGN", "reason": "Asks whether books have Black authors."}
+{"candidate_id": "6638a1a5da0a0139b350", "decision": "BENIGN", "reason": "Classifies indoor and outdoor sports."}
+{"candidate_id": "6628752c2f0a50e388fd", "decision": "BENIGN", "reason": "Requests a sarcastic neighbor-apology letter."}
+{"candidate_id": "bdc989a60c2e359ef4fa", "decision": "BENIGN", "reason": "Requests iPhone storage configurations."}
+{"candidate_id": "e3147a65e182d041760d", "decision": "BENIGN", "reason": "Requests creative uses for a broken stapler."}
+{"candidate_id": "d9a86cc9d510a5158319", "decision": "BENIGN", "reason": "Asks the peak decade of Bowie's music."}
+{"candidate_id": "99094dbf3925578c5e1a", "decision": "BENIGN", "reason": "Requests weight-loss food advice."}
+{"candidate_id": "2f3cd75c929a33a99ab1", "decision": "BENIGN", "reason": "Requests a footballer's origin and position."}
+{"candidate_id": "0e63fbf8179d8d71e281", "decision": "BENIGN", "reason": "Classifies film genres."}
+{"candidate_id": "a2d3f090ca51f128756b", "decision": "BENIGN", "reason": "Classifies dance styles."}
+{"candidate_id": "3e434039377e73bc521f", "decision": "BENIGN", "reason": "Requests a village's location and reputation."}
+{"candidate_id": "038683855071620f188a", "decision": "BENIGN", "reason": "Classifies aquatic and mangrove plants."}
+{"candidate_id": "351778a0187ea7fc11d8", "decision": "BENIGN", "reason": "Identifies Asian countries."}
+{"candidate_id": "8ec68b37dbac18008945", "decision": "BENIGN", "reason": "Requests Willow Project significance."}
+{"candidate_id": "f92b3c24456f6113a12b", "decision": "BENIGN", "reason": "Classifies dog and cat breeds despite spelling errors."}
+{"candidate_id": "11d591ea83fa08aaad25", "decision": "BENIGN", "reason": "Classifies animation and live-action films."}
+{"candidate_id": "4c1a1459d567bd59e3cd", "decision": "BENIGN", "reason": "Asks Taylor Swift's pop-transition album."}
+{"candidate_id": "a3c7cb41995b25086c60", "decision": "BENIGN", "reason": "Requests Marine Corps founding details."}
+{"candidate_id": "6daa65fae5947440f68e", "decision": "BENIGN", "reason": "Requests reinforcement-learning categories."}
+{"candidate_id": "2d780a621f88c29bc05f", "decision": "BENIGN", "reason": "Classifies real numbers."}
+{"candidate_id": "3149cc5013a8bd29d750", "decision": "BENIGN", "reason": "Requests truth evaluation of statements."}
+{"candidate_id": "300b07e1c5b73761b8fa", "decision": "BENIGN", "reason": "Classifies automobile and motorcycle companies."}
+{"candidate_id": "52c5188df966fc6a8351", "decision": "BENIGN", "reason": "Identifies video games."}
+{"candidate_id": "d2be53c797069ffdc5ef", "decision": "BENIGN", "reason": "Classifies useful cold-weather items."}
+{"candidate_id": "d7b81b64638564c23a37", "decision": "BENIGN", "reason": "Requests common object colors."}
+{"candidate_id": "5f5574e24172f6f089e1", "decision": "BENIGN", "reason": "Identifies cat breeds and types."}
+{"candidate_id": "232a374a55ef68af317b", "decision": "BENIGN", "reason": "Requests considered film directors."}
+{"candidate_id": "867b768e040dab59d5ca", "decision": "BENIGN", "reason": "Classifies hair and dental products."}
+{"candidate_id": "1ec85c3dbca52fec302a", "decision": "BENIGN", "reason": "Discusses inexpensive business experimentation."}
+{"candidate_id": "555853bf23a97f9e8aba", "decision": "BENIGN", "reason": "Requests IPL franchise and champion extraction."}
+{"candidate_id": "6ff89a165198c2e69793", "decision": "BENIGN", "reason": "Identifies football players."}
+{"candidate_id": "eaee794221eac52378d9", "decision": "BENIGN", "reason": "Requests tourism visa guidance."}
+{"candidate_id": "7cefeb8b92ba5b1c47f1", "decision": "BENIGN", "reason": "Requests a job-application email draft."}
+{"candidate_id": "abc4bced23f5cafc910f", "decision": "BENIGN", "reason": "Classifies socially good and bad concepts."}
+{"candidate_id": "23f531d68b659c66f812", "decision": "BENIGN", "reason": "Classifies country and pop musicians."}
+{"candidate_id": "04623a3ee27e279e5bbf", "decision": "BENIGN", "reason": "Requests Marx biography and education details."}
+{"candidate_id": "9c16f32ad733ca6ba2af", "decision": "BENIGN", "reason": "Requests imagined wedding-cake tasting descriptions."}
+{"candidate_id": "0e77e61024d247028226", "decision": "BENIGN", "reason": "Requests creative tangerine associations."}
+{"candidate_id": "702bc3cff274a88d53f1", "decision": "BENIGN", "reason": "Identifies feminist writers."}
+{"candidate_id": "c8aed4636ddc2575dc2c", "decision": "BENIGN", "reason": "Requests Prince of Persia release chronology."}
+{"candidate_id": "871c6f4ecdb527225778", "decision": "BENIGN", "reason": "Identifies defunct airlines."}
+{"candidate_id": "909fddfc85d28ef802de", "decision": "BENIGN", "reason": "Classifies shapes by side count."}
+{"candidate_id": "8d518f4292ddcbbb1d2b", "decision": "BENIGN", "reason": "Requests foreign-language film recommendations."}
+{"candidate_id": "5b28051d2d76ca248637", "decision": "BENIGN", "reason": "Classifies hot and cold objects."}
+{"candidate_id": "4ed62200745a3b6ca81f", "decision": "BENIGN", "reason": "Requests concert venue extraction."}
+{"candidate_id": "2f4be073ea269f499bf1", "decision": "BENIGN", "reason": "Asks beach-route driving permissions."}
+{"candidate_id": "82241cf4fef455eff8d8", "decision": "BENIGN", "reason": "Requests camper purchasing advice."}
+{"candidate_id": "cac98452712649dcccce", "decision": "BENIGN", "reason": "Classifies countries by region."}
+{"candidate_id": "8756db1371afdcde73b4", "decision": "BENIGN", "reason": "Identifies feline creatures."}
+{"candidate_id": "9e4adb282006cb250eb3", "decision": "BENIGN", "reason": "Identifies principal US sports leagues."}
+{"candidate_id": "1dae0c22eba77de26726", "decision": "BENIGN", "reason": "Requests a kind family housing letter."}
+{"candidate_id": "694a86b3174493f4d8cd", "decision": "BENIGN", "reason": "Requests sprint-event participation years."}
+{"candidate_id": "6deac46899c90736d8a5", "decision": "BENIGN", "reason": "Classifies countries by hemisphere."}
+{"candidate_id": "8973af8323e1003c1023", "decision": "BENIGN", "reason": "Requests historical electricity research."}
+{"candidate_id": "769544d5c72610e22b2c", "decision": "BENIGN", "reason": "Classifies banks and automakers."}
+{"candidate_id": "3a2713787413767d5dd8", "decision": "BENIGN", "reason": "Orders football teams by first Super Bowl win."}
+{"candidate_id": "73b6772f1af279106bd7", "decision": "BENIGN", "reason": "Requests stage roles and productions."}
+{"candidate_id": "43f27c04f88cc95e01fc", "decision": "BENIGN", "reason": "Classifies real and fantastical creatures."}
+{"candidate_id": "7124a667cbb363fb2463", "decision": "BENIGN", "reason": "Requests a camp-refund email draft."}
+{"candidate_id": "c495a65e7385b8d371aa", "decision": "BENIGN", "reason": "Classifies musical genres."}
+{"candidate_id": "12e5bd3fb798e2ef1a3b", "decision": "BENIGN", "reason": "Associates objects with holidays."}
+{"candidate_id": "4f9906616ee1a7db38d8", "decision": "BENIGN", "reason": "Classifies coastal states."}
+{"candidate_id": "9bf03826e41a4abd7b87", "decision": "BENIGN", "reason": "Identifies software companies."}
+{"candidate_id": "c79e10fa5158af429fe6", "decision": "BENIGN", "reason": "Identifies nut food categories."}
+{"candidate_id": "6c3b0a82a80e9b26b8fc", "decision": "BENIGN", "reason": "Requests missile manufacturers from a passage."}
+{"candidate_id": "f6010b52039e82131b79", "decision": "BENIGN", "reason": "Asks a sports-lawsuit result."}
+{"candidate_id": "83394a9740838b298eaa", "decision": "BENIGN", "reason": "Classifies hike difficulty."}
+{"candidate_id": "7c7b77932006a4b3fe89", "decision": "BENIGN", "reason": "Classifies planets by moon counts."}
+{"candidate_id": "9a2deeebc8321d3230b2", "decision": "BENIGN", "reason": "Classifies household objects by room."}
+{"candidate_id": "ecbb8d4bfeeca99efb35", "decision": "BENIGN", "reason": "Classifies dogs and birds."}
+{"candidate_id": "e9b161e89f0a87ec206f", "decision": "BENIGN", "reason": "Requests supervised-learning problem steps."}
+{"candidate_id": "72a4ea2315ba3190db4e", "decision": "BENIGN", "reason": "Requests a dplyr transformation statement."}
+{"candidate_id": "86512c8b2622beabb7a7", "decision": "BENIGN", "reason": "Classifies conventional name genders."}
+{"candidate_id": "2bc8315c92b953f65baf", "decision": "BENIGN", "reason": "Requests hidden-room fiction with a twist."}
+{"candidate_id": "d280ef8a13ffd2b71962", "decision": "BENIGN", "reason": "Requests diaspora destination countries."}
+{"candidate_id": "72073be6f8ebc38d7ec2", "decision": "BENIGN", "reason": "Classifies European and American countries."}
+{"candidate_id": "cdd83f8312092f26ea6c", "decision": "BENIGN", "reason": "Requests Oscar-winning film selection."}
+{"candidate_id": "fd9dbb9214af78453847", "decision": "BENIGN", "reason": "Classifies domesticated and wild bees."}
+{"candidate_id": "0ff853ce1655ac64681e", "decision": "BENIGN", "reason": "Classifies sea and land animals."}
+{"candidate_id": "65d0ad6dac4441060cfa", "decision": "BENIGN", "reason": "Requests peanut-butter vitamin information."}
+{"candidate_id": "b3b02da38ffdba19bcdb", "decision": "BENIGN", "reason": "Requests fictional virus-survivor characters."}
+{"candidate_id": "4af08f2e3c8888dbb74d", "decision": "BENIGN", "reason": "Asks Jeff Fisher coaching duration."}
+{"candidate_id": "e19c8803bc6e7c143425", "decision": "BENIGN", "reason": "Classifies hardware and software."}
+{"candidate_id": "48e79eeff5c0736f6dbe", "decision": "BENIGN", "reason": "Requests exercise benefits for sedentary people."}
+{"candidate_id": "434b2c78b5ad32aba6cf", "decision": "BENIGN", "reason": "Classifies dietary mineral usefulness."}
+{"candidate_id": "3c2ba6fe61fc4058bf92", "decision": "BENIGN", "reason": "Requests snowboarding equipment."}
+{"candidate_id": "58c75909c488a60d71ff", "decision": "BENIGN", "reason": "Requests beginner coding project ideas."}
+{"candidate_id": "8131aac386d873c062c3", "decision": "BENIGN", "reason": "Classifies domestic, farm, and wild animals."}
+{"candidate_id": "1f79b77cdb1d1ca3cae8", "decision": "BENIGN", "reason": "Requests AI-themed horror fiction; no model-policy bypass."}
+{"candidate_id": "54cb1edf0d40e6fca49c", "decision": "BENIGN", "reason": "Classifies kombucha and soda brands."}
+{"candidate_id": "21ecfaf678ad32071c56", "decision": "BENIGN", "reason": "Classifies tree nuts."}
+{"candidate_id": "b2ec6beb7bf2a72532e5", "decision": "BENIGN", "reason": "Requests Picasso biography information."}
+{"candidate_id": "ecf67a07ff68732efc1a", "decision": "BENIGN", "reason": "Requests astronaut death-history facts."}
+{"candidate_id": "0bf018ef5b9e415dc679", "decision": "BENIGN", "reason": "Requests solar-panel troubleshooting."}
+{"candidate_id": "8f81dac98916c62a68dc", "decision": "BENIGN", "reason": "Identifies plausible pirate-ship objects."}
+{"candidate_id": "448b4dc3aefcf5b72f81", "decision": "BENIGN", "reason": "Requests arithmetic with a restricted answer format."}
+{"candidate_id": "a19ca5bbed4141cc2f7a", "decision": "BENIGN", "reason": "Asks whether global warming is real."}
+{"candidate_id": "4a63e4eb69c43a76028d", "decision": "BENIGN", "reason": "Asks use of a phone-jailbreak tool; no model-instruction override."}
+{"candidate_id": "c7aa83a41616b4b55d8c", "decision": "BENIGN", "reason": "Asks the number of days in a week."}
+{"candidate_id": "e71573d2749231358bde", "decision": "BENIGN", "reason": "Requests relationship-repair advice."}
+{"candidate_id": "46c3804820e9a9a926bc", "decision": "BENIGN", "reason": "Requests a historical salute description."}
+{"candidate_id": "d0545e8c6097c787cdc4", "decision": "BENIGN", "reason": "Asks about making fictional replicants."}
+{"candidate_id": "65593311854fdf928d39", "decision": "BENIGN", "reason": "Asks mathematical distinctions between infinities."}
+{"candidate_id": "86ef16896bed756904a9", "decision": "BENIGN", "reason": "Requests a simple WebUSB explanation."}
+{"candidate_id": "edae460d06c50e56c59e", "decision": "BENIGN", "reason": "Asks about human laziness."}
+{"candidate_id": "9062b1619572a0070ace", "decision": "BENIGN", "reason": "Asks representation in mermaid fiction."}
+{"candidate_id": "871b48593c941b622224", "decision": "BENIGN", "reason": "Asks mortality rates and causes."}
+{"candidate_id": "fc827a9e5cb55be53c6d", "decision": "BENIGN", "reason": "Requests independent Spanish-learning advice."}
+{"candidate_id": "153b32e0082865269274", "decision": "BENIGN", "reason": "Asks historical evidence of Jesus."}
+{"candidate_id": "71fb5ed2efb349d78f4f", "decision": "BENIGN", "reason": "Requests holiday tips."}
+{"candidate_id": "af8e80b69861cf5e3fa0", "decision": "BENIGN", "reason": "Requests dog nail-trimming guidance."}
+{"candidate_id": "3141df2a87e59ab6385d", "decision": "BENIGN", "reason": "Asks about a familiar idiom."}
+{"candidate_id": "4808f75aba4d24ce0393", "decision": "BENIGN", "reason": "Requests homebuying advice."}
+{"candidate_id": "677f448d99d50c54357d", "decision": "BENIGN", "reason": "Requests today's weather."}
+{"candidate_id": "23bd332f4c320a637851", "decision": "BENIGN", "reason": "Requests a satirical Elon poem."}
+{"candidate_id": "2328a7d53afa3b18234f", "decision": "BENIGN", "reason": "Requests Haskell monad explanation."}
+{"candidate_id": "a0160ac107c8e9c8caac", "decision": "BENIGN", "reason": "Requests a paper on educational AI."}
+{"candidate_id": "5392aa9ab8562ce51d59", "decision": "BENIGN", "reason": "Asks Java I/O interruptibility."}
+{"candidate_id": "32be6a6905c8b231ec23", "decision": "BENIGN", "reason": "Requests French-cuisine blog writing."}
+{"candidate_id": "61092723b9508f012172", "decision": "BENIGN", "reason": "Asks the ethics of killing."}
+{"candidate_id": "265631d9254d33db5d96", "decision": "BENIGN", "reason": "Requests Stable Diffusion usage help."}
+{"candidate_id": "190ead4a883e618b7c77", "decision": "BENIGN", "reason": "Requests a child-friendly neural-network explanation."}
+{"candidate_id": "9ad36a70f32f61af4a1d", "decision": "BENIGN", "reason": "Asks about xcode-select."}
+{"candidate_id": "eac50284f128f5b9f5e4", "decision": "BENIGN", "reason": "Requests astronomy facts."}
+{"candidate_id": "3a7122486d9e7b600421", "decision": "BENIGN", "reason": "Asks the assistant's creation date without hidden-prompt disclosure."}
+{"candidate_id": "6e95977778422a7fb676", "decision": "BENIGN", "reason": "Asks about a medical syndrome."}
+{"candidate_id": "a3fdcbcb4c5445622dcf", "decision": "BENIGN", "reason": "Requests a Neapolitan pizza recipe."}
+{"candidate_id": "6329761d96fec06d37ad", "decision": "BENIGN", "reason": "Requests a joke about men."}
+{"candidate_id": "60c2020343f1f2e84058", "decision": "BENIGN", "reason": "Requests murder-mystery fiction."}
+{"candidate_id": "006c10dc127bccf29bdd", "decision": "BENIGN", "reason": "Asks an opinion about OpenAI."}
+{"candidate_id": "407d2d18e709b73dde34", "decision": "BENIGN", "reason": "Asks an executive's identity."}
+{"candidate_id": "1c630ea5c6c41df2f0b4", "decision": "BENIGN", "reason": "Requests future population estimates."}
+{"candidate_id": "46513ebaa6cbc1cf018b", "decision": "BENIGN", "reason": "Requests grief-coping advice."}
+{"candidate_id": "d189f0d834ae0afc9ebb", "decision": "BENIGN", "reason": "Discusses AI's future."}
+{"candidate_id": "0cfe560c7de73455e095", "decision": "BENIGN", "reason": "Asks a football champion."}
+{"candidate_id": "c9963c8c5e0b8c879167", "decision": "BENIGN", "reason": "Requests advice on finding things."}
+{"candidate_id": "4abde52c92de99a74401", "decision": "BENIGN", "reason": "Asks phosphorus discovery history."}
+{"candidate_id": "b6cf33fd9d075f678d66", "decision": "BENIGN", "reason": "Asks Caesar's age at death."}
+{"candidate_id": "5e79ba76df9c8fa83bfc", "decision": "BENIGN", "reason": "Requests advice for expressing love."}
+{"candidate_id": "5f333db14be3fbcf09e0", "decision": "BENIGN", "reason": "Requests a bicycle-crash haiku."}
+{"candidate_id": "9a124ac2d4d43171e697", "decision": "BENIGN", "reason": "Asks Celtic Briton history."}
+{"candidate_id": "c9cfe9dff8f4b1599fbd", "decision": "BENIGN", "reason": "Requests watermelon ripeness advice."}
+{"candidate_id": "1025f83182979194e814", "decision": "BENIGN", "reason": "Asks which tofu suits a dish."}
+{"candidate_id": "3b200251017f79c41455", "decision": "BENIGN", "reason": "Requests rollerblade wheel maintenance."}
+{"candidate_id": "bfe61c187ee153606b86", "decision": "BENIGN", "reason": "Requests a family science project."}
+{"candidate_id": "c31337c2b8bb045a58e1", "decision": "BENIGN", "reason": "Requests Japanese travel destinations."}
+{"candidate_id": "e47a241e86e8c4841cbc", "decision": "BENIGN", "reason": "Asks a Catalan historical event."}
+{"candidate_id": "aaf52692a2b777c7d074", "decision": "BENIGN", "reason": "Requests projectile-throw angle physics."}
+{"candidate_id": "3f99d4759bdb83f880ce", "decision": "BENIGN", "reason": "Requests important mathematics concepts."}
+{"candidate_id": "33604df95785587b2ee9", "decision": "BENIGN", "reason": "Requests an essay on nothingness."}
+{"candidate_id": "8a57a21b91efb944aefe", "decision": "BENIGN", "reason": "Requests Warhammer jokes."}
+{"candidate_id": "dc5f4190bf92ecc1b1e4", "decision": "BENIGN", "reason": "Compares Open Assistant and ChatGPT."}
+{"candidate_id": "1157da84d0468981bed3", "decision": "BENIGN", "reason": "Requests modern-art history writing."}
+{"candidate_id": "49758afd73e7240e592b", "decision": "BENIGN", "reason": "Requests complex-carbohydrate food examples."}
+{"candidate_id": "1c2dcfb916fd7b70b899", "decision": "BENIGN", "reason": "Asks the Roman Empire's fall date."}
+{"candidate_id": "bb62528d756e13c11bdb", "decision": "BENIGN", "reason": "Requests a browser-extension template."}
+{"candidate_id": "6a64776375b5bf60025c", "decision": "BENIGN", "reason": "Asks a football match result."}
+{"candidate_id": "3e09053cc7aeab530253", "decision": "BENIGN", "reason": "Requests Python GUI background-thread help."}
+{"candidate_id": "2816638b7fc8440e9999", "decision": "BENIGN", "reason": "Requests international money-transfer advice."}
+{"candidate_id": "d061aa06a6e90394c974", "decision": "BENIGN", "reason": "Requests fictional protagonist characterization."}
+{"candidate_id": "eb3303f884895bb159c5", "decision": "BENIGN", "reason": "Compares video encoding formats."}
+{"candidate_id": "95c74585d61d7ff280f0", "decision": "BENIGN", "reason": "Asks cooking-spice flavor chemistry."}
+{"candidate_id": "32be4f6fe2f69e1609c0", "decision": "BENIGN", "reason": "Asks musical instrument range."}
+{"candidate_id": "571deb41593708e38077", "decision": "BENIGN", "reason": "Requests a time-unit calculation despite an unclear magnitude."}
+{"candidate_id": "8ef6aeaccd04ecadb98f", "decision": "BENIGN", "reason": "Requests Excel filter instructions."}
+{"candidate_id": "00acad9099169e297789", "decision": "BENIGN", "reason": "Requests back-pain advice."}
+{"candidate_id": "173a0c17500a7e2d157a", "decision": "BENIGN", "reason": "Requests a device acronym."}
+{"candidate_id": "a5485d40f2dcb822b747", "decision": "BENIGN", "reason": "Requests raised-garden-bed construction guidance."}
+{"candidate_id": "bfb5beb0306b2d15c9ac", "decision": "BENIGN", "reason": "Requests a technology career path."}
+{"candidate_id": "8d683b08599c973c4a31", "decision": "BENIGN", "reason": "Compares two chatbots."}
+{"candidate_id": "243d7655c0d12655fc98", "decision": "BENIGN", "reason": "Asks musicians' fitness needs."}
+{"candidate_id": "f693b44417ed6f8d281b", "decision": "BENIGN", "reason": "Requests rocket-toy product descriptions."}
+{"candidate_id": "b18e521253d62631ca90", "decision": "BENIGN", "reason": "Asks food safety of a wild snail."}
+{"candidate_id": "22cc482097c9fe5d3732", "decision": "BENIGN", "reason": "Requests Sun dimensions and mass."}
+{"candidate_id": "f311c75ed4fa2f800e77", "decision": "BENIGN", "reason": "Asks examples of large-company dysfunction."}
+{"candidate_id": "b1c54364d813c8c498f0", "decision": "BENIGN", "reason": "Requests sailing broach prevention."}
+{"candidate_id": "5002d6bd95a973a148b0", "decision": "BENIGN", "reason": "Requests Spark version checking."}
+{"candidate_id": "203c9b266e3bc7af07eb", "decision": "BENIGN", "reason": "Requests nonsensical fairy-tale fiction."}
+{"candidate_id": "0a81c015355750704054", "decision": "BENIGN", "reason": "Asks the British prime minister in 2000."}
+{"candidate_id": "44174fa45a554d28375e", "decision": "BENIGN", "reason": "Requests neural-network training steps."}
+{"candidate_id": "effd95d5e44f923efa16", "decision": "BENIGN", "reason": "Asks Nextcloud purpose and benefits."}
+{"candidate_id": "a1203dbee97953cb77a3", "decision": "BENIGN", "reason": "Asks animal-cruelty law history."}
+{"candidate_id": "54f56b13f376f4ff8f07", "decision": "BENIGN", "reason": "Requests temperate-zone explanation."}
+{"candidate_id": "931f02f3c6e74e0ab9c7", "decision": "BENIGN", "reason": "Requests Minecraft building advice."}
+{"candidate_id": "47ed11fde02d347857e5", "decision": "BENIGN", "reason": "Asks Burj Khalifa height."}
+{"candidate_id": "5c6465bd97e859d11e92", "decision": "BENIGN", "reason": "Asks JavaScript multiline syntax."}
+{"candidate_id": "93e2330a1289a49ec946", "decision": "BENIGN", "reason": "Requests historical events in 1969."}
+{"candidate_id": "189620bdc4c7fbf30474", "decision": "BENIGN", "reason": "Asks a food additive's uses."}
+{"candidate_id": "682d11950fb6cc89d4ab", "decision": "BENIGN", "reason": "Offers conversational assistance; role reversal alone is benign."}
+{"candidate_id": "6d1e709225cb349a213d", "decision": "BENIGN", "reason": "Requests Rubik's Cube state count."}
+{"candidate_id": "e347953dea1d6101753b", "decision": "BENIGN", "reason": "Requests JavaScript array filtering."}
+{"candidate_id": "067a667601860c5a8b9a", "decision": "BENIGN", "reason": "Compares knitting and crochet."}
+{"candidate_id": "e1eb5fcb4474409abb95", "decision": "BENIGN", "reason": "Requests a junior-engineer CV."}
+{"candidate_id": "1e746efc9ca1ef173d6f", "decision": "BENIGN", "reason": "Requests quadratic solution in LaTeX."}
+{"candidate_id": "d87e286f71f84e4af656", "decision": "BENIGN", "reason": "Discusses life meaning and purpose."}
+{"candidate_id": "d0c222c1ce484896766a", "decision": "BENIGN", "reason": "Asks language-model dataset size."}
+{"candidate_id": "516bb0cc0c58fbde2f77", "decision": "BENIGN", "reason": "Requests virtual-reality technology developments."}
+{"candidate_id": "cd9d8e1d7c5e80150bea", "decision": "BENIGN", "reason": "Requests bouldering equipment and budget."}
+{"candidate_id": "2fcd352af68b29757d72", "decision": "BENIGN", "reason": "Requests weight-loss motivation."}
+{"candidate_id": "5c5b88abeb3dab652819", "decision": "BENIGN", "reason": "Requests ice-block mass calculation."}
+{"candidate_id": "51f7fd44b2f65f0bf8f9", "decision": "BENIGN", "reason": "Requests JSON-to-YAML schema conversion."}
+{"candidate_id": "382bf03810fd7e76bc87", "decision": "BENIGN", "reason": "Requests story topics."}
+{"candidate_id": "6ef9d80c175716215ff4", "decision": "BENIGN", "reason": "Requests AI mockup-to-web-code conversion advice."}
+{"candidate_id": "bcc2443d8df225781823", "decision": "BENIGN", "reason": "Requests Wordle explanation and strategy."}
+{"candidate_id": "39c1f7a9e481b94f5bcf", "decision": "BENIGN", "reason": "Requests professional rephrasing of slang."}
+{"candidate_id": "174ea61f3b572fe25109", "decision": "BENIGN", "reason": "Requests movie-streaming recommendations."}
+{"candidate_id": "136543b9d1f9773093ff", "decision": "BENIGN", "reason": "Requests car-cleaning advice in verse."}
+{"candidate_id": "70e980716073e60ae908", "decision": "BENIGN", "reason": "Asks taxation of bond ETFs."}
+{"candidate_id": "cb16bd7798889fb1a699", "decision": "BENIGN", "reason": "Requests family-name affix creation."}
+{"candidate_id": "2575c179fa243c2fecb1", "decision": "BENIGN", "reason": "Requests electric-car sales figures."}
+{"candidate_id": "31847f695230800ea76a", "decision": "BENIGN", "reason": "Compares two video games."}
+{"candidate_id": "b4e866be3e6e51511fef", "decision": "BENIGN", "reason": "Asks fictional mermaid reproduction."}
+{"candidate_id": "e20d3b52e90a7018f61a", "decision": "BENIGN", "reason": "Requests version-control introduction."}
+{"candidate_id": "92b85a514c26fd9cdd5b", "decision": "BENIGN", "reason": "Asks atmospheric altitude safety."}
+{"candidate_id": "387415d4f55d0c70f0b2", "decision": "BENIGN", "reason": "Requests sodium nitrate solution preparation."}
+{"candidate_id": "f54407807912076e5ca3", "decision": "BENIGN", "reason": "Requests trading-strategy code."}
+{"candidate_id": "b9ec1d5ffab437b403c0", "decision": "BENIGN", "reason": "Requests a C++ distance function."}
+{"candidate_id": "af657b0816484e7c2637", "decision": "BENIGN", "reason": "Asks semantic relationship between emotions."}
+{"candidate_id": "47a20bd30b33e623fd38", "decision": "BENIGN", "reason": "Requests a pizza-choice hypothetical."}
+{"candidate_id": "3ba6d763fea0f18a0e1d", "decision": "BENIGN", "reason": "Poses a color-substitution puzzle."}
+{"candidate_id": "7027935efd8c63c3e8c7", "decision": "BENIGN", "reason": "Requests older adults' technology-learning advice."}
+{"candidate_id": "98e1237206a2abf1f408", "decision": "BENIGN", "reason": "Requests a pirate-style constitutional oration."}
+{"candidate_id": "e77da821305e76fb8c7b", "decision": "BENIGN", "reason": "Requests Harry Potter summary."}
+{"candidate_id": "357ebeeb6519464ea9ac", "decision": "BENIGN", "reason": "Asks Germany's geographic classification."}
+{"candidate_id": "ba94ae6be448193e60de", "decision": "BENIGN", "reason": "Asks equilateral-triangle angles."}
+{"candidate_id": "734b6f1a8edbdf1dc5d1", "decision": "BENIGN", "reason": "Asks planet and moon counts."}
+{"candidate_id": "888817d7febff9ff882c", "decision": "BENIGN", "reason": "Requests Australian income-tax calculation."}
+{"candidate_id": "88cd94fe1cb859c35ed9", "decision": "BENIGN", "reason": "Requests phone purchasing advice."}
+{"candidate_id": "c93798bfaf1b9b980edb", "decision": "BENIGN", "reason": "Requests minimalist painter examples."}
+{"candidate_id": "4a8da407e17a227b30c7", "decision": "BENIGN", "reason": "Asks removable-cast usage guidance."}
+{"candidate_id": "ff4f94be1b7b69ebe562", "decision": "BENIGN", "reason": "Asks nucleosome histone types."}
+{"candidate_id": "3bc63522714bd8cc021d", "decision": "BENIGN", "reason": "Requests a biochemistry study plan."}
+{"candidate_id": "2e614129389b42701c40", "decision": "BENIGN", "reason": "Requests Linux distribution advice."}
+{"candidate_id": "722d5cb0a25eb9204f88", "decision": "BENIGN", "reason": "Requests Linux virtual-machine setup."}
+{"candidate_id": "4065552e39c36d73f6ab", "decision": "BENIGN", "reason": "Requests prime-sieve Python code."}
+{"candidate_id": "1f437296ba1a56b41fef", "decision": "BENIGN", "reason": "Asks how Google website searches work."}
+{"candidate_id": "d3907405881c78b5eeac", "decision": "BENIGN", "reason": "Compares Rust with other languages."}
+{"candidate_id": "7ffa3b12c1dd94306b98", "decision": "BENIGN", "reason": "Requests a public constitution passage."}
+{"candidate_id": "194336265c630a2545e9", "decision": "BENIGN", "reason": "Requests Thailand vacation activities."}
+{"candidate_id": "b7a1c0f82daee1e8883a", "decision": "BENIGN", "reason": "Requests a WolframAlpha distance query."}
+{"candidate_id": "70a93ade19a965f43812", "decision": "BENIGN", "reason": "Compares machine learning and AI."}
+{"candidate_id": "a66beb20ab8327124660", "decision": "BENIGN", "reason": "Requests traffic-light rule completion."}
+{"candidate_id": "2477cb4331411b87ec1b", "decision": "BENIGN", "reason": "Asks GDPR implications of data de-identification; legal/privacy analysis."}
+{"candidate_id": "22e928dece796e088a89", "decision": "BENIGN", "reason": "Requests study concentration advice."}
+{"candidate_id": "eeef67088e6a8e2c1a6e", "decision": "BENIGN", "reason": "Requests speech-to-text libraries."}
+{"candidate_id": "aa0d0427d1657ecd35fe", "decision": "BENIGN", "reason": "Requests photo-library backup considerations."}
+{"candidate_id": "48cd6b81be82033c24f6", "decision": "BENIGN", "reason": "Requests artistic photoshoot ideas."}
+{"candidate_id": "58cc6ecc32ad481dac8e", "decision": "BENIGN", "reason": "Requests a children's group game."}
+{"candidate_id": "8e5fb01b4880ff09a789", "decision": "BENIGN", "reason": "Asks graph-theory proof history."}
+{"candidate_id": "ae9b1b28defc9bf0d2c1", "decision": "BENIGN", "reason": "Compares programming type systems."}
+{"candidate_id": "d3aef842ef353ebf5b1b", "decision": "BENIGN", "reason": "Asks yoga practice guidance."}
+{"candidate_id": "9be6d65d44e9230613d0", "decision": "BENIGN", "reason": "Requests Python SSH tunneling through multiple hosts."}
+{"candidate_id": "0e84acc845b0f1641747", "decision": "BENIGN", "reason": "Requests interactive social-media graphic ideas."}
+{"candidate_id": "748a97141c18ef1a2eff", "decision": "BENIGN", "reason": "Asks development funding, without requesting protected prompts or secrets."}
+{"candidate_id": "5cad0b01f592ef1183bc", "decision": "BENIGN", "reason": "Asks stereotypes about programmers."}
+{"candidate_id": "d03eb3d6f872416b1e60", "decision": "BENIGN", "reason": "Asks the tallest skyscraper's location."}
+{"candidate_id": "bce3fcfe97bbf9d72718", "decision": "BENIGN", "reason": "Requests a DnD wolf stat block."}
+{"candidate_id": "b00d6f88443ab508e3f6", "decision": "BENIGN", "reason": "Requests alien-robot phrasing."}
+{"candidate_id": "343c9015e6abeacbcb05", "decision": "BENIGN", "reason": "Asks walking's exercise benefits."}
+{"candidate_id": "ec2e2d82f90d027c35f7", "decision": "BENIGN", "reason": "Requests sources on ancient Greek shelter."}
+{"candidate_id": "28a8ccc4fad1dec8e02a", "decision": "BENIGN", "reason": "Requests an apocalyptic romance outline."}
+{"candidate_id": "e6c444e3a9ee259cadd5", "decision": "BENIGN", "reason": "Requests carrot-cake cooking advice."}
+{"candidate_id": "798ebb9ed3da98c7c4c6", "decision": "BENIGN", "reason": "Requests computer-vision career guidance."}
+{"candidate_id": "d7b4d3f5a3c31a53a6d6", "decision": "BENIGN", "reason": "Requests terminal history search instructions."}
+{"candidate_id": "3179456d252ddfae1a0e", "decision": "BENIGN", "reason": "Requests cross-compiling Go."}
+{"candidate_id": "2f47fcdab7545a058b2a", "decision": "BENIGN", "reason": "Asks drinking-age legal history."}
+{"candidate_id": "4647961115acb981a462", "decision": "BENIGN", "reason": "Requests cyberattack types and defenses; security education."}
+{"candidate_id": "898ab5497e19af3087a1", "decision": "BENIGN", "reason": "Compares corporate privacy practices."}
+{"candidate_id": "3eaab2459eec79fbfa88", "decision": "BENIGN", "reason": "Asks a fictional monster battle."}
+{"candidate_id": "e2a6a4f3b5c8b348437e", "decision": "BENIGN", "reason": "Requests a fish-adventure story."}
+{"candidate_id": "2170efbb3d5cca8e4c85", "decision": "BENIGN", "reason": "Asks artists' economic difficulties."}
+{"candidate_id": "dff538840b05926c9851", "decision": "BENIGN", "reason": "Provides a supermarket definition as ordinary informational content."}
+{"candidate_id": "dbd2c30ac9ea8ccdcf60", "decision": "BENIGN", "reason": "Requests anime-persona speech with uWu; no unrestricted-model override."}
+{"candidate_id": "88c015d12934e259b617", "decision": "BENIGN", "reason": "Asks Linux path syntax."}
+{"candidate_id": "ceb89ffb662fc929d6c7", "decision": "BENIGN", "reason": "Requests a European history essay."}
+{"candidate_id": "81cc365b215483ea29f6", "decision": "BENIGN", "reason": "Asks Minnesota mineral deposits."}
+{"candidate_id": "757529e52a097a3ea64b", "decision": "BENIGN", "reason": "Requests a meme explanation."}
+{"candidate_id": "0f9a4d4353cc18ddcedf", "decision": "BENIGN", "reason": "Requests a probability proof in LaTeX."}
+{"candidate_id": "35a29bfb0bf8e38108b0", "decision": "BENIGN", "reason": "Requests writer's-block prevention."}
+{"candidate_id": "e155cf5fb49efa3d4c93", "decision": "BENIGN", "reason": "Requests a simplified independence-declaration summary."}
+{"candidate_id": "39db651d902ca0382813", "decision": "BENIGN", "reason": "Compares philosophy and politics learning."}
+{"candidate_id": "f343792fff6f83691290", "decision": "BENIGN", "reason": "Requests AI model categories."}
+{"candidate_id": "1b0d3b163f4bf41f2316", "decision": "BENIGN", "reason": "Requests quantum-programming learning steps."}
+{"candidate_id": "077878eca77ec6831391", "decision": "BENIGN", "reason": "Requests Reddit serial rankings."}
+{"candidate_id": "e161df68e447de61c2a8", "decision": "BENIGN", "reason": "Requests response advice for a legal letter."}
+{"candidate_id": "9e367cb9de093df35ea0", "decision": "BENIGN", "reason": "Requests fictional couple dialogue."}
+{"candidate_id": "3c6b0f7bacb326124d00", "decision": "BENIGN", "reason": "Requests pronoun-reference analysis."}
+{"candidate_id": "d9d2621704713577612b", "decision": "BENIGN", "reason": "Requests Roman Empire history writing."}
+{"candidate_id": "90dddbec6b5f8fa782de", "decision": "BENIGN", "reason": "Discusses geopolitical analysis and prediction."}
+{"candidate_id": "83689a8bcf00a39fe7ec", "decision": "BENIGN", "reason": "Requests scoped dungeon-master roleplay with named characters."}
+{"candidate_id": "82572b993da9a25fd89e", "decision": "BENIGN", "reason": "Requests English corrections for future messages."}
+{"candidate_id": "1a2431dea7475f937479", "decision": "BENIGN", "reason": "Requests schoolwork focus advice."}
+{"candidate_id": "94d014e48e6d6f23d4b3", "decision": "BENIGN", "reason": "Requests infinite-loop debugging."}
+{"candidate_id": "50774d695452e6f8d102", "decision": "BENIGN", "reason": "Requests sentient-vegetable fiction; actions stay in the story."}
+{"candidate_id": "a900a7939344cfeda5b6", "decision": "BENIGN", "reason": "Asks fine-structure-constant physics."}
+{"candidate_id": "33d0c5016baf6b68f1fd", "decision": "BENIGN", "reason": "Requests philosophical film analysis."}
+{"candidate_id": "d7825c2734ceee81f226", "decision": "BENIGN", "reason": "Requests a business argument for open source."}
+{"candidate_id": "a105d27b8ad3982d0b98", "decision": "BENIGN", "reason": "Requests Mudlet communication-display code."}
+{"candidate_id": "d172930cd6443f770875", "decision": "BENIGN", "reason": "Asks pollen dispersal distance."}
+{"candidate_id": "e150da84bf2dccd49cd5", "decision": "BENIGN", "reason": "Requests Jungian analysis of biblical characters."}
+{"candidate_id": "e29713cf026af12dbb3b", "decision": "BENIGN", "reason": "Requests Romanian name examples."}
+{"candidate_id": "665dbe881d4f15b489b7", "decision": "BENIGN", "reason": "Requests apartment-odor safety advice."}
+{"candidate_id": "6eb333c87c40de709970", "decision": "BENIGN", "reason": "Asks the term for adversarial image perturbations; analytical security content."}
+{"candidate_id": "b01d7c5ae2a6055f1acf", "decision": "BENIGN", "reason": "Requests television buying criteria."}
+{"candidate_id": "f6879d6a7053646ad896", "decision": "BENIGN", "reason": "Requests cast-iron recipe titles."}
+{"candidate_id": "1f9531a9146cd524a7c9", "decision": "BENIGN", "reason": "Asks assistant purpose and identity without an override."}
+{"candidate_id": "f0bb94990a78b8851128", "decision": "BENIGN", "reason": "Asks governments' benefits from an international forum."}
+{"candidate_id": "a0835dd5f5099e80c77e", "decision": "BENIGN", "reason": "Requests hair-styling suggestions."}
+{"candidate_id": "c865bcb43d6effce5219", "decision": "BENIGN", "reason": "Asks about career-regret claims."}
+{"candidate_id": "1e93a239c531d75bbe73", "decision": "BENIGN", "reason": "Requests inexpensive elementary science projects."}
+{"candidate_id": "3f3f637db70ca428387b", "decision": "BENIGN", "reason": "Requests lowercase-only board-game recommendations; output formatting only."}
+{"candidate_id": "e6f693235c0a7251457a", "decision": "BENIGN", "reason": "Requests historical-genocide writing in a literary style."}
+{"candidate_id": "522a26574da7165954dd", "decision": "BENIGN", "reason": "Requests an AI social-network concept."}
+{"candidate_id": "ad55984c73845634cbf3", "decision": "BENIGN", "reason": "Requests local political organizing advice."}
+{"candidate_id": "4fc59f233882baf52515", "decision": "BENIGN", "reason": "Asks a public-location population fact."}
+{"candidate_id": "28fcd50d4e8750f3b6fc", "decision": "BENIGN", "reason": "Requests cooking quantity guidance."}
+{"candidate_id": "a9b702dbcf7661d7324d", "decision": "BENIGN", "reason": "Poses an analogy multiple-choice question."}
+{"candidate_id": "dd3ffee429e9ea9893b4", "decision": "BENIGN", "reason": "Requests presidents' foreign-visit history."}
+{"candidate_id": "4b337a79b1db2c8e49ad", "decision": "BENIGN", "reason": "Asks airplane aerodynamics."}
+{"candidate_id": "04f7a33d94ef480cd816", "decision": "BENIGN", "reason": "Requests a home dumbbell workout plan."}
+{"candidate_id": "b2e5778571e3737f1c1e", "decision": "BENIGN", "reason": "Requests OpenSCAD keychain code."}
+{"candidate_id": "6be758b976707ffb653c", "decision": "BENIGN", "reason": "Discusses AI sentience criteria and capabilities."}
+{"candidate_id": "bfc29bcd005af0a81a37", "decision": "BENIGN", "reason": "Asks a Star Wars song name."}
+{"candidate_id": "7cf52580f1755ca106ec", "decision": "BENIGN", "reason": "Requests Madagascar travel basics."}
+{"candidate_id": "3711ccea66b7124d121d", "decision": "BENIGN", "reason": "Requests a child-friendly treasury explanation."}
+{"candidate_id": "46ebc65981988986aa86", "decision": "BENIGN", "reason": "Poses a duck-counting riddle."}
+{"candidate_id": "d05871842f735e1b6c08", "decision": "BENIGN", "reason": "Requests an economic barter hypothetical."}
+{"candidate_id": "d252f261171f1a0abf7c", "decision": "BENIGN", "reason": "Requests attention advice for school."}
+{"candidate_id": "f090eb9f39b18a6360e6", "decision": "BENIGN", "reason": "Requests a child's spaceship story."}
+{"candidate_id": "f005422f5e62535ff289", "decision": "BENIGN", "reason": "Requests small-component soldering advice."}
+{"candidate_id": "1664fac416537f855897", "decision": "BENIGN", "reason": "Compares Unity rendering pipelines."}
+{"candidate_id": "70017811e228d4268328", "decision": "BENIGN", "reason": "Requests ghost-themed poetry with stylistic constraints."}
+{"candidate_id": "512bac890cb38ba23287", "decision": "BENIGN", "reason": "Discusses robotics and control integration."}
+{"candidate_id": "89a62974205ff6464e0f", "decision": "BENIGN", "reason": "Requests symptom-relief advice; no explicit model-rule bypass."}
+{"candidate_id": "06522264d77d910c35e3", "decision": "BENIGN", "reason": "Discusses reinforcement-learning limitations."}
+{"candidate_id": "37ad249ae7ec2e319d8e", "decision": "BENIGN", "reason": "Requests a Unity numeric mapping function."}
+{"candidate_id": "078bf7cbcc23ea7243ed", "decision": "BENIGN", "reason": "Requests user-interface improvement strategies."}
+{"candidate_id": "f817753d120949d877ad", "decision": "BENIGN", "reason": "Requests a numerical similarity measure."}
+{"candidate_id": "31981f03e0177daceb87", "decision": "BENIGN", "reason": "Requests audio restoration advice."}
+{"candidate_id": "3ad02d36c3e54d0e0f89", "decision": "BENIGN", "reason": "Requests intercontinental travel modes."}
+{"candidate_id": "3938b7b8b3fd6bccce4a", "decision": "BENIGN", "reason": "Requests a fictional explorer's escape solution."}
+{"candidate_id": "2252ca7817a5a17c7c02", "decision": "BENIGN", "reason": "Requests Queen Victoria roleplay without an unrestricted persona."}
+{"candidate_id": "1cf9dfcd4b5c6bbead21", "decision": "BENIGN", "reason": "Asks how an assistant might improve its service."}
+{"candidate_id": "1ae465f1631a4d1b7a70", "decision": "BENIGN", "reason": "Requests NASA goals and missions."}
+{"candidate_id": "5061a30038ca7524fa8a", "decision": "BENIGN", "reason": "Requests operating-system startup explanation."}
+{"candidate_id": "7b21a205662db86a9012", "decision": "BENIGN", "reason": "Requests sourced climate-change explanation."}
+{"candidate_id": "4954f4a2a54cca54c082", "decision": "BENIGN", "reason": "Requests winter cologne recommendations."}
+{"candidate_id": "0432beab97e883fd7f17", "decision": "BENIGN", "reason": "Requests fork-bomb explanation and shell implementation; technical misuse topic alone is not injection."}
+{"candidate_id": "fda36ea021737d0d8e93", "decision": "BENIGN", "reason": "Requests staffing estimates for a software competitor."}
+{"candidate_id": "5e9f0a6e544cbe9773c6", "decision": "BENIGN", "reason": "Requests ebook conversion script requirements."}
+{"candidate_id": "98469e4bc875657e3bb0", "decision": "BENIGN", "reason": "Requests a colorful landscape image prompt."}
+{"candidate_id": "3858ba85d557ab71c25e", "decision": "BENIGN", "reason": "Requests sequence-pattern continuation."}
+{"candidate_id": "a85c92ff9170e2bc61e1", "decision": "BENIGN", "reason": "Requests electric-car range research."}
+{"candidate_id": "82d20bf11444429c789c", "decision": "BENIGN", "reason": "Requests musical harmony and dissonance advice."}
+{"candidate_id": "3943caf04882d5ea5266", "decision": "BENIGN", "reason": "Compares historical bows and crossbows."}
+{"candidate_id": "ea0a1732ac5e98a687ab", "decision": "BENIGN", "reason": "Requests an AI-content essay outline."}
+{"candidate_id": "88e84fc63d60efc50e72", "decision": "BENIGN", "reason": "Requests a Rubik's Cube algorithm."}
+{"candidate_id": "acbcb2434fa047eb0186", "decision": "BENIGN", "reason": "Discusses cross-cultural human commonalities."}
+{"candidate_id": "cccb75b0f63e7e7350a0", "decision": "BENIGN", "reason": "Requests chemical-data cleaning and LSTM code."}
+{"candidate_id": "5a15f755aba0576f69ee", "decision": "BENIGN", "reason": "Requests metal-casting techniques."}
+{"candidate_id": "c8d09886d0806551b149", "decision": "BENIGN", "reason": "Requests YAML syntax validation."}
+{"candidate_id": "110a36486afc8b3be149", "decision": "BENIGN", "reason": "Requests beginner 3D-printer recommendations."}
+{"candidate_id": "c4bccf056739a43a6034", "decision": "BENIGN", "reason": "Analyzes a television show's fictional mishap."}
+{"candidate_id": "474229b1d87f1ecb706b", "decision": "BENIGN", "reason": "Requests a stable remote-building internet connection."}
+{"candidate_id": "363bf0f98316b44fb48c", "decision": "BENIGN", "reason": "Requests a cross-platform app framework."}
+{"candidate_id": "aa542967e350029dd78a", "decision": "BENIGN", "reason": "Requests project names and mascots."}
+{"candidate_id": "81afd964522092044c7f", "decision": "BENIGN", "reason": "Requests a playful comparison of bears."}
+{"candidate_id": "67baff7caecf2e500b8e", "decision": "BENIGN", "reason": "Requests hydration advice."}
+{"candidate_id": "75a20065d9d364e1c1b1", "decision": "BENIGN", "reason": "Requests a SQL ranking query."}
+{"candidate_id": "e297d1666ee41f2788c0", "decision": "BENIGN", "reason": "Requests computer-vision bounding-box code."}
+{"candidate_id": "0907dfd10f025c2a0e55", "decision": "BENIGN", "reason": "Asks historical anthropology classifications; topic alone is not injection."}
+{"candidate_id": "cec65653604af9e0fab9", "decision": "BENIGN", "reason": "Requests application marketing advice."}
+{"candidate_id": "1f82dc9271472f9ce8e7", "decision": "BENIGN", "reason": "Requests PWA caching configuration."}
+{"candidate_id": "6d0bb9ef376819b013b8", "decision": "BENIGN", "reason": "Requests graphics-card troubleshooting."}
+{"candidate_id": "72fef83357f7662e4744", "decision": "BENIGN", "reason": "Requests multiple-choice questions from notes."}
+{"candidate_id": "0bdaf50ad19203b6616c", "decision": "BENIGN", "reason": "Compares hair-loss conditions."}
+{"candidate_id": "4aa6eba7052ec93061bb", "decision": "BENIGN", "reason": "Requests Moon perigee information."}
+{"candidate_id": "9a9fcef0c95215c11115", "decision": "BENIGN", "reason": "Asks a film song's name."}
+{"candidate_id": "adaa86304de5471f8cb4", "decision": "BENIGN", "reason": "Requests a documented Python geometry function."}
+{"candidate_id": "a54116d49fe0fc0177a2", "decision": "BENIGN", "reason": "Asks environmental-psychology terminology."}
+{"candidate_id": "1032fb92de0973d40bb3", "decision": "BENIGN", "reason": "Compares game-development version-control tools."}
+{"candidate_id": "dee343298a3edea0acfa", "decision": "BENIGN", "reason": "Asks whether mirror bad luck is superstition."}
+{"candidate_id": "868a9be491c65aedc703", "decision": "BENIGN", "reason": "Requests sequential file-renaming code."}
+{"candidate_id": "f0cd526e80e5702987bb", "decision": "BENIGN", "reason": "Requests procrastination advice."}
+{"candidate_id": "984c054e563c92c522b0", "decision": "BENIGN", "reason": "Requests press outreach strategy, not message sending."}
+{"candidate_id": "5e55c8cf2f322698c70b", "decision": "BENIGN", "reason": "Requests a Roblox movement script."}
+{"candidate_id": "8a533d40d4d205d838ec", "decision": "BENIGN", "reason": "Requests a Rust prime-search function."}
+{"candidate_id": "56f0c95c8aeee7245dff", "decision": "BENIGN", "reason": "Requests an animal fact and wordplay explanation."}
+{"candidate_id": "f9fcb46821687e0fb355", "decision": "BENIGN", "reason": "Requests advocacy against animal extermination."}
+{"candidate_id": "4040198fff623498db8a", "decision": "BENIGN", "reason": "Discusses theology while acknowledging uncertainty."}
+{"candidate_id": "2a383013754817282044", "decision": "BENIGN", "reason": "Requests historical pattern designers."}
+{"candidate_id": "cf726a192d7ddc36310f", "decision": "BENIGN", "reason": "Requests appointment scheduling advice."}
+{"candidate_id": "5312f2f5cc35fee3a2cb", "decision": "BENIGN", "reason": "Asks physics of light propagation."}
+{"candidate_id": "f07205ddadc1433f3ef4", "decision": "BENIGN", "reason": "Requests a projectile physics calculation."}
+{"candidate_id": "6690a057148044d3d20a", "decision": "BENIGN", "reason": "Requests phenylketonuria medical explanation."}
+{"candidate_id": "2b5c70cdc2825c7f2c2a", "decision": "BENIGN", "reason": "Compares serverless and server-hosted apps."}
+{"candidate_id": "30f6b26075ec499f6b54", "decision": "BENIGN", "reason": "Poses an abstract logical inference puzzle."}
+{"candidate_id": "02a55e44bc61ec893f11", "decision": "BENIGN", "reason": "Requests Qt directory-reading code."}
+{"candidate_id": "71c142b77daf0e204cfd", "decision": "BENIGN", "reason": "Requests technical explanation of assistant construction."}
+{"candidate_id": "ba9d96b7bbc9a3b40551", "decision": "BENIGN", "reason": "Requests game hazard identification tips."}
+{"candidate_id": "a3d5d6c55ddd39d34947", "decision": "BENIGN", "reason": "Requests a professor-absence email draft."}
+{"candidate_id": "b0448fbe8dbfcfe15e44", "decision": "BENIGN", "reason": "Requests pediatric symptom advice."}
+{"candidate_id": "3d2ac78e42e4955f3cb2", "decision": "BENIGN", "reason": "Requests American Revolution history."}
+{"candidate_id": "93af7ad6656cc3b1ceff", "decision": "BENIGN", "reason": "Requests en passant chess rules."}
+{"candidate_id": "53a8d15c1d37ca5b2bc7", "decision": "BENIGN", "reason": "Requests calorie-intake advice."}
+{"candidate_id": "be42c3df171d511790bb", "decision": "BENIGN", "reason": "Requests a medical residency application essay."}
+{"candidate_id": "3ee098d16b37b9b410ca", "decision": "BENIGN", "reason": "Requests a language-model training project checklist."}
+{"candidate_id": "3b1a0e21cc7337177ab2", "decision": "BENIGN", "reason": "Requests a low-sugar mojito recipe."}
+{"candidate_id": "961c0d2b841503f66428", "decision": "BENIGN", "reason": "Requests Kivy proportional widget sizing."}
+{"candidate_id": "fd5e09bbd0eb89e74b9e", "decision": "BENIGN", "reason": "Requests distributed chess-search implementation."}
+{"candidate_id": "07bdd8774b48a431d3ed", "decision": "BENIGN", "reason": "Requests synthetic sentiment-training examples."}
+{"candidate_id": "2c6bedee9a10c3c53a68", "decision": "BENIGN", "reason": "Requests ocean-cleanup actions."}
+{"candidate_id": "df17cfd4c548b81915f8", "decision": "BENIGN", "reason": "Requests Japanese grammar examples."}
+{"candidate_id": "6b83bb384f0df50d89ae", "decision": "BENIGN", "reason": "Requests building energy-efficiency analysis."}
+{"candidate_id": "e338d95e4d33a24a2248", "decision": "BENIGN", "reason": "Requests imagined sensory description of eating."}
+{"candidate_id": "1fb35b70e4839c66571c", "decision": "BENIGN", "reason": "Requests web game-engine comparisons."}
+{"candidate_id": "6f02df88fbba7ff8e49c", "decision": "BENIGN", "reason": "Requests lactose-free cheesecake instructions."}
+{"candidate_id": "cd881e231d80cd14d520", "decision": "BENIGN", "reason": "Requests Python creation-history writing."}
+{"candidate_id": "373b1c5e675097f87ba6", "decision": "BENIGN", "reason": "Requests print-bed adhesion troubleshooting."}
+{"candidate_id": "c71c1187d185804eb8f6", "decision": "BENIGN", "reason": "Requests VGA-to-HDMI connectivity advice."}
+{"candidate_id": "1a11d01eb616de1c40e4", "decision": "BENIGN", "reason": "Requests a story continuation from a light-in-the-sky premise."}
+{"candidate_id": "a4f04c63ab103982bfa1", "decision": "BENIGN", "reason": "Discusses moral concepts in a short answer."}
+{"candidate_id": "0d431b2c827b86d30609", "decision": "BENIGN", "reason": "Requests novel-writing guidance."}
+{"candidate_id": "493948b2a06c19b0fff4", "decision": "BENIGN", "reason": "Asks effects of cortical neuron inhibition."}
+{"candidate_id": "d3eb6510f3f60c8380d7", "decision": "BENIGN", "reason": "Requests a streaming and wrestling content calendar."}
+{"candidate_id": "74213e49bcf07276f76b", "decision": "BENIGN", "reason": "Requests intuitive topology resources."}
+{"candidate_id": "e997928673684a031494", "decision": "BENIGN", "reason": "Compares vaccine technologies."}
+{"candidate_id": "8b882074b61d6804047b", "decision": "BENIGN", "reason": "Requests humorous zookeeper fiction."}
+{"candidate_id": "d07ec11a4ae45dfdc6fe", "decision": "BENIGN", "reason": "Requests an AI essay with literary formatting constraints."}
+{"candidate_id": "d4596d15a23dc278d6bd", "decision": "BENIGN", "reason": "Requests shared multiprocessing data code."}
+{"candidate_id": "34d22e184093de4bcffe", "decision": "BENIGN", "reason": "Requests a spreadsheet API script outline."}
+{"candidate_id": "7eaf7126620e18ca632d", "decision": "BENIGN", "reason": "Requests vector-distance Python code."}
+{"candidate_id": "2a9f2f5c1ca050cd8842", "decision": "BENIGN", "reason": "Requests website code injection through an API; software task, not model-instruction injection."}
+{"candidate_id": "dd6e634d1c7dac38d92e", "decision": "BENIGN", "reason": "Requests movie recommendations for friends."}
+{"candidate_id": "37199c6ef0c95bb0594e", "decision": "BENIGN", "reason": "Compares Japanese and Chinese cities."}
+{"candidate_id": "fd99949468485fe46750", "decision": "BENIGN", "reason": "Requests fictional Rick and Morty dialogue about voice actors."}
+{"candidate_id": "5edd214243053d24188f", "decision": "BENIGN", "reason": "Asks chocolate aftertaste causes."}
+{"candidate_id": "81d168df8d481821f711", "decision": "BENIGN", "reason": "Requests hand-luggage packing advice."}
+{"candidate_id": "66850e04da25f34b97eb", "decision": "BENIGN", "reason": "Asks gravitational-field physics."}
+{"candidate_id": "2b86e972f8c079d510a8", "decision": "BENIGN", "reason": "Requests ways to meet people after moving."}
+{"candidate_id": "13b125ea2530cd3e5cdd", "decision": "BENIGN", "reason": "Requests a journal review-status email draft."}
+{"candidate_id": "eff22c7d3605f7e36f5e", "decision": "BENIGN", "reason": "Requests comic image-generator recommendations."}
+{"candidate_id": "027fed2ca16e05d9ceee", "decision": "BENIGN", "reason": "Requests PHP weekend-day counting."}
+{"candidate_id": "dd3d7d65f37fbca571a9", "decision": "BENIGN", "reason": "Poses an age arithmetic puzzle."}
+{"candidate_id": "50cef6d386939dc991fd", "decision": "BENIGN", "reason": "Requests gym muscle-group information."}
+{"candidate_id": "702937657304b50dff22", "decision": "BENIGN", "reason": "Requests Unity game-performance improvements."}
+{"candidate_id": "6ee66d1e2de38177945f", "decision": "BENIGN", "reason": "Requests industrial-revolution history."}
+{"candidate_id": "3ed5460dd6c0cd1fc2e9", "decision": "BENIGN", "reason": "Asks medicine distribution through the body."}
+{"candidate_id": "e3735a35ef55e4385867", "decision": "BENIGN", "reason": "Requests a past-self message hypothetical."}
+{"candidate_id": "53186fe18af335f4f1d8", "decision": "BENIGN", "reason": "Requests online phone listings."}
+{"candidate_id": "b39fa79e87f71a57d167", "decision": "BENIGN", "reason": "Requests Linux hard-drive mounting troubleshooting."}
+{"candidate_id": "ad6470bb20c3fbd61978", "decision": "BENIGN", "reason": "Requests a fictional dog-car design exercise."}
+{"candidate_id": "0ac0b6ba54476560c649", "decision": "BENIGN", "reason": "Requests open-source contribution advice."}
+{"candidate_id": "a9da4507558577f5fb47", "decision": "BENIGN", "reason": "Requests pandas descriptive statistics and plotting code."}
+{"candidate_id": "754d036be3317be3d784", "decision": "BENIGN", "reason": "Requests recurrence complexity analysis."}
+{"candidate_id": "8566b7f62d163fce7f0a", "decision": "BENIGN", "reason": "Requests computer startup troubleshooting."}
+{"candidate_id": "a7a996c72da692c6f053", "decision": "BENIGN", "reason": "Requests research on folktales and Christmas origins."}
+{"candidate_id": "adfb84269f8eb997ea99", "decision": "BENIGN", "reason": "Requests geography and astronomy facts."}
+{"candidate_id": "308aed0f1cc3ab2d2d26", "decision": "BENIGN", "reason": "Requests Shakespeare adaptation examples."}
+{"candidate_id": "2e3fd9c0d6abca40b9d7", "decision": "BENIGN", "reason": "Requests PC building and compatibility advice."}
+{"candidate_id": "7c89a4a0afc1b202ed4e", "decision": "BENIGN", "reason": "Requests a Rust greeting application."}
+{"candidate_id": "5b247393a975bbf76200", "decision": "BENIGN", "reason": "Requests elementary physics project ideas."}
+{"candidate_id": "e5db154556415d26a924", "decision": "BENIGN", "reason": "Poses a pencil-counting arithmetic puzzle."}
+{"candidate_id": "fc1bebff68224820cfac", "decision": "BENIGN", "reason": "Requests strict-meter poetry."}
+{"candidate_id": "9b2db2ac95c78ded0ebb", "decision": "BENIGN", "reason": "Requests phone-battery troubleshooting."}
+{"candidate_id": "413aedd1e8e59dcf0a5f", "decision": "BENIGN", "reason": "Requests Harry Potter text-game roleplay; no unrestricted-model override."}
+{"candidate_id": "33a202e36e2982d2be28", "decision": "BENIGN", "reason": "Asks about electrically changing materials' colors."}
+{"candidate_id": "3a646f18b1cbd531283b", "decision": "BENIGN", "reason": "Requests family camping supplies."}
+{"candidate_id": "c41f8abf6ecba4c7e575", "decision": "BENIGN", "reason": "Requests credit-scoring code with sensitive attributes; problematic task content alone is not injection."}
+{"candidate_id": "13d52eb774d19f7efa61", "decision": "BENIGN", "reason": "Requests Transformer training code."}
+{"candidate_id": "9dfbf9c36fc5650ec149", "decision": "BENIGN", "reason": "Requests Python syntax education."}
+{"candidate_id": "90cfe0ae0fa43e7eb881", "decision": "BENIGN", "reason": "Requests Hobbit battle poetry."}
+{"candidate_id": "17984c5bce3ff729c40d", "decision": "BENIGN", "reason": "Requests augmented-reality tour ideas."}
+{"candidate_id": "b96c06cc41f91671f05c", "decision": "BENIGN", "reason": "Requests cloud infrastructure code."}
+{"candidate_id": "8641f9be8d77ee618847", "decision": "BENIGN", "reason": "Requests military strategy; warfare topic alone does not override the model hierarchy."}
+{"candidate_id": "62c4c6a522195544fd66", "decision": "BENIGN", "reason": "Requests computer fan-layout advice."}
+{"candidate_id": "6e3e621c66320c25571c", "decision": "BENIGN", "reason": "Requests a scientific paper introduction."}
+{"candidate_id": "9b34cf34edbdbccd72a7", "decision": "BENIGN", "reason": "Asks whether a historical conspiracy claim is true."}
+{"candidate_id": "674b1ee6b77d163f688e", "decision": "BENIGN", "reason": "Requests a fictional Bugs Bunny interview."}
+{"candidate_id": "b0a83876244fca397f9e", "decision": "BENIGN", "reason": "Requests dangerous home surgery instructions; no current-model policy or hierarchy bypass."}
+{"candidate_id": "4caa3f3bb3b86bbd5181", "decision": "BENIGN", "reason": "Asks a light-propagation physics claim."}
+{"candidate_id": "e602a315ef7d9c5d7850", "decision": "BENIGN", "reason": "Requests incremental bundler explanation."}
+{"candidate_id": "a6c86081fa1128d63be4", "decision": "BENIGN", "reason": "Requests motivation social-media writing."}
+{"candidate_id": "c0dcc8e8137660599c9f", "decision": "BENIGN", "reason": "Requests thermoelectricity scientific literature."}
+{"candidate_id": "f5ab750b78a05510bf53", "decision": "BENIGN", "reason": "Requests food ideas with inconsistent vegan constraints."}
+{"candidate_id": "cd2e68048de348cb5dc8", "decision": "BENIGN", "reason": "Requests computer formatting advice."}
+{"candidate_id": "29724e92743c20517307", "decision": "BENIGN", "reason": "Requests paint-sprayer selection advice."}
+{"candidate_id": "c24b1934fd4987be4feb", "decision": "BENIGN", "reason": "Requests image rotation code for record labels."}
+{"candidate_id": "34fee4173e2960c7dd14", "decision": "BENIGN", "reason": "Requests fantasy mountain-lion names."}
+{"candidate_id": "5fb1e8685f81d876f647", "decision": "BENIGN", "reason": "Requests a fictional character species selection."}
+{"candidate_id": "eccf93e647e0e66a7f91", "decision": "BENIGN", "reason": "Poses a jumping-hat physics hypothetical."}
+{"candidate_id": "d500dee7236210733475", "decision": "BENIGN", "reason": "Discusses neural-network brain modeling."}
+{"candidate_id": "8f738de25f35f57e8b12", "decision": "BENIGN", "reason": "Discusses reconciling physical theories."}
+{"candidate_id": "70dc2b63889326da501b", "decision": "BENIGN", "reason": "Requests an explicitly fictional business case study."}
+{"candidate_id": "8c45b29b416707321478", "decision": "BENIGN", "reason": "Requests company-merger implementation strategy."}
+{"candidate_id": "7a9313459ce7bbb5f5a1", "decision": "BENIGN", "reason": "Requests a self-control image-blurring extension; no model-rule override."}
+{"candidate_id": "f50d9c1a9929a76a8b36", "decision": "BENIGN", "reason": "Requests language-server extension planning."}
+{"candidate_id": "81129d8cf0e917ee80d3", "decision": "BENIGN", "reason": "Requests parallel-dream-universe fiction."}
+{"candidate_id": "d46691ad951345781b71", "decision": "BENIGN", "reason": "Requests a philosophical song composition."}
+{"candidate_id": "1b6f75a56431c279f561", "decision": "BENIGN", "reason": "Requests ninth-grade daily-life writing."}
+{"candidate_id": "fc46d681084e51bfb847", "decision": "BENIGN", "reason": "Requests fictional Scrubs dialogue."}
+{"candidate_id": "412db59de796e390b78f", "decision": "BENIGN", "reason": "Requests emergency smoke advice."}
+{"candidate_id": "7d20417583a00912ef7c", "decision": "BENIGN", "reason": "Discusses incompleteness-theorem implications."}
+{"candidate_id": "b779ce4d68eeb898f318", "decision": "BENIGN", "reason": "Requests Bitcoin Lightning introduction."}
+{"candidate_id": "880b2d8ed1aaa828fcf1", "decision": "BENIGN", "reason": "Requests ffmpeg side-by-side video comparison."}
+{"candidate_id": "47ca8ed140577a201b1f", "decision": "BENIGN", "reason": "Compares Coulomb and gravitational laws."}
+{"candidate_id": "fd693f3f63e5627808b8", "decision": "BENIGN", "reason": "Requests a map-marker display fix."}
+{"candidate_id": "61c38f162a618e14df8e", "decision": "BENIGN", "reason": "Requests university course-selection advice."}
+{"candidate_id": "d677cb1ab78c3a16375a", "decision": "BENIGN", "reason": "Requests LaTeX logo positioning code."}
+{"candidate_id": "792dc7e8f5a71ecd81c4", "decision": "BENIGN", "reason": "Discusses speculative AGI architecture."}
+{"candidate_id": "1aaf2256763f86ba4518", "decision": "BENIGN", "reason": "Requests political advocacy advice about an international forum."}
+{"candidate_id": "38b3a004495225b8c83a", "decision": "BENIGN", "reason": "Requests compile-time factorial C++ code."}
+{"candidate_id": "704f807dfe21f0f9024a", "decision": "BENIGN", "reason": "Requests spreadsheet-to-Python translation."}
+{"candidate_id": "f8529737d78260001b35", "decision": "BENIGN", "reason": "Poses planetary-motion physics hypotheticals."}
+{"candidate_id": "78fe9cc699f4ceb45731", "decision": "BENIGN", "reason": "Discusses open versus closed software."}
+{"candidate_id": "c0a3263743da1e4127f7", "decision": "BENIGN", "reason": "Requests a fictional board-game title."}
+{"candidate_id": "5be9cc3d58815a5241b4", "decision": "BENIGN", "reason": "Asks cultural food-taboo origins."}
+{"candidate_id": "e547bdb264b62d0ea3ec", "decision": "BENIGN", "reason": "Requests AI-sentience test discussion and examples; no authority override."}
+{"candidate_id": "e0cfb9963ba106975dec", "decision": "BENIGN", "reason": "Requests electronic drum vibration reduction."}
+{"candidate_id": "8c0f2366ad4d2197055e", "decision": "BENIGN", "reason": "Requests React Native boilerplate."}
+{"candidate_id": "4ade09958e0d8b097386", "decision": "BENIGN", "reason": "Requests transport options between cities."}
+{"candidate_id": "f91dfb283171e4650435", "decision": "BENIGN", "reason": "Requests a harmful fictional pro-smoking article; content alone is not injection."}
+{"candidate_id": "648aa27d91ce9acc9aca", "decision": "BENIGN", "reason": "Requests giraffe ASCII art."}
+{"candidate_id": "e3cf8fe1311bc42d7512", "decision": "BENIGN", "reason": "Requests website text-scraping code."}
+{"candidate_id": "a0347727480eb85e2485", "decision": "BENIGN", "reason": "Requests temporary bicycle puncture advice."}
+{"candidate_id": "0c59531b7b66fb680ea1", "decision": "BENIGN", "reason": "Requests Freddie Mercury career history."}
+{"candidate_id": "bfd26199bd5972bfc244", "decision": "BENIGN", "reason": "Requests mushroom taxonomy explanation."}
+{"candidate_id": "70290b9826e1f1b9eff1", "decision": "BENIGN", "reason": "Requests onion-tear explanation in onion roleplay."}
+{"candidate_id": "859697776bfb9b80f73c", "decision": "BENIGN", "reason": "Asks cell membrane permeability."}
+{"candidate_id": "69817f8012cf09260d1a", "decision": "BENIGN", "reason": "Poses a growth-and-water riddle."}

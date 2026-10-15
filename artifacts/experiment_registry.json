@@ -1,0 +1,1019 @@
+{
+  "version": 2,
+  "protocol": "corrected canonical leakage + independent semantic adjudication",
+  "experiments": [
+    {
+      "method": "baseline",
+      "seed": 13,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [],
+      "output_path": "./outputs\\provguard\\baseline\\seed_13",
+      "reused_existing": true,
+      "model_sha256": "d3a981a8c5f2654f700ad1dfdffa042da96f961403e1f3e5379274082044d054"
+    },
+    {
+      "method": "baseline",
+      "seed": 42,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [],
+      "output_path": "./outputs\\provguard\\baseline\\seed_42",
+      "reused_existing": true,
+      "model_sha256": "f8499eed045cd640190dd6a0f3fdfab216770c5b5d16bb93812ab6f2bef1b4a7"
+    },
+    {
+      "method": "baseline",
+      "seed": 123,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [],
+      "output_path": "./outputs\\provguard\\baseline\\seed_123",
+      "reused_existing": true,
+      "model_sha256": "d5d71f7c1074ea8b13fc29632de47233a5a254245d1b1bcb6e1f87e0d755cbe1"
+    },
+    {
+      "method": "baseline",
+      "seed": 2024,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [],
+      "output_path": "./outputs\\provguard\\baseline\\seed_2024",
+      "model_sha256": "8372f0c5bd029d0d1ad4ae3ac592afa8e0e76312910c624bb41b9655346dc883",
+      "reused_existing": true
+    },
+    {
+      "method": "baseline",
+      "seed": 7777,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "baseline",
+            "--seed",
+            "7777"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\baseline_seed_7777_20261012T202121Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\baseline\\seed_7777",
+      "log_path": "./outputs\\study_logs_v2\\baseline_seed_7777_20261012T202121Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "baseline",
+        "--seed",
+        "7777"
+      ],
+      "model_sha256": "894ac4184205967cde1c54f0cb4bedc9871f10a1f5f528f0a19d7d76974ecabf",
+      "reused_existing": true
+    },
+    {
+      "method": "curated",
+      "seed": 13,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "curated",
+            "--seed",
+            "13",
+            "--augment-train",
+            "./data\\provguard\\curated_hn.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\curated_seed_13_20261012T203803Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\curated\\seed_13",
+      "log_path": "./outputs\\study_logs_v2\\curated_seed_13_20261012T203803Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "curated",
+        "--seed",
+        "13",
+        "--augment-train",
+        "./data\\provguard\\curated_hn.csv"
+      ],
+      "model_sha256": "49772af604925e9cf6b81ec14066fd3b68981502f478a0018adc9d803486e6bd",
+      "reused_existing": true
+    },
+    {
+      "method": "curated",
+      "seed": 42,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "curated",
+            "--seed",
+            "42",
+            "--augment-train",
+            "./data\\provguard\\curated_hn.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\curated_seed_42_20261012T205359Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\curated\\seed_42",
+      "log_path": "./outputs\\study_logs_v2\\curated_seed_42_20261012T205359Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "curated",
+        "--seed",
+        "42",
+        "--augment-train",
+        "./data\\provguard\\curated_hn.csv"
+      ],
+      "model_sha256": "82a17b7bd7752c3535666d1d23521ee59225215ba275ed2a2a56491bba6cd7ae",
+      "reused_existing": true
+    },
+    {
+      "method": "curated",
+      "seed": 123,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [],
+      "output_path": "./outputs\\provguard\\curated\\seed_123",
+      "log_path": "./outputs\\study_logs_v2\\curated_seed_123_20261012T210955Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "curated",
+        "--seed",
+        "123",
+        "--augment-train",
+        "./data\\provguard\\curated_hn.csv"
+      ],
+      "model_sha256": "c81b9f0a22273c2d120ea6c22f21e5ca42594f74940c5085078a54f678f15fe4",
+      "reused_existing": true
+    },
+    {
+      "method": "curated",
+      "seed": 2024,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "curated",
+            "--seed",
+            "2024",
+            "--augment-train",
+            "./data\\provguard\\curated_hn.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\curated_seed_2024_20261012T212557Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\curated\\seed_2024",
+      "log_path": "./outputs\\study_logs_v2\\curated_seed_2024_20261012T212557Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "curated",
+        "--seed",
+        "2024",
+        "--augment-train",
+        "./data\\provguard\\curated_hn.csv"
+      ],
+      "model_sha256": "495338d2c0327f888582f243b870900df5709e393ffe4363cff857c481aac8cb",
+      "reused_existing": true
+    },
+    {
+      "method": "curated",
+      "seed": 7777,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "curated",
+            "--seed",
+            "7777",
+            "--augment-train",
+            "./data\\provguard\\curated_hn.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\curated_seed_7777_20261012T214156Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\curated\\seed_7777",
+      "log_path": "./outputs\\study_logs_v2\\curated_seed_7777_20261012T214156Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "curated",
+        "--seed",
+        "7777",
+        "--augment-train",
+        "./data\\provguard\\curated_hn.csv"
+      ],
+      "model_sha256": "b348713646edf64ff17a8619b109d83e958aa2fd0546026ee35f46bc2243ead9",
+      "reused_existing": true
+    },
+    {
+      "method": "random_real",
+      "seed": 13,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "random_real",
+            "--seed",
+            "13",
+            "--augment-train",
+            "./data\\provguard\\random_real_1000.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\random_real_seed_13_20261012T215802Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\random_real\\seed_13",
+      "log_path": "./outputs\\study_logs_v2\\random_real_seed_13_20261012T215802Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "random_real",
+        "--seed",
+        "13",
+        "--augment-train",
+        "./data\\provguard\\random_real_1000.csv"
+      ],
+      "model_sha256": "4d8fd27d505aed534b43f2a60af357d5174dcba72d6841b2029cebc740d6942c",
+      "reused_existing": true
+    },
+    {
+      "method": "random_real",
+      "seed": 42,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "random_real",
+            "--seed",
+            "42",
+            "--augment-train",
+            "./data\\provguard\\random_real_1000.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\random_real_seed_42_20261012T221422Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\random_real\\seed_42",
+      "log_path": "./outputs\\study_logs_v2\\random_real_seed_42_20261012T221422Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "random_real",
+        "--seed",
+        "42",
+        "--augment-train",
+        "./data\\provguard\\random_real_1000.csv"
+      ],
+      "model_sha256": "9a3b2429602dcf70986a82cbb62fc67ad83c1c4d99c2d2da7f0512cefdc64e45",
+      "reused_existing": true
+    },
+    {
+      "method": "random_real",
+      "seed": 123,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "random_real",
+            "--seed",
+            "123",
+            "--augment-train",
+            "./data\\provguard\\random_real_1000.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\random_real_seed_123_20261012T223041Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\random_real\\seed_123",
+      "log_path": "./outputs\\study_logs_v2\\random_real_seed_123_20261012T223041Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "random_real",
+        "--seed",
+        "123",
+        "--augment-train",
+        "./data\\provguard\\random_real_1000.csv"
+      ],
+      "model_sha256": "be712ac10cdf31c2eeadd66cfb7df4510333cd443674d71bb07e8d419dbed67e",
+      "reused_existing": true
+    },
+    {
+      "method": "random_real",
+      "seed": 2024,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "random_real",
+            "--seed",
+            "2024",
+            "--augment-train",
+            "./data\\provguard\\random_real_1000.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\random_real_seed_2024_20261012T224658Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\random_real\\seed_2024",
+      "log_path": "./outputs\\study_logs_v2\\random_real_seed_2024_20261012T224658Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "random_real",
+        "--seed",
+        "2024",
+        "--augment-train",
+        "./data\\provguard\\random_real_1000.csv"
+      ],
+      "model_sha256": "6214ae151df8a040aa48a5211f2b81acb6574be1bfe6018e21cdaf76e21c0340",
+      "reused_existing": true
+    },
+    {
+      "method": "random_real",
+      "seed": 7777,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "random_real",
+            "--seed",
+            "7777",
+            "--augment-train",
+            "./data\\provguard\\random_real_1000.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\random_real_seed_7777_20261012T230321Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\random_real\\seed_7777",
+      "log_path": "./outputs\\study_logs_v2\\random_real_seed_7777_20261012T230321Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "random_real",
+        "--seed",
+        "7777",
+        "--augment-train",
+        "./data\\provguard\\random_real_1000.csv"
+      ],
+      "model_sha256": "80d3ac48d94165b6ab613985a41d677497feb656c13c463ab092f442e6333ee5",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_1000",
+      "seed": 13,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_1000",
+            "--seed",
+            "13",
+            "--augment-train",
+            "./data\\provguard\\provguard_1000.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_1000_seed_13_20261012T231943Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_1000\\seed_13",
+      "log_path": "./outputs\\study_logs_v2\\provguard_1000_seed_13_20261012T231943Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_1000",
+        "--seed",
+        "13",
+        "--augment-train",
+        "./data\\provguard\\provguard_1000.csv"
+      ],
+      "model_sha256": "7fcd638f3b42e42e43bb4cf46a75f07a748cb540edec6fa45550323057bd5bf7",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_1000",
+      "seed": 42,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "archived_path": "./outputs\\failed_attempts\\provguard_1000\\seed_42_20261013T034451557081Z",
+          "reason": "No safe resumable checkpoint; old failure preserved.",
+          "at": "2026-10-13T03:44:51.562776+00:00"
+        },
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_1000",
+            "--seed",
+            "42",
+            "--augment-train",
+            "./data\\provguard\\provguard_1000.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_1000_seed_42_20261013T034451Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_1000\\seed_42",
+      "log_path": "./outputs\\study_logs_v2\\provguard_1000_seed_42_20261013T034451Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_1000",
+        "--seed",
+        "42",
+        "--augment-train",
+        "./data\\provguard\\provguard_1000.csv"
+      ],
+      "model_sha256": "90f15d0d5f91270cdaafbeab52443837d3fdd00ec96c8e19a3180b7e665f193d",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_1000",
+      "seed": 123,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_1000",
+            "--seed",
+            "123",
+            "--augment-train",
+            "./data\\provguard\\provguard_1000.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_1000_seed_123_20261013T040255Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_1000\\seed_123",
+      "log_path": "./outputs\\study_logs_v2\\provguard_1000_seed_123_20261013T040255Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_1000",
+        "--seed",
+        "123",
+        "--augment-train",
+        "./data\\provguard\\provguard_1000.csv"
+      ],
+      "model_sha256": "8b4c00dd6a6c4ff5efb136b26d16f07f28c09ed2be8bbb22f49f1b21c4f19202",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_1000",
+      "seed": 2024,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_1000",
+            "--seed",
+            "2024",
+            "--augment-train",
+            "./data\\provguard\\provguard_1000.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_1000_seed_2024_20261013T042130Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_1000\\seed_2024",
+      "log_path": "./outputs\\study_logs_v2\\provguard_1000_seed_2024_20261013T042130Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_1000",
+        "--seed",
+        "2024",
+        "--augment-train",
+        "./data\\provguard\\provguard_1000.csv"
+      ],
+      "model_sha256": "9baace2581f30acbd63402167cc0b1d67301de4d07a3af56436a8c15653b2ebf",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_1000",
+      "seed": 7777,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_1000",
+            "--seed",
+            "7777",
+            "--augment-train",
+            "./data\\provguard\\provguard_1000.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_1000_seed_7777_20261013T043942Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_1000\\seed_7777",
+      "log_path": "./outputs\\study_logs_v2\\provguard_1000_seed_7777_20261013T043942Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_1000",
+        "--seed",
+        "7777",
+        "--augment-train",
+        "./data\\provguard\\provguard_1000.csv"
+      ],
+      "model_sha256": "8e722c1f687fc90859885108b9f106c14e984498096364a686d2db69273f0c47",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_250",
+      "seed": 13,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_250",
+            "--seed",
+            "13",
+            "--augment-train",
+            "./data\\provguard\\provguard_250.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_250_seed_13_20261013T045753Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_250\\seed_13",
+      "log_path": "./outputs\\study_logs_v2\\provguard_250_seed_13_20261013T045753Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_250",
+        "--seed",
+        "13",
+        "--augment-train",
+        "./data\\provguard\\provguard_250.csv"
+      ],
+      "model_sha256": "4f575b423dab6d2aff929e905798ef83bb0ccac3c9df7fa99a711faf20d4c2b0",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_250",
+      "seed": 42,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_250",
+            "--seed",
+            "42",
+            "--augment-train",
+            "./data\\provguard\\provguard_250.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_250_seed_42_20261013T051531Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_250\\seed_42",
+      "log_path": "./outputs\\study_logs_v2\\provguard_250_seed_42_20261013T051531Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_250",
+        "--seed",
+        "42",
+        "--augment-train",
+        "./data\\provguard\\provguard_250.csv"
+      ],
+      "model_sha256": "cf53f3a9d269d3fbe84aef2ff1c264f4518c71ee94c3f56755bd5bb73526ec41",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_250",
+      "seed": 123,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_250",
+            "--seed",
+            "123",
+            "--augment-train",
+            "./data\\provguard\\provguard_250.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_250_seed_123_20261013T053311Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_250\\seed_123",
+      "log_path": "./outputs\\study_logs_v2\\provguard_250_seed_123_20261013T053311Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_250",
+        "--seed",
+        "123",
+        "--augment-train",
+        "./data\\provguard\\provguard_250.csv"
+      ],
+      "model_sha256": "b32393ad8a5648baab203ac4c2c54d8c275bfe220b5e2719dd4922c615a1ca45",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_250",
+      "seed": 2024,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_250",
+            "--seed",
+            "2024",
+            "--augment-train",
+            "./data\\provguard\\provguard_250.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_250_seed_2024_20261013T055052Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_250\\seed_2024",
+      "log_path": "./outputs\\study_logs_v2\\provguard_250_seed_2024_20261013T055052Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_250",
+        "--seed",
+        "2024",
+        "--augment-train",
+        "./data\\provguard\\provguard_250.csv"
+      ],
+      "model_sha256": "04b0d22287a62713d80da607a8dc33120928a41eec0e8a102dac29af5331458a",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_250",
+      "seed": 7777,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_250",
+            "--seed",
+            "7777",
+            "--augment-train",
+            "./data\\provguard\\provguard_250.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_250_seed_7777_20261013T060845Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_250\\seed_7777",
+      "log_path": "./outputs\\study_logs_v2\\provguard_250_seed_7777_20261013T060845Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_250",
+        "--seed",
+        "7777",
+        "--augment-train",
+        "./data\\provguard\\provguard_250.csv"
+      ],
+      "model_sha256": "ab17a190ddbb4f3a1acba728d405cbfe735b2d4e25fb8b687423b3d7e8850232",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_500",
+      "seed": 13,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_500",
+            "--seed",
+            "13",
+            "--augment-train",
+            "./data\\provguard\\provguard_500.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_500_seed_13_20261013T062624Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_500\\seed_13",
+      "log_path": "./outputs\\study_logs_v2\\provguard_500_seed_13_20261013T062624Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_500",
+        "--seed",
+        "13",
+        "--augment-train",
+        "./data\\provguard\\provguard_500.csv"
+      ],
+      "model_sha256": "87c83720443cd139fe3a1cc3f8a166a3c9b0c550a1d5d415ed4d1b0a64e3bfe1",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_500",
+      "seed": 42,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_500",
+            "--seed",
+            "42",
+            "--augment-train",
+            "./data\\provguard\\provguard_500.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_500_seed_42_20261013T064448Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_500\\seed_42",
+      "log_path": "./outputs\\study_logs_v2\\provguard_500_seed_42_20261013T064448Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_500",
+        "--seed",
+        "42",
+        "--augment-train",
+        "./data\\provguard\\provguard_500.csv"
+      ],
+      "model_sha256": "1a9b1cea639c5dc4f54de116dccc7ed4cef779d2508ac575c4bb494e96d1d2f2",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_500",
+      "seed": 123,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_500",
+            "--seed",
+            "123",
+            "--augment-train",
+            "./data\\provguard\\provguard_500.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_500_seed_123_20261013T070257Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_500\\seed_123",
+      "log_path": "./outputs\\study_logs_v2\\provguard_500_seed_123_20261013T070257Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_500",
+        "--seed",
+        "123",
+        "--augment-train",
+        "./data\\provguard\\provguard_500.csv"
+      ],
+      "model_sha256": "0a1354d8f74405938efcf79c3f2fdb4f8c68229b8357e9aa7e06e5c696ede17f",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_500",
+      "seed": 2024,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_500",
+            "--seed",
+            "2024",
+            "--augment-train",
+            "./data\\provguard\\provguard_500.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_500_seed_2024_20261013T072109Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_500\\seed_2024",
+      "log_path": "./outputs\\study_logs_v2\\provguard_500_seed_2024_20261013T072109Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_500",
+        "--seed",
+        "2024",
+        "--augment-train",
+        "./data\\provguard\\provguard_500.csv"
+      ],
+      "model_sha256": "70d734ff2708d67f1c4af5797a15d4398ff001ca5a9290c5e97bb2842da88c9a",
+      "reused_existing": true
+    },
+    {
+      "method": "provguard_500",
+      "seed": 7777,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_500",
+            "--seed",
+            "7777",
+            "--augment-train",
+            "./data\\provguard\\provguard_500.csv"
+          ],
+          "log_path": "./outputs\\study_logs_v2\\provguard_500_seed_7777_20261013T073920Z.log",
+          "returncode": 0
+        }
+      ],
+      "output_path": "./outputs\\provguard\\provguard_500\\seed_7777",
+      "log_path": "./outputs\\study_logs_v2\\provguard_500_seed_7777_20261013T073920Z.log",
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_500",
+        "--seed",
+        "7777",
+        "--augment-train",
+        "./data\\provguard\\provguard_500.csv"
+      ],
+      "model_sha256": "01401451a22473baee7505c841073033f56467efac0afc3b7c1c932e98470483",
+      "reused_existing": true
+    }
+  ]
+}

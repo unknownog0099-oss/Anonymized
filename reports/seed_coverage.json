@@ -1,0 +1,11 @@
+{
+  "completed_seeds": {
+    "baseline": [
+      13,
+      42,
+      123
+    ]
+  },
+  "matched_primary_seeds": [],
+  "warning": "Do not compare unequal seed coverage as a final controlled result."
+}

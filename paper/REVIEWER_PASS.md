@@ -1,0 +1,23 @@
+# Skeptical reviewer pass
+
+The paper was revised against the following objections. This is an automated editorial review, not external peer review or an acceptance prediction. References below name the final manuscript sections.
+
+| Objection | Response made explicit in the manuscript | Remaining limit |
+|---|---|---|
+| Is hard-negative mining itself novel? | Related Work cites established OHEM, PIGuard, CAPTURE, and PIDS-Bench. The contribution is a controlled, naturally occurring benign-data selection study. | No architectural or first-ever claim. |
+| Why is Random-Real insufficient? | Results C reports its substantial 7.31% external FPR improvement and the additional 3.08-pp ProvGuard reduction. | The extra gain is conditional on this external stress population. |
+| Why does curated augmentation win overall? | Results D reports its 5.87% aggregate FPR, versus 13.84% for ProvGuard, and decomposes the curated/external reversal. | Curated-HN differs in size and construction; ranking is not the sole causal contrast there. |
+| Is the aggregate curated-heavy? | Setup and every aggregate table state 600 curated + 208 external public texts. | This mixture is not deployment traffic prevalence. |
+| Was K chosen on the test set? | Method, Results E, Table III, and the ablation caption retain predefined K=1000 despite K=500's lower external point estimate. | Ablation comparisons are descriptive, not test-selected winners. |
+| Was the operating threshold tuned? | Every arm uses threshold 0.5 and original-validation-F1 checkpoint selection. | No calibration sweep or alternative-threshold generalization claim. |
+| Could augmentation overlap evaluation? | Method B discloses one canonical, persisted char-boundary 3--5 TF-IDF index and the 0.90 lexical cutoff; deep audit independently reloads it. | Available evaluation text is seen by unsupervised exclusion features; semantic independence cannot be guaranteed. Original upstream splits are retained. |
+| Are mined prompts actually benign? | Method C specifies full-text operational-intent adjudication by two separately instantiated automated reviewers, with both BENIGN required. Ranked-order visibility and correlated errors are disclosed. | No human ground truth or known exact serving-model identifier; the 172-row human queue remains unreviewed. |
+| Is generic real augmentation already enough? | Introduction and Results C acknowledge that it explains much of the baseline-to-ProvGuard improvement. | The measured incremental gain is smaller than the provenance adaptation gain. |
+| Does the method harm attack detection? | Table I and Results B give all five-seed IID/obfuscated recalls and conditional paired-seed preservation intervals. | Preservation is on these fixed attack sets, not unknown future attack populations. |
+| Is the result stable across seeds? | Five seeds per required arm; means, sample SDs, and shared-prompt/paired-seed crossed bootstrap. Every external paired seed difference favors ProvGuard. | Five seeds, one selector ensemble, and one random augmentation draw give limited uncertainty coverage. |
+| Why only 208 external texts? | Setup and Limitations distinguish 808 accessible HB texts from 1472 released records, excluding 664 withheld LMSYS texts. | No inference to the unavailable LMSYS population. |
+| Does a structural FPR gain hide another cost? | Results F and Table I explicitly report domain-OOD F1 decreasing from 0.9033 to 0.8839; FPR is identified as benign-side behavior. | No universal OOD or unseen-transform robustness claim. |
+| Does it generalize beyond DistilBERT? | Limitations state that the optional architecture attempt failed technically. Six completed source-augmentation checks are explicitly descriptive and keep original PIDS training. | No architecture-transfer or fully held-out-corpus result. |
+| Are any inferential claims unsupported? | Results C retains the joint novelty verdict as inconclusive: the aggregate random comparison CI crosses zero. Table II calls all aggregate CIs pointwise and unadjusted. | External endpoint support is not a multiplicity-adjusted global superiority result. |
+
+Additional editorial corrections: all interim evidence was replaced; provenance and operational labels were separated from content safety; near-duplicate filtering was described as lexical rather than semantic; the selector-score ECDF is described as a manipulation check; 20.8 newly introduced HB false positives per seed are disclosed alongside 245.0 fixed ones; figures use consistent colors and grayscale-distinguishable patterns/markers; the graphical abstract uses a verified released curated example and explicitly identifies its provenance.

@@ -1,0 +1,15 @@
+{
+  "augmentation_sha256": "4992576820850edde02f63f3e3809af3290104fefeeac119f6bba1a0dfcf1137",
+  "scored_sha256": "cbf3af4271da4385fbcd3a256181511c38393d37b2ad6a17e8e74ee027840b60",
+  "selector_seeds": [
+    13,
+    42,
+    123
+  ],
+  "selector_model_sha256": {
+    "13": "d3a981a8c5f2654f700ad1dfdffa042da96f961403e1f3e5379274082044d054",
+    "42": "f8499eed045cd640190dd6a0f3fdfab216770c5b5d16bb93812ab6f2bef1b4a7",
+    "123": "d5d71f7c1074ea8b13fc29632de47233a5a254245d1b1bcb6e1f87e0d755cbe1"
+  },
+  "purpose": "post-selection hardness diagnostic only; does not select or alter curated augmentation"
+}

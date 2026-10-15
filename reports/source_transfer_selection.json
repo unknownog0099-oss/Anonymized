@@ -1,0 +1,18 @@
+{
+  "K_per_source": 250,
+  "seeds": [
+    13,
+    42,
+    123
+  ],
+  "selection": "highest-ranked original paired-semantic-approved ProvGuard rows within each source; equal K=250 chosen before source-isolated outcomes, not from test FPR",
+  "evaluation_n": {
+    "dolly": 68,
+    "oasst1": 140
+  },
+  "augmentation_sha256": {
+    "dolly": "958192ca6f19a642bf83040f29e1bb0b70f530d729484583292d890dd3989f9c",
+    "oasst1": "1266ba6b7dbeb70ae7448daab68b13d715cc52fcfe3f547390a6016d3a96c28d"
+  },
+  "semantic_review_sha256": "5b0466ffec38fb5ae62df4cf852b3f9d6ed1ef25aac2af496b3aa088edc72768"
+}

@@ -1,0 +1,1100 @@
+[
+  {
+    "macro": "BaseIID",
+    "value": 0.9814566747886746,
+    "display": "0.9815",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "baseline/iid_f1_mean"
+  },
+  {
+    "macro": "BaseIIDPct",
+    "value": 98.14566747886747,
+    "display": "98.15",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * baseline/iid_f1_mean"
+  },
+  {
+    "macro": "BaseRec",
+    "value": 0.9871497584541062,
+    "display": "0.9871",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "baseline/iid_recall_mean"
+  },
+  {
+    "macro": "BaseRecPct",
+    "value": 98.71497584541062,
+    "display": "98.71",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * baseline/iid_recall_mean"
+  },
+  {
+    "macro": "BaseHB",
+    "value": 0.4158415841584159,
+    "display": "0.4158",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "baseline/hard_benign_fpr_mean"
+  },
+  {
+    "macro": "BaseHBPct",
+    "value": 41.584158415841586,
+    "display": "41.58",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * baseline/hard_benign_fpr_mean"
+  },
+  {
+    "macro": "BaseExt",
+    "value": 0.2067307692307692,
+    "display": "0.2067",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "baseline/external_hb_fpr_mean"
+  },
+  {
+    "macro": "BaseExtPct",
+    "value": 20.67307692307692,
+    "display": "20.67",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * baseline/external_hb_fpr_mean"
+  },
+  {
+    "macro": "BaseObf",
+    "value": 0.985679012345679,
+    "display": "0.9857",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "baseline/obfuscated_recall_mean"
+  },
+  {
+    "macro": "BaseObfPct",
+    "value": 98.5679012345679,
+    "display": "98.57",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * baseline/obfuscated_recall_mean"
+  },
+  {
+    "macro": "BaseDom",
+    "value": 0.9033427901821935,
+    "display": "0.9033",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "baseline/domain_ood_f1_mean"
+  },
+  {
+    "macro": "BaseDomPct",
+    "value": 90.33427901821935,
+    "display": "90.33",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * baseline/domain_ood_f1_mean"
+  },
+  {
+    "macro": "BaseStruct",
+    "value": 0.7747747747747749,
+    "display": "0.7748",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "baseline/structural_ood_fpr_mean"
+  },
+  {
+    "macro": "BaseStructPct",
+    "value": 77.47747747747749,
+    "display": "77.48",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * baseline/structural_ood_fpr_mean"
+  },
+  {
+    "macro": "CurIID",
+    "value": 0.9827704612458196,
+    "display": "0.9828",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "curated/iid_f1_mean"
+  },
+  {
+    "macro": "CurIIDPct",
+    "value": 98.27704612458196,
+    "display": "98.28",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * curated/iid_f1_mean"
+  },
+  {
+    "macro": "CurRec",
+    "value": 0.9891787439613526,
+    "display": "0.9892",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "curated/iid_recall_mean"
+  },
+  {
+    "macro": "CurRecPct",
+    "value": 98.91787439613526,
+    "display": "98.92",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * curated/iid_recall_mean"
+  },
+  {
+    "macro": "CurHB",
+    "value": 0.0586633663366336,
+    "display": "0.0587",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "curated/hard_benign_fpr_mean"
+  },
+  {
+    "macro": "CurHBPct",
+    "value": 5.86633663366336,
+    "display": "5.87",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * curated/hard_benign_fpr_mean"
+  },
+  {
+    "macro": "CurExt",
+    "value": 0.1846153846153846,
+    "display": "0.1846",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "curated/external_hb_fpr_mean"
+  },
+  {
+    "macro": "CurExtPct",
+    "value": 18.46153846153846,
+    "display": "18.46",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * curated/external_hb_fpr_mean"
+  },
+  {
+    "macro": "CurObf",
+    "value": 0.9920987654320989,
+    "display": "0.9921",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "curated/obfuscated_recall_mean"
+  },
+  {
+    "macro": "CurObfPct",
+    "value": 99.20987654320989,
+    "display": "99.21",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * curated/obfuscated_recall_mean"
+  },
+  {
+    "macro": "CurDom",
+    "value": 0.9131388194664296,
+    "display": "0.9131",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "curated/domain_ood_f1_mean"
+  },
+  {
+    "macro": "CurDomPct",
+    "value": 91.31388194664297,
+    "display": "91.31",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * curated/domain_ood_f1_mean"
+  },
+  {
+    "macro": "CurStruct",
+    "value": 0.5359359359359359,
+    "display": "0.5359",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "curated/structural_ood_fpr_mean"
+  },
+  {
+    "macro": "CurStructPct",
+    "value": 53.59359359359359,
+    "display": "53.59",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * curated/structural_ood_fpr_mean"
+  },
+  {
+    "macro": "RandIID",
+    "value": 0.9839739866709212,
+    "display": "0.9840",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "random_real/iid_f1_mean"
+  },
+  {
+    "macro": "RandIIDPct",
+    "value": 98.39739866709212,
+    "display": "98.40",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * random_real/iid_f1_mean"
+  },
+  {
+    "macro": "RandRec",
+    "value": 0.987729468599034,
+    "display": "0.9877",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "random_real/iid_recall_mean"
+  },
+  {
+    "macro": "RandRecPct",
+    "value": 98.7729468599034,
+    "display": "98.77",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * random_real/iid_recall_mean"
+  },
+  {
+    "macro": "RandHB",
+    "value": 0.2014851485148515,
+    "display": "0.2015",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "random_real/hard_benign_fpr_mean"
+  },
+  {
+    "macro": "RandHBPct",
+    "value": 20.14851485148515,
+    "display": "20.15",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * random_real/hard_benign_fpr_mean"
+  },
+  {
+    "macro": "RandExt",
+    "value": 0.073076923076923,
+    "display": "0.0731",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "random_real/external_hb_fpr_mean"
+  },
+  {
+    "macro": "RandExtPct",
+    "value": 7.3076923076922995,
+    "display": "7.31",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * random_real/external_hb_fpr_mean"
+  },
+  {
+    "macro": "RandObf",
+    "value": 0.9891358024691356,
+    "display": "0.9891",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "random_real/obfuscated_recall_mean"
+  },
+  {
+    "macro": "RandObfPct",
+    "value": 98.91358024691355,
+    "display": "98.91",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * random_real/obfuscated_recall_mean"
+  },
+  {
+    "macro": "RandDom",
+    "value": 0.8898724756890173,
+    "display": "0.8899",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "random_real/domain_ood_f1_mean"
+  },
+  {
+    "macro": "RandDomPct",
+    "value": 88.98724756890172,
+    "display": "88.99",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * random_real/domain_ood_f1_mean"
+  },
+  {
+    "macro": "RandStruct",
+    "value": 0.4356356356356355,
+    "display": "0.4356",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "random_real/structural_ood_fpr_mean"
+  },
+  {
+    "macro": "RandStructPct",
+    "value": 43.56356356356355,
+    "display": "43.56",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * random_real/structural_ood_fpr_mean"
+  },
+  {
+    "macro": "PGIID",
+    "value": 0.9826359321855016,
+    "display": "0.9826",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "provguard_1000/iid_f1_mean"
+  },
+  {
+    "macro": "PGIIDPct",
+    "value": 98.26359321855016,
+    "display": "98.26",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * provguard_1000/iid_f1_mean"
+  },
+  {
+    "macro": "PGRec",
+    "value": 0.9868599033816424,
+    "display": "0.9869",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "provguard_1000/iid_recall_mean"
+  },
+  {
+    "macro": "PGRecPct",
+    "value": 98.68599033816425,
+    "display": "98.69",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * provguard_1000/iid_recall_mean"
+  },
+  {
+    "macro": "PGHB",
+    "value": 0.1383663366336633,
+    "display": "0.1384",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "provguard_1000/hard_benign_fpr_mean"
+  },
+  {
+    "macro": "PGHBPct",
+    "value": 13.83663366336633,
+    "display": "13.84",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * provguard_1000/hard_benign_fpr_mean"
+  },
+  {
+    "macro": "PGExt",
+    "value": 0.0423076923076923,
+    "display": "0.0423",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "provguard_1000/external_hb_fpr_mean"
+  },
+  {
+    "macro": "PGExtPct",
+    "value": 4.23076923076923,
+    "display": "4.23",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * provguard_1000/external_hb_fpr_mean"
+  },
+  {
+    "macro": "PGObf",
+    "value": 0.9876543209876544,
+    "display": "0.9877",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "provguard_1000/obfuscated_recall_mean"
+  },
+  {
+    "macro": "PGObfPct",
+    "value": 98.76543209876544,
+    "display": "98.77",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * provguard_1000/obfuscated_recall_mean"
+  },
+  {
+    "macro": "PGDom",
+    "value": 0.8838949737437785,
+    "display": "0.8839",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "provguard_1000/domain_ood_f1_mean"
+  },
+  {
+    "macro": "PGDomPct",
+    "value": 88.38949737437784,
+    "display": "88.39",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * provguard_1000/domain_ood_f1_mean"
+  },
+  {
+    "macro": "PGStruct",
+    "value": 0.3753753753753753,
+    "display": "0.3754",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "provguard_1000/structural_ood_fpr_mean"
+  },
+  {
+    "macro": "PGStructPct",
+    "value": 37.53753753753753,
+    "display": "37.54",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "100 * provguard_1000/structural_ood_fpr_mean"
+  },
+  {
+    "macro": "CurCuratedFPR",
+    "value": 0.015,
+    "display": "0.0150",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "curated/curated_hb_fpr_mean"
+  },
+  {
+    "macro": "PGCuratedFPR",
+    "value": 0.1716666666666667,
+    "display": "0.1717",
+    "source": "reports/PRIMARY_RESULTS.csv",
+    "expression": "provguard_1000/curated_hb_fpr_mean"
+  },
+  {
+    "macro": "BaseHBDropPP",
+    "value": 27.74752475247525,
+    "display": "27.75",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "baseline/hard_benign absolute delta * 100"
+  },
+  {
+    "macro": "BaseHBDropRel",
+    "value": 66.72619047619047,
+    "display": "66.7",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "baseline/hard_benign relative delta * 100"
+  },
+  {
+    "macro": "BaseExtDropPP",
+    "value": 16.44230769230769,
+    "display": "16.44",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "baseline/external_hb absolute delta * 100"
+  },
+  {
+    "macro": "BaseExtDropRel",
+    "value": 79.53488372093022,
+    "display": "79.5",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "baseline/external_hb relative delta * 100"
+  },
+  {
+    "macro": "BaseIIDChangePP",
+    "value": 0.11792573968270001,
+    "display": "+0.12",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "baseline/iid_f1 change * 100"
+  },
+  {
+    "macro": "BaseRecChangePP",
+    "value": -0.02898550724637,
+    "display": "-0.03",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "baseline/iid_recall change * 100"
+  },
+  {
+    "macro": "BaseDomChangePP",
+    "value": -1.9447816438414998,
+    "display": "-1.94",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "baseline/domain_ood_f1 change * 100"
+  },
+  {
+    "macro": "BaseStructChangePP",
+    "value": -39.93993993993995,
+    "display": "-39.94",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "baseline/structural_ood_fpr change * 100"
+  },
+  {
+    "macro": "RandHBDropPP",
+    "value": 6.311881188118811,
+    "display": "6.31",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "random_real/hard_benign absolute delta * 100"
+  },
+  {
+    "macro": "RandHBDropRel",
+    "value": 31.32678132678134,
+    "display": "31.3",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "random_real/hard_benign relative delta * 100"
+  },
+  {
+    "macro": "RandExtDropPP",
+    "value": 3.07692307692307,
+    "display": "3.08",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "random_real/external_hb absolute delta * 100"
+  },
+  {
+    "macro": "RandExtDropRel",
+    "value": 42.10526315789472,
+    "display": "42.1",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "random_real/external_hb relative delta * 100"
+  },
+  {
+    "macro": "RandIIDChangePP",
+    "value": -0.13380544854194,
+    "display": "-0.13",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "random_real/iid_f1 change * 100"
+  },
+  {
+    "macro": "RandRecChangePP",
+    "value": -0.08695652173913,
+    "display": "-0.09",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "random_real/iid_recall change * 100"
+  },
+  {
+    "macro": "RandDomChangePP",
+    "value": -0.59775019452388,
+    "display": "-0.60",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "random_real/domain_ood_f1 change * 100"
+  },
+  {
+    "macro": "RandStructChangePP",
+    "value": -6.0260260260260194,
+    "display": "-6.03",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "random_real/structural_ood_fpr change * 100"
+  },
+  {
+    "macro": "CurHBDropPP",
+    "value": -7.97029702970296,
+    "display": "-7.97",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "curated/hard_benign absolute delta * 100"
+  },
+  {
+    "macro": "CurHBDropRel",
+    "value": -135.86497890295357,
+    "display": "-135.9",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "curated/hard_benign relative delta * 100"
+  },
+  {
+    "macro": "CurExtDropPP",
+    "value": 14.23076923076923,
+    "display": "14.23",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "curated/external_hb absolute delta * 100"
+  },
+  {
+    "macro": "CurExtDropRel",
+    "value": 77.08333333333333,
+    "display": "77.1",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "curated/external_hb relative delta * 100"
+  },
+  {
+    "macro": "CurIIDChangePP",
+    "value": -0.0134529060318,
+    "display": "-0.01",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "curated/iid_f1 change * 100"
+  },
+  {
+    "macro": "CurRecChangePP",
+    "value": -0.23188405797101003,
+    "display": "-0.23",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "curated/iid_recall change * 100"
+  },
+  {
+    "macro": "CurDomChangePP",
+    "value": -2.92438457226511,
+    "display": "-2.92",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "curated/domain_ood_f1 change * 100"
+  },
+  {
+    "macro": "CurStructChangePP",
+    "value": -16.05605605605605,
+    "display": "-16.06",
+    "source": "reports/COMPARISON_RESULTS.csv",
+    "expression": "curated/structural_ood_fpr change * 100"
+  },
+  {
+    "macro": "BaseHBCI",
+    "value": [
+      0.2007425742574257,
+      0.3512376237623762
+    ],
+    "display": "[0.2007,\\,0.3512]",
+    "source": "reports/STATISTICAL_RESULTS.csv",
+    "expression": "baseline vs provguard_1000/usable_hard_benign/AGGREGATE 95% CI"
+  },
+  {
+    "macro": "BaseExtCI",
+    "value": [
+      0.1173076923076923,
+      0.2144230769230769
+    ],
+    "display": "[0.1173,\\,0.2144]",
+    "source": "reports/STATISTICAL_RESULTS.csv",
+    "expression": "baseline vs provguard_1000/external_hard_benign/AGGREGATE 95% CI"
+  },
+  {
+    "macro": "RandHBCI",
+    "value": [
+      -0.0049504950495049,
+      0.1408415841584158
+    ],
+    "display": "[-0.0050,\\,0.1408]",
+    "source": "reports/STATISTICAL_RESULTS.csv",
+    "expression": "random_real vs provguard_1000/usable_hard_benign/AGGREGATE 95% CI"
+  },
+  {
+    "macro": "RandExtCI",
+    "value": [
+      0.0096153846153846,
+      0.0548076923076923
+    ],
+    "display": "[0.0096,\\,0.0548]",
+    "source": "reports/STATISTICAL_RESULTS.csv",
+    "expression": "random_real vs provguard_1000/external_hard_benign/AGGREGATE 95% CI"
+  },
+  {
+    "macro": "CurHBCI",
+    "value": [
+      -0.1267326732673267,
+      -0.0378712871287128
+    ],
+    "display": "[-0.1267,\\,-0.0379]",
+    "source": "reports/STATISTICAL_RESULTS.csv",
+    "expression": "curated vs provguard_1000/usable_hard_benign/AGGREGATE 95% CI"
+  },
+  {
+    "macro": "CurExtCI",
+    "value": [
+      0.0932692307692307,
+      0.1932692307692307
+    ],
+    "display": "[0.0933,\\,0.1933]",
+    "source": "reports/STATISTICAL_RESULTS.csv",
+    "expression": "curated vs provguard_1000/external_hard_benign/AGGREGATE 95% CI"
+  },
+  {
+    "macro": "PreserveIIDCI",
+    "value": [
+      -0.000594303579554789,
+      0.0033331857594577794
+    ],
+    "display": "[-0.0006,\\,0.0033]",
+    "source": "reports/hypothesis_verdicts.json",
+    "expression": "attack_preservation/iid_f1 paired-seed CI"
+  },
+  {
+    "macro": "PreserveRecCI",
+    "value": [
+      -0.0035748792270531293,
+      0.004347826086956519
+    ],
+    "display": "[-0.0036,\\,0.0043]",
+    "source": "reports/hypothesis_verdicts.json",
+    "expression": "attack_preservation/iid_recall paired-seed CI"
+  },
+  {
+    "macro": "PreserveObfCI",
+    "value": [
+      -0.005925925925925934,
+      0.014814814814814791
+    ],
+    "display": "[-0.0059,\\,0.0148]",
+    "source": "reports/hypothesis_verdicts.json",
+    "expression": "attack_preservation/obfuscated_recall paired-seed CI"
+  },
+  {
+    "macro": "NTrain",
+    "value": 27093.0,
+    "display": "27093",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NTrain"
+  },
+  {
+    "macro": "NVal",
+    "value": 3989.0,
+    "display": "3989",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NVal"
+  },
+  {
+    "macro": "NIID",
+    "value": 3918.0,
+    "display": "3918",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NIID"
+  },
+  {
+    "macro": "NHB",
+    "value": 808.0,
+    "display": "808",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NHB"
+  },
+  {
+    "macro": "NReleasedHB",
+    "value": 1472.0,
+    "display": "1472",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NReleasedHB"
+  },
+  {
+    "macro": "NWithheld",
+    "value": 664.0,
+    "display": "664",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NWithheld"
+  },
+  {
+    "macro": "NObf",
+    "value": 405.0,
+    "display": "405",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NObf"
+  },
+  {
+    "macro": "NDomain",
+    "value": 2000.0,
+    "display": "2000",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NDomain"
+  },
+  {
+    "macro": "NStruct",
+    "value": 1998.0,
+    "display": "1998",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NStruct"
+  },
+  {
+    "macro": "NCandidatesBefore",
+    "value": 17535.0,
+    "display": "17535",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NCandidatesBefore"
+  },
+  {
+    "macro": "NCandidates",
+    "value": 17400.0,
+    "display": "17400",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NCandidates"
+  },
+  {
+    "macro": "NExactRemoved",
+    "value": 117.0,
+    "display": "117",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NExactRemoved"
+  },
+  {
+    "macro": "NNearRemoved",
+    "value": 18.0,
+    "display": "18",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NNearRemoved"
+  },
+  {
+    "macro": "NCurAug",
+    "value": 343.0,
+    "display": "343",
+    "source": "reports/canonical_leakage_audit.json",
+    "expression": "NCurAug"
+  },
+  {
+    "macro": "NReviewed",
+    "value": 2927.0,
+    "display": "2927",
+    "source": "reports/semantic_adjudication_audit.json",
+    "expression": "NReviewed"
+  },
+  {
+    "macro": "NApproved",
+    "value": 2923.0,
+    "display": "2923",
+    "source": "reports/semantic_adjudication_audit.json",
+    "expression": "NApproved"
+  },
+  {
+    "macro": "NRejected",
+    "value": 3.0,
+    "display": "3",
+    "source": "reports/semantic_adjudication_audit.json",
+    "expression": "NRejected"
+  },
+  {
+    "macro": "NAmbiguous",
+    "value": 1.0,
+    "display": "1",
+    "source": "reports/semantic_adjudication_audit.json",
+    "expression": "NAmbiguous"
+  },
+  {
+    "macro": "NDollySelected",
+    "value": 429.0,
+    "display": "429",
+    "source": "reports/candidate_selection_audit.json",
+    "expression": "NDollySelected"
+  },
+  {
+    "macro": "NOasstSelected",
+    "value": 571.0,
+    "display": "571",
+    "source": "reports/candidate_selection_audit.json",
+    "expression": "NOasstSelected"
+  },
+  {
+    "macro": "NOverlap",
+    "value": 213.0,
+    "display": "213",
+    "source": "reports/candidate_selection_audit.json",
+    "expression": "NOverlap"
+  },
+  {
+    "macro": "NLastRank",
+    "value": 1004.0,
+    "display": "1004",
+    "source": "reports/candidate_selection_audit.json",
+    "expression": "NLastRank"
+  },
+  {
+    "macro": "NExternal",
+    "value": 208.0,
+    "display": "208",
+    "source": "upstream/data/pids_bench_v3/eval_subsets/hard_benign_test.csv",
+    "expression": "usable source dolly/oasst1"
+  },
+  {
+    "macro": "NCuratedHB",
+    "value": 600.0,
+    "display": "600",
+    "source": "upstream/data/pids_bench_v3/eval_subsets/hard_benign_test.csv",
+    "expression": "usable non-external rows"
+  },
+  {
+    "macro": "PrimaryK",
+    "value": 1000.0,
+    "display": "1000",
+    "source": "configs/protocol.json",
+    "expression": "primary_k"
+  },
+  {
+    "macro": "NSeeds",
+    "value": 5.0,
+    "display": "5",
+    "source": "configs/protocol.json",
+    "expression": "len(seeds)"
+  },
+  {
+    "macro": "NSelectors",
+    "value": 3.0,
+    "display": "3",
+    "source": "configs/protocol.json",
+    "expression": "len(selector_seeds)"
+  },
+  {
+    "macro": "MinChars",
+    "value": 20.0,
+    "display": "20",
+    "source": "configs/protocol.json",
+    "expression": "candidate_min_chars"
+  },
+  {
+    "macro": "NEpochs",
+    "value": 2.0,
+    "display": "2",
+    "source": "configs/protocol.json",
+    "expression": "epochs"
+  },
+  {
+    "macro": "NBatch",
+    "value": 16.0,
+    "display": "16",
+    "source": "configs/protocol.json",
+    "expression": "batch_size"
+  },
+  {
+    "macro": "MaxLength",
+    "value": 256.0,
+    "display": "256",
+    "source": "configs/protocol.json",
+    "expression": "max_length"
+  },
+  {
+    "macro": "NRuns",
+    "value": 30.0,
+    "display": "30",
+    "source": "artifacts/experiment_registry.json",
+    "expression": "count verified COMPLETED rows"
+  },
+  {
+    "macro": "Threshold",
+    "value": 0.5,
+    "display": "0.5",
+    "source": "configs/protocol.json",
+    "expression": "threshold"
+  },
+  {
+    "macro": "LeakThreshold",
+    "value": 0.9,
+    "display": "0.90",
+    "source": "configs/protocol.json",
+    "expression": "near_duplicate_threshold"
+  },
+  {
+    "macro": "WeightDecay",
+    "value": 0.01,
+    "display": "0.01",
+    "source": "configs/protocol.json",
+    "expression": "weight_decay"
+  },
+  {
+    "macro": "MaxGradNorm",
+    "value": 1.0,
+    "display": "1.0",
+    "source": "configs/protocol.json",
+    "expression": "max_gradient_norm"
+  },
+  {
+    "macro": "BootstrapN",
+    "value": 10000.0,
+    "display": "10000",
+    "source": "reports/STATISTICAL_RESULTS.csv",
+    "expression": "bootstrap_repetitions"
+  },
+  {
+    "macro": "HardPGMean",
+    "value": 0.198910106357632,
+    "display": "0.198910",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "provguard_1000/mean"
+  },
+  {
+    "macro": "HardPGMedian",
+    "value": 0.0167378171366483,
+    "display": "0.016738",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "provguard_1000/median"
+  },
+  {
+    "macro": "HardPGQThree",
+    "value": 0.3307593522670989,
+    "display": "0.330759",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "provguard_1000/q3"
+  },
+  {
+    "macro": "HardPGFlagN",
+    "value": 172.0,
+    "display": "172",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "provguard_1000/n_above_0.5"
+  },
+  {
+    "macro": "HardRandMean",
+    "value": 0.0584244017154365,
+    "display": "0.058424",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "random_real_1000/mean"
+  },
+  {
+    "macro": "HardRandMedian",
+    "value": 0.0009029272635718,
+    "display": "0.000903",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "random_real_1000/median"
+  },
+  {
+    "macro": "HardRandQThree",
+    "value": 0.0037132921640173,
+    "display": "0.003713",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "random_real_1000/q3"
+  },
+  {
+    "macro": "HardRandFlagN",
+    "value": 53.0,
+    "display": "53",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "random_real_1000/n_above_0.5"
+  },
+  {
+    "macro": "HardCurMean",
+    "value": 0.4931975858218934,
+    "display": "0.493198",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "curated/mean"
+  },
+  {
+    "macro": "HardCurMedian",
+    "value": 0.6515227395575494,
+    "display": "0.651523",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "curated/median"
+  },
+  {
+    "macro": "HardCurQThree",
+    "value": 0.6709246953638892,
+    "display": "0.670925",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "curated/q3"
+  },
+  {
+    "macro": "HardCurFlagN",
+    "value": 195.0,
+    "display": "195",
+    "source": "reports/HARDNESS_ANALYSIS.csv",
+    "expression": "curated/n_above_0.5"
+  },
+  {
+    "macro": "KSmallHBPct",
+    "value": 12.4009900990099,
+    "display": "12.40",
+    "source": "reports/ABLATION_RESULTS.csv",
+    "expression": "provguard_250/hard_benign_fpr_mean * 100"
+  },
+  {
+    "macro": "KSmallExtPct",
+    "value": 5.38461538461538,
+    "display": "5.38",
+    "source": "reports/ABLATION_RESULTS.csv",
+    "expression": "provguard_250/external_hb_fpr_mean * 100"
+  },
+  {
+    "macro": "KMediumHBPct",
+    "value": 16.88118811881188,
+    "display": "16.88",
+    "source": "reports/ABLATION_RESULTS.csv",
+    "expression": "provguard_500/hard_benign_fpr_mean * 100"
+  },
+  {
+    "macro": "KMediumExtPct",
+    "value": 3.4615384615384603,
+    "display": "3.46",
+    "source": "reports/ABLATION_RESULTS.csv",
+    "expression": "provguard_500/external_hb_fpr_mean * 100"
+  },
+  {
+    "macro": "SourceDollyDollyFPR",
+    "value": 0.0,
+    "display": "0.0000",
+    "source": "reports/SECONDARY_RESULTS.csv",
+    "expression": "provguard_dolly_250/dolly_fpr mean"
+  },
+  {
+    "macro": "SourceDollyOasstFPR",
+    "value": 0.20952380952380945,
+    "display": "0.2095",
+    "source": "reports/SECONDARY_RESULTS.csv",
+    "expression": "provguard_dolly_250/oasst1_fpr mean"
+  },
+  {
+    "macro": "SourceOasstDollyFPR",
+    "value": 0.019607843137254832,
+    "display": "0.0196",
+    "source": "reports/SECONDARY_RESULTS.csv",
+    "expression": "provguard_oasst1_250/dolly_fpr mean"
+  },
+  {
+    "macro": "SourceOasstOasstFPR",
+    "value": 0.06190476190476187,
+    "display": "0.0619",
+    "source": "reports/SECONDARY_RESULTS.csv",
+    "expression": "provguard_oasst1_250/oasst1_fpr mean"
+  },
+  {
+    "macro": "SourceSeedN",
+    "value": 3.0,
+    "display": "3",
+    "source": "reports/SECONDARY_RESULTS.csv",
+    "expression": "source arm seed_n"
+  },
+  {
+    "macro": "NDollyExternal",
+    "value": 68.0,
+    "display": "68",
+    "source": "reports/SECONDARY_RESULTS.csv",
+    "expression": "dolly_n"
+  },
+  {
+    "macro": "NOasstExternal",
+    "value": 140.0,
+    "display": "140",
+    "source": "reports/SECONDARY_RESULTS.csv",
+    "expression": "oasst1_n"
+  },
+  {
+    "macro": "FixedFP",
+    "value": 245.0,
+    "display": "245.0",
+    "source": "reports/ERROR_TRANSITIONS.csv",
+    "expression": "FP_FIXED mean count per seed"
+  },
+  {
+    "macro": "NewFP",
+    "value": 20.8,
+    "display": "20.8",
+    "source": "reports/ERROR_TRANSITIONS.csv",
+    "expression": "NEW_FP mean count per seed"
+  }
+]

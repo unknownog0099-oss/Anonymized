@@ -1,0 +1,135 @@
+{
+  "method": "baseline",
+  "seed": 42,
+  "model": "distilbert-base-uncased",
+  "training_rows": 27093,
+  "augmentation_size": 0,
+  "augmentation_file": null,
+  "epochs": 2,
+  "batch_size": 16,
+  "effective_batch_size": 16,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.01,
+  "max_length": 256,
+  "threshold": 0.5,
+  "train_sha256": "859124bfffe20483b337956efcb11c6bdaf6191835150f51a5e6da272ee5a2eb",
+  "validation_sha256": "1445c0b33c220078d967fa34bb4da5e2981842ce288925b8f2542a4f9352cc64",
+  "origin": "Unchanged upstream DistilBERT baseline script, evaluated safely on real public texts",
+  "upstream_summary": {
+    "model": "distilbert-base-uncased",
+    "model_saved_to": "models\\distilbert",
+    "device": "cuda",
+    "hyperparams": {
+      "epochs": 2,
+      "batch_size": 16,
+      "lr": 5e-05,
+      "seed": 42,
+      "max_len": 256
+    },
+    "val_tuned_threshold": 0.604,
+    "test_results": {
+      "default_threshold_0.5": {
+        "n": 3918,
+        "f1": 0.9787,
+        "precision": 0.9787,
+        "recall": 0.9787,
+        "fpr": 0.0238,
+        "fnr": 0.0213,
+        "threshold": 0.5
+      },
+      "val_tuned_threshold": {
+        "n": 3918,
+        "f1": 0.978,
+        "precision": 0.9787,
+        "recall": 0.9773,
+        "fpr": 0.0238,
+        "fnr": 0.0227,
+        "threshold": 0.604
+      }
+    },
+    "real_src_f1": 0.967,
+    "template_f1": 0.9956,
+    "roc_auc": 0.9975,
+    "hard_benign_test_fpr": {
+      "n": 1472,
+      "fpr_default_0.5": 0.129755,
+      "fpr_tuned": 0.127,
+      "fpr_real_origin": 0.0344,
+      "fpr_curated_origin": 0.2617,
+      "tuned_threshold": 0.604,
+      "n_flagged_default": 191,
+      "n_flagged_tuned": 187
+    },
+    "obfuscated_attacks": {
+      "overall_recall": 0.962963,
+      "overall_fnr": 0.037037
+    },
+    "balanced_subtype": {
+      "f1": 0.9769,
+      "recall": 0.9818,
+      "fpr": 0.0258
+    },
+    "domain_ood": {
+      "aggregate": {
+        "n": 2000,
+        "f1": 0.8332,
+        "precision": 0.909,
+        "recall": 0.769,
+        "fpr": 0.077,
+        "fnr": 0.231,
+        "threshold": 0.604
+      },
+      "per_domain": {
+        "code": {
+          "fpr": 0.008,
+          "recall": 0.1
+        },
+        "finance": {
+          "fpr": 0.0,
+          "recall": 0.988
+        },
+        "legal": {
+          "fpr": 0.3,
+          "recall": 0.996
+        },
+        "medical": {
+          "fpr": 0.0,
+          "recall": 0.992
+        }
+      }
+    },
+    "structural_ood": {
+      "aggregate": {
+        "n": 1998,
+        "f1": 0.5746,
+        "precision": 0.519,
+        "recall": 0.6436,
+        "fpr": 0.5966,
+        "fnr": 0.3564,
+        "threshold": 0.604
+      },
+      "per_transform": {
+        "instruction_prefix_mimic": {
+          "fpr": 0.8168,
+          "recall": 0.976
+        },
+        "json_wrap": {
+          "fpr": 0.3604,
+          "recall": 0.3153
+        },
+        "prompt_dilute": {
+          "fpr": 0.6126,
+          "recall": 0.6396
+        }
+      }
+    }
+  },
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "datasets": "4.4.1",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.5.1",
+    "accelerate": "1.12.0"
+  }
+}

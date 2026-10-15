@@ -1,0 +1,17 @@
+{
+  "dolly": {
+    "raw_records": 15011,
+    "extracted_before_cleaning": 15011,
+    "passed_basic_cleaning_before_exact_dedup": 14393,
+    "basic_cleaning_removed": 618
+  },
+  "oasst1": {
+    "raw_records": 84437,
+    "extracted_before_cleaning": 3482,
+    "passed_basic_cleaning_before_exact_dedup": 3376,
+    "basic_cleaning_removed": 106
+  },
+  "combined_preclean_candidates": 18493,
+  "combined_after_basic_before_exact": 17769,
+  "internal_exact_removed": 234
+}

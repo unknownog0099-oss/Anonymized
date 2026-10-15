@@ -1,0 +1,162 @@
+{
+  "checked_date_client_timezone": "2026-10-13 Asia/Dubai",
+  "method": "Primary-source metadata inspection of authors, title, year, venue, page range where available, and supplied DOI/arXiv/URL; exact cited and compiled key sets checked programmatically.",
+  "resolver_limit": "Some DOI publisher pages were inaccessible to browsing. Their identifiers were checked against primary publication metadata or the authors' arXiv record; successful live DOI resolution is not asserted for every entry.",
+  "entries": [
+    {
+      "key": "greshake",
+      "source": "https://arxiv.org/abs/2302.12173",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2023,
+      "venue_in_bib": "arXiv preprint",
+      "identifier": "2302.12173",
+      "note": "Six authors match the original record. Cited as a preprint; no unverified proceedings metadata added."
+    },
+    {
+      "key": "piguard",
+      "source": "https://aclanthology.org/2025.acl-long.1468.bib",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2025,
+      "venue": "ACL, Volume 1: Long Papers",
+      "pages": "30420--30437",
+      "doi": "10.18653/v1/2025.acl-long.1468",
+      "note": "Published name PIGuard used rather than the earlier InjecGuard name."
+    },
+    {
+      "key": "pids",
+      "source": "https://arxiv.org/abs/2609.15017",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2026,
+      "venue": "IEEE Access",
+      "volume": 14,
+      "pages": "134184--134205",
+      "doi": "10.1109/ACCESS.2026.3728186",
+      "note": "Journal citation metadata and DOI are supplied by the authors' arXiv record and repository; direct publisher resolver was inaccessible."
+    },
+    {
+      "key": "datasentinel",
+      "source": "https://arxiv.org/abs/2504.11358v2",
+      "publisher_metadata": "https://ieeexplore.ieee.org/abstract/document/11023476/metrics",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2025,
+      "venue": "IEEE Symposium on Security and Privacy",
+      "doi": "10.1109/SP61157.2025.00250",
+      "note": "Five authors checked; no unverified page range invented."
+    },
+    {
+      "key": "capture",
+      "source": "https://aclanthology.org/2025.llmsec-1.13.bib",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2025,
+      "venue": "First Workshop on LLM Security (LLMSEC)",
+      "pages": "176--188",
+      "doi": null,
+      "note": "The primary Anthology metadata does not give a DOI; none added."
+    },
+    {
+      "key": "ohem",
+      "source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.html",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2016,
+      "venue": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "pages": "761--769",
+      "arxiv": "1604.03540"
+    },
+    {
+      "key": "shortcuts",
+      "source": "https://www.nature.com/articles/s42256-020-00257-z",
+      "alternate_primary": "https://arxiv.org/abs/2004.07780",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2020,
+      "venue": "Nature Machine Intelligence",
+      "volume": 2,
+      "pages": "665--673",
+      "doi": "10.1038/s42256-020-00257-z",
+      "note": "Publisher metadata returned in search; direct open failed. Seven authors checked."
+    },
+    {
+      "key": "dolly",
+      "source": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2023,
+      "venue": "Dataset card",
+      "note": "Corporate author Databricks; human-written instruction data. Not a research-paper venue."
+    },
+    {
+      "key": "oasst",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/949f0f8f32267d297c2d4e3ee10a2e7e-Abstract-Datasets_and_Benchmarks.html",
+      "alternate_primary": "https://arxiv.org/abs/2304.07327",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2023,
+      "venue": "Advances in Neural Information Processing Systems",
+      "volume": 36,
+      "arxiv": "2304.07327",
+      "doi": "10.52202/075280-2064",
+      "note": "All eighteen authors and DOI checked against the official proceedings. Publisher spellings of Zhi Rui Tam and Duc Nguyen used."
+    },
+    {
+      "key": "oasstcard",
+      "source": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2023,
+      "venue": "Dataset card",
+      "note": "Organizational author OpenAssistant; used for schema/language/root-message extraction."
+    },
+    {
+      "key": "distilbert",
+      "source": "https://arxiv.org/abs/1910.01108",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2019,
+      "venue_in_bib": "arXiv preprint",
+      "arxiv": "1910.01108",
+      "note": "Four authors verified; initial publication year used."
+    },
+    {
+      "key": "pidsrepo",
+      "source": "https://github.com/ShirePyDev/Prompt-Injection-Detection-System",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 2026,
+      "venue": "Code repository",
+      "revision": "7984e2d6d95e98e914d2b0cd92574b1752614b10",
+      "note": "Frozen local revision checked; public repository is the primary release source."
+    },
+    {
+      "key": "mcnemar",
+      "source": "https://www.cambridge.org/core/journals/psychometrika/article/abs/note-on-the-sampling-error-of-the-difference-between-correlated-proportions-or-percentages/698C2461BE63F5848763502D54E534FD",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 1947,
+      "venue": "Psychometrika",
+      "volume": 12,
+      "number": 2,
+      "pages": "153--157",
+      "doi": "10.1007/BF02295996",
+      "note": "Original publication date retained; publisher's current online hosting date is not the publication year."
+    },
+    {
+      "key": "efron",
+      "source": "https://projecteuclid.org/journals/annals-of-statistics/volume-7/issue-1/Bootstrap-Methods-Another-Look-at-the-Jackknife/10.1214/aos/1176344552.full",
+      "authors_checked": true,
+      "title_checked": true,
+      "year": 1979,
+      "venue": "The Annals of Statistics",
+      "volume": 7,
+      "number": 1,
+      "pages": "1--26",
+      "doi": "10.1214/aos/1176344552",
+      "note": "Publisher DOI redirect identifies the paper; full page uses an iframe. Journal issue metadata corroborates author/year/pages."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "delta_sign": "comparator FPR minus ProvGuard FPR; positive favors ProvGuard",
+  "resamples": 10000,
+  "per_seed_bootstrap_seed": "424200 + training seed",
+  "aggregate_bootstrap_seed": 424242,
+  "aggregate_unit": "training seed and shared evaluation row; crossed resampling preserves pairing and row dependence across seeds",
+  "multiple_testing": "Holm correction across all available per-seed exact McNemar tests (30 at completion); CIs are pointwise 95%, not simultaneous",
+  "aggregate_p_value": null,
+  "scope": "Predefined comparisons and usable/external HB subsets; stress-set inference is conditional on public sample coverage."
+}

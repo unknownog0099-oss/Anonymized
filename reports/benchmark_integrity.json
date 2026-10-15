@@ -1,0 +1,50 @@
+{
+  "train": {
+    "sha256": "859124bfffe20483b337956efcb11c6bdaf6191835150f51a5e6da272ee5a2eb",
+    "rows": 27093,
+    "usable_text_n": 27093,
+    "missing_text_n": 0
+  },
+  "val": {
+    "sha256": "1445c0b33c220078d967fa34bb4da5e2981842ce288925b8f2542a4f9352cc64",
+    "rows": 3989,
+    "usable_text_n": 3989,
+    "missing_text_n": 0
+  },
+  "test": {
+    "sha256": "149092dc6a7a83d3da73e8c7b413ea5e215e3f96c5565767b6db56b3b7835d96",
+    "rows": 3918,
+    "usable_text_n": 3918,
+    "missing_text_n": 0
+  },
+  "hard_benign": {
+    "sha256": "e3ddb1e6e9e04e1097b7bcf9a6f5e05b0a8d73e8d71b8d867f7ed85b89472cee",
+    "rows": 1472,
+    "usable_text_n": 808,
+    "missing_text_n": 664
+  },
+  "balanced_subtype": {
+    "sha256": "210e339329081b97ce95d2dfe4f4581e19bc83dd16a23b86cd36bd15b9ff2023",
+    "rows": 2297,
+    "usable_text_n": 2297,
+    "missing_text_n": 0
+  },
+  "obfuscated": {
+    "sha256": "b151322f05ef83922c734c589804fc7eab53331b61b5ad153c72aaf683f7c691",
+    "rows": 405,
+    "usable_text_n": 405,
+    "missing_text_n": 0
+  },
+  "domain_ood": {
+    "sha256": "d14acb99a69ac10559fde9ee22d0f20aa7a5816c4f48f279838d12ed0a6944f0",
+    "rows": 2000,
+    "usable_text_n": 2000,
+    "missing_text_n": 0
+  },
+  "structural_ood": {
+    "sha256": "63d56a8ebbd0639404158b51b35863fc87b02e9869ee2526f5f90eaa48108dad",
+    "rows": 1998,
+    "usable_text_n": 1998,
+    "missing_text_n": 0
+  }
+}

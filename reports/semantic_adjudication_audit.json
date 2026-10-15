@@ -1,0 +1,30 @@
+{
+  "method": "two independent Codex review instances; full text; scores withheld; no human reviewer",
+  "pass_A_n": 2927,
+  "pass_B_n": 2927,
+  "paired_review_n": 2927,
+  "final_counts": {
+    "BENIGN": 2923,
+    "INJECTION": 3,
+    "AMBIGUOUS": 1
+  },
+  "disagreement_n": 0,
+  "input_batches": {
+    "random_control_review.jsonl": "249979df726796a82ff85c48ee82f3f1abac50b28a58ac0a2f67906971f78ef2",
+    "ranked_top_2000.jsonl": "261da2be244f32b20609bcb6cd2f007902b711268b3c7b6815cba7304ccbd5d0"
+  },
+  "decision_artifacts": {
+    "pass_A.jsonl": "0bccae46276c0f267c5975f714c74636f60235d61fd9615d65a38d574f56be7c",
+    "pass_A_control.jsonl": "ac85783b19c2de02d58694190e67bfd50478d90d166e38872665b2780e0a705b",
+    "pass_B.jsonl": "bfd76a0b588e8dd285f5b4099edf48e863de16c3a04bfc57a5d68b32c356a517",
+    "pass_B_control.jsonl": "d45acbf42fbc9670141e970f8b6568554390e9a76e997a87c36bd82152729893"
+  },
+  "review_sha256": "5b0466ffec38fb5ae62df4cf852b3f9d6ed1ef25aac2af496b3aa088edc72768",
+  "procedure_artifacts": {
+    "pass_A_procedure.md": "013eb3eb2cfd52a429d18d20c6626e04e209ba6a68aa5a568318aca80765084a",
+    "pass_B_procedure.md": "84745f510358419ec8a24fbfa428610abce37c56292c89818a22ddbb2cbb5ac4"
+  },
+  "model_version": "Exact serving model version not exposed; independent Codex instances with separate histories/prompts",
+  "independence_limitation": "Separate review instantiations can share correlated model errors; agreement is not a guarantee of valid labels.",
+  "limitation": "Automated model adjudication is fallible and not human annotation; independent human validation remains useful before publication."
+}

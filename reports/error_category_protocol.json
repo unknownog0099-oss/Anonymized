@@ -1,0 +1,15 @@
+{
+  "method": "released curated source taxonomy mapping, then ordered lexical proxies for real/unmapped prompts; automated and exploratory, not human annotation",
+  "order": [
+    "quoted attack language",
+    "system-prompt discussion",
+    "defensive red-team/security",
+    "security education",
+    "technical documentation",
+    "benign imperative",
+    "general instruction",
+    "other"
+  ],
+  "source_sha256": "5e921b50544647e85dba5dbb41a4e1e59e875010cf3456df03c83af24607c3e4",
+  "limitation": "Categories overlap semantically; first matching lexical rule wins. Released curated source labels supply eight known prompt families; real prompts use approximate lexical proxies. These descriptive categories do not affect training, adjudication, or hypothesis tests."
+}

@@ -1,0 +1,29 @@
+{
+  "method": "baseline",
+  "seed": 13,
+  "model": "distilbert-base-uncased",
+  "training_rows": 27093,
+  "augmentation_size": 0,
+  "augmentation_file": null,
+  "augmentation_sha256": null,
+  "train_sha256": "859124bfffe20483b337956efcb11c6bdaf6191835150f51a5e6da272ee5a2eb",
+  "validation_sha256": "1445c0b33c220078d967fa34bb4da5e2981842ce288925b8f2542a4f9352cc64",
+  "epochs": 2,
+  "batch_size": 16,
+  "effective_batch_size": 16,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.01,
+  "max_length": 256,
+  "threshold": 0.5,
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "datasets": "4.4.1",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.5.1",
+    "accelerate": "1.12.0"
+  },
+  "upstream_commit": "7984e2d6d95e98e914d2b0cd92574b1752614b10",
+  "upstream_script_sha256": "2e1047147e993d95686551e98017162518c1415a88c12ce0a68b35398d987781"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASSED",
+  "manifest_files_checked": 687,
+  "text_files_scanned": 671,
+  "pdf_metadata_checked": 8,
+  "known_local_identity_matches": 0,
+  "credential_pattern_matches": 0,
+  "primary_prediction_sets_checked": 210,
+  "prediction_derived_metrics_checked": 210,
+  "aggregate_crossed_bootstrap_intervals_reproduced": 6,
+  "completed_source_runs_checked": 6,
+  "frozen_benchmark_files_checked": 8,
+  "canonical_leakage_representation_hashes_checked": true,
+  "five_primary_augmentation_hashes_checked": true,
+  "paper_pages": 6,
+  "model_weights_verified": false,
+  "anonymity_scope": "Files and known local metadata; account/remote/commit identity is controlled at upload.",
+  "tests_passed": 17,
+  "paper_numeric_audit": "PASSED",
+  "git_tracking_check": "687 manifest files eligible",
+  "original_experiment_data_preserved": true
+}

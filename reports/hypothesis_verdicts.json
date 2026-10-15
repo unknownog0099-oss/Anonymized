@@ -1,0 +1,56 @@
+{
+  "H1": "SUPPORTED",
+  "H2": "INCONCLUSIVE",
+  "H3": "SUPPORTED",
+  "outcome": "INCONCLUSIVE",
+  "practical_success": true,
+  "required_runs_complete": true,
+  "completed_run_n": 30,
+  "endpoint_verdicts": {
+    "H1": {
+      "usable_hard_benign": {
+        "verdict": "SUPPORTED",
+        "absolute_fpr_reduction": 0.2774752475247525,
+        "ci_lower": 0.20074257425742575,
+        "ci_upper": 0.3512376237623762
+      },
+      "external_hard_benign": {
+        "verdict": "SUPPORTED",
+        "absolute_fpr_reduction": 0.1644230769230769,
+        "ci_lower": 0.11730769230769231,
+        "ci_upper": 0.2144230769230769
+      }
+    },
+    "H2": {
+      "usable_hard_benign": {
+        "verdict": "INCONCLUSIVE",
+        "absolute_fpr_reduction": 0.06311881188118815,
+        "ci_lower": -0.0049504950495049506,
+        "ci_upper": 0.14084158415841583
+      },
+      "external_hard_benign": {
+        "verdict": "SUPPORTED",
+        "absolute_fpr_reduction": 0.030769230769230757,
+        "ci_lower": 0.009615384615384616,
+        "ci_upper": 0.05480769230769231
+      }
+    }
+  },
+  "attack_preservation": {
+    "iid_f1": {
+      "mean_delta": 0.001179257396827027,
+      "seed_bootstrap_ci_lower": -0.000594303579554789,
+      "seed_bootstrap_ci_upper": 0.0033331857594577794
+    },
+    "iid_recall": {
+      "mean_delta": -0.00028985507246377385,
+      "seed_bootstrap_ci_lower": -0.0035748792270531293,
+      "seed_bootstrap_ci_upper": 0.004347826086956519
+    },
+    "obfuscated_recall": {
+      "mean_delta": 0.001975308641975304,
+      "seed_bootstrap_ci_lower": -0.005925925925925934,
+      "seed_bootstrap_ci_upper": 0.014814814814814791
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "research_question": "Can naturally occurring benign prompts that confuse a prompt-injection detector reduce externally sourced benign false positives without materially harming attack detection?",
+  "model": "distilbert-base-uncased",
+  "max_length": 256,
+  "epochs": 2,
+  "batch_size": 16,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.01,
+  "threshold": 0.5,
+  "primary_k": 1000,
+  "ablation_k": [
+    250,
+    500,
+    1000
+  ],
+  "seeds": [
+    13,
+    42,
+    123,
+    2024,
+    7777
+  ],
+  "selector_seeds": [
+    13,
+    42,
+    123
+  ],
+  "validity_review": "Two independently instantiated automated full-text semantic-intent adjudication passes, scores withheld; both BENIGN accept, either INJECTION reject, other disagreements AMBIGUOUS. Not human annotation.",
+  "near_duplicate_threshold": 0.9,
+  "candidate_min_chars": 20,
+  "success_criteria": {
+    "external_fpr_delta_max": -0.1,
+    "iid_f1_delta_min": -0.01,
+    "attack_recall_delta_min": -0.02
+  },
+  "leakage_representation": "Persisted fixed TF-IDF char_wb 3-5 fitted once on all frozen accessible reference and potential augmentation text.",
+  "random_control": "Fixed seed 42 permutation within source and full-pool character-length quartiles; accept first paired-semantic BENIGN rows to match treatment strata; overlap allowed; no hardness filtering.",
+  "max_gradient_norm": 1.0,
+  "checkpoint_selection": "Highest original PIDS validation F1",
+  "revision_reason": "User-requested repair of inconsistent leakage checking and overly restrictive semantic selection, before any treatment training."
+}

@@ -1,0 +1,19 @@
+{
+  "dolly": {
+    "dataset": "databricks/databricks-dolly-15k",
+    "fingerprint": "2537fb912ac88184",
+    "raw_n": 15011,
+    "split": "train"
+  },
+  "oasst1": {
+    "dataset": "OpenAssistant/oasst1",
+    "fingerprint": "e77e2454fe279fc6",
+    "raw_n": 84437,
+    "split": "train"
+  },
+  "clean_n": 17535,
+  "source_n": {
+    "dolly": 14177,
+    "oasst1": 3358
+  }
+}

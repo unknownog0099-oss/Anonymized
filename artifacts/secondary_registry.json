@@ -1,0 +1,308 @@
+{
+  "experiments": [
+    {
+      "family": "deberta",
+      "method": "baseline",
+      "seed": 13,
+      "status": "FAILED",
+      "failure_reason": "Return code 1; retained log: ./outputs\\secondary_logs\\deberta_baseline_13_20261013T075907Z.log",
+      "output_path": "./outputs\\secondary\\deberta\\baseline\\seed_13",
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\secondary_train.py",
+            "--method",
+            "baseline",
+            "--seed",
+            "13"
+          ],
+          "log_path": "./outputs\\secondary_logs\\deberta_baseline_13_20261013T075907Z.log",
+          "returncode": 1
+        }
+      ],
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\secondary_train.py",
+        "--method",
+        "baseline",
+        "--seed",
+        "13"
+      ],
+      "log_path": "./outputs\\secondary_logs\\deberta_baseline_13_20261013T075907Z.log"
+    },
+    {
+      "family": "deberta",
+      "method": "baseline",
+      "seed": 42,
+      "status": "PENDING",
+      "failure_reason": "Earlier architecture attempt failed; optional confirmation stopped without altering hyperparameters.",
+      "output_path": "./outputs\\secondary\\deberta\\baseline\\seed_42",
+      "attempts": []
+    },
+    {
+      "family": "deberta",
+      "method": "baseline",
+      "seed": 123,
+      "status": "PENDING",
+      "failure_reason": "Earlier architecture attempt failed; optional confirmation stopped without altering hyperparameters.",
+      "output_path": "./outputs\\secondary\\deberta\\baseline\\seed_123",
+      "attempts": []
+    },
+    {
+      "family": "deberta",
+      "method": "provguard_1000",
+      "seed": 13,
+      "status": "PENDING",
+      "failure_reason": "Earlier architecture attempt failed; optional confirmation stopped without altering hyperparameters.",
+      "output_path": "./outputs\\secondary\\deberta\\provguard_1000\\seed_13",
+      "attempts": []
+    },
+    {
+      "family": "deberta",
+      "method": "provguard_1000",
+      "seed": 42,
+      "status": "PENDING",
+      "failure_reason": "Earlier architecture attempt failed; optional confirmation stopped without altering hyperparameters.",
+      "output_path": "./outputs\\secondary\\deberta\\provguard_1000\\seed_42",
+      "attempts": []
+    },
+    {
+      "family": "deberta",
+      "method": "provguard_1000",
+      "seed": 123,
+      "status": "PENDING",
+      "failure_reason": "Earlier architecture attempt failed; optional confirmation stopped without altering hyperparameters.",
+      "output_path": "./outputs\\secondary\\deberta\\provguard_1000\\seed_123",
+      "attempts": []
+    },
+    {
+      "family": "source",
+      "method": "provguard_dolly_250",
+      "seed": 13,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "output_path": "./outputs\\provguard\\provguard_dolly_250\\seed_13",
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_dolly_250",
+            "--seed",
+            "13",
+            "--augment-train",
+            "./data\\provguard\\provguard_dolly_250.csv"
+          ],
+          "log_path": "./outputs\\secondary_logs\\source_provguard_dolly_250_13_20261013T080016Z.log",
+          "returncode": 0
+        }
+      ],
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_dolly_250",
+        "--seed",
+        "13",
+        "--augment-train",
+        "./data\\provguard\\provguard_dolly_250.csv"
+      ],
+      "log_path": "./outputs\\secondary_logs\\source_provguard_dolly_250_13_20261013T080016Z.log",
+      "model_sha256": "f39fb56b87f44806c5776ff13d0cd94004928b171ce67545049b2b04464602e8"
+    },
+    {
+      "family": "source",
+      "method": "provguard_dolly_250",
+      "seed": 42,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "output_path": "./outputs\\provguard\\provguard_dolly_250\\seed_42",
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_dolly_250",
+            "--seed",
+            "42",
+            "--augment-train",
+            "./data\\provguard\\provguard_dolly_250.csv"
+          ],
+          "log_path": "./outputs\\secondary_logs\\source_provguard_dolly_250_42_20261013T100349Z.log",
+          "returncode": 0
+        }
+      ],
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_dolly_250",
+        "--seed",
+        "42",
+        "--augment-train",
+        "./data\\provguard\\provguard_dolly_250.csv"
+      ],
+      "log_path": "./outputs\\secondary_logs\\source_provguard_dolly_250_42_20261013T100349Z.log",
+      "model_sha256": "d7b4454a0590e56c8fa5ecafd502a7bcd4238e5a96c47bc14848156fbb4cc715"
+    },
+    {
+      "family": "source",
+      "method": "provguard_dolly_250",
+      "seed": 123,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "output_path": "./outputs\\provguard\\provguard_dolly_250\\seed_123",
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_dolly_250",
+            "--seed",
+            "123",
+            "--augment-train",
+            "./data\\provguard\\provguard_dolly_250.csv"
+          ],
+          "log_path": "./outputs\\secondary_logs\\source_provguard_dolly_250_123_20261013T102234Z.log",
+          "returncode": 0
+        }
+      ],
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_dolly_250",
+        "--seed",
+        "123",
+        "--augment-train",
+        "./data\\provguard\\provguard_dolly_250.csv"
+      ],
+      "log_path": "./outputs\\secondary_logs\\source_provguard_dolly_250_123_20261013T102234Z.log",
+      "model_sha256": "955529848a8eb5f973480507a1e62db30fc6a2a646c43caeb413a1f6f278694e"
+    },
+    {
+      "family": "source",
+      "method": "provguard_oasst1_250",
+      "seed": 13,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "output_path": "./outputs\\provguard\\provguard_oasst1_250\\seed_13",
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_oasst1_250",
+            "--seed",
+            "13",
+            "--augment-train",
+            "./data\\provguard\\provguard_oasst1_250.csv"
+          ],
+          "log_path": "./outputs\\secondary_logs\\source_provguard_oasst1_250_13_20261013T104011Z.log",
+          "returncode": 0
+        }
+      ],
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_oasst1_250",
+        "--seed",
+        "13",
+        "--augment-train",
+        "./data\\provguard\\provguard_oasst1_250.csv"
+      ],
+      "log_path": "./outputs\\secondary_logs\\source_provguard_oasst1_250_13_20261013T104011Z.log",
+      "model_sha256": "9d6fdfc80140048999aadd684fd2854802e21e5d27ce19c649671d509dcd527c"
+    },
+    {
+      "family": "source",
+      "method": "provguard_oasst1_250",
+      "seed": 42,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "output_path": "./outputs\\provguard\\provguard_oasst1_250\\seed_42",
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_oasst1_250",
+            "--seed",
+            "42",
+            "--augment-train",
+            "./data\\provguard\\provguard_oasst1_250.csv"
+          ],
+          "log_path": "./outputs\\secondary_logs\\source_provguard_oasst1_250_42_20261013T105753Z.log",
+          "returncode": 0
+        }
+      ],
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_oasst1_250",
+        "--seed",
+        "42",
+        "--augment-train",
+        "./data\\provguard\\provguard_oasst1_250.csv"
+      ],
+      "log_path": "./outputs\\secondary_logs\\source_provguard_oasst1_250_42_20261013T105753Z.log",
+      "model_sha256": "b8541123e54e680418fd70073110bc319f5b283de85e1581a9244725220f18ea"
+    },
+    {
+      "family": "source",
+      "method": "provguard_oasst1_250",
+      "seed": 123,
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "output_path": "./outputs\\provguard\\provguard_oasst1_250\\seed_123",
+      "attempts": [
+        {
+          "command": [
+            "./.venv\\Scripts\\python.exe",
+            "./scripts\\provguard.py",
+            "train",
+            "--method",
+            "provguard_oasst1_250",
+            "--seed",
+            "123",
+            "--augment-train",
+            "./data\\provguard\\provguard_oasst1_250.csv"
+          ],
+          "log_path": "./outputs\\secondary_logs\\source_provguard_oasst1_250_123_20261013T111526Z.log",
+          "returncode": 0
+        }
+      ],
+      "command": [
+        "./.venv\\Scripts\\python.exe",
+        "./scripts\\provguard.py",
+        "train",
+        "--method",
+        "provguard_oasst1_250",
+        "--seed",
+        "123",
+        "--augment-train",
+        "./data\\provguard\\provguard_oasst1_250.csv"
+      ],
+      "log_path": "./outputs\\secondary_logs\\source_provguard_oasst1_250_123_20261013T111526Z.log",
+      "model_sha256": "c97d98a3f509d7560d3cbd296c6c266f1c96373c0d3f4570c50f88de8c5d98e5"
+    }
+  ]
+}

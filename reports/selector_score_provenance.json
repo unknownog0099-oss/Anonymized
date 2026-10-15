@@ -1,0 +1,12 @@
+{
+  "selector_seeds": [
+    13,
+    42,
+    123
+  ],
+  "method": "exact-ID and exact-text verified reuse of saved unaugmented-selector probabilities",
+  "old_scores_sha256": "8bbba4338a47c2983bfde00cf4dbbbe5dc8013e3cf85ab332e87548b47819d72",
+  "canonical_scored_sha256": "8b16a74e9d9414cd1777df4ba83306df5f9042e55d7eb0a37e2ef5a891bff8c3",
+  "candidate_n": 17400,
+  "new_inference_n": 0
+}

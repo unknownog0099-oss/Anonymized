@@ -1,0 +1,883 @@
+{
+  "status": "PASSED",
+  "required_runs": 30,
+  "seeds": [
+    13,
+    42,
+    123,
+    2024,
+    7777
+  ],
+  "summary_cells_checked": 96,
+  "table_sources_checked": 6,
+  "ledger_macro_n": 153,
+  "used_prose_macro_n": 89,
+  "used_prose_numeric_occurrences": 133,
+  "primary_configuration": 1000,
+  "public_hb_n": 808,
+  "external_hb_n": 208,
+  "stale_interim_statements": 0,
+  "citation_keys_resolved": 14,
+  "fonts": [
+    "CMEX10",
+    "CMMI10",
+    "CMMI5",
+    "CMMI7",
+    "CMMI8",
+    "CMR10",
+    "CMR5",
+    "CMR7",
+    "CMR8",
+    "CMSY10",
+    "CMSY6",
+    "CMSY7",
+    "CMSY8",
+    "MSBM10",
+    "NimbusMonL-Regu",
+    "NimbusRomNo9L-Medi",
+    "NimbusRomNo9L-MediItal",
+    "NimbusRomNo9L-Regu",
+    "NimbusRomNo9L-ReguItal",
+    "NimbusSanL-Bold",
+    "NimbusSanL-Regu"
+  ],
+  "input_sha256": {
+    "reports/PRIMARY_RESULTS.csv": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb",
+    "reports/COMPARISON_RESULTS.csv": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949",
+    "reports/STATISTICAL_RESULTS.csv": "da4d621f5fb2898694933b4b75634660b3cb4a569a85a4987725e79b6864b74a",
+    "reports/hypothesis_verdicts.json": "8582a5eece0c63dddf3638bfb0863d5b1b727b834d0138d2601b48d0891177cf",
+    "reports/canonical_leakage_audit.json": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062",
+    "reports/semantic_adjudication_audit.json": "636be0aa4c639d46b93a2a4b6ad333fd38026cdd3d6cc913e2b03854d0b56800",
+    "reports/candidate_selection_audit.json": "940c272e67dc5efe9adda27694ec784974b5cc781822bc00e67a18caeadbfcd5",
+    "upstream/data/pids_bench_v3/eval_subsets/hard_benign_test.csv": "e3ddb1e6e9e04e1097b7bcf9a6f5e05b0a8d73e8d71b8d867f7ed85b89472cee",
+    "configs/protocol.json": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed",
+    "artifacts/experiment_registry.json": "49891c9532b161e8037951a6864815b4705f5e885fbab53cae5e6e14f6bdb9d1",
+    "reports/HARDNESS_ANALYSIS.csv": "ad264668f2e648a72c92cab0b92aa8f17c72b25378270c1429cb843dd5a5d31e",
+    "reports/ABLATION_RESULTS.csv": "d3149ddfaf97b36dbdc0f0231371816efb0afe90ec3b349ccdc664aecd6f2a5b",
+    "reports/SECONDARY_RESULTS.csv": "4910a8db328ab5dac5f1cfbda52de6aa831fa431891f233709775fbaab74d489",
+    "reports/ERROR_TRANSITIONS.csv": "0ccc4ec463094e97c7fe74a2bd8bf66a53785298acaf99b0b6a7a59a529ec263"
+  },
+  "tex_sha256": "eda328b4d7ba9fa99665cc3aa94e19ba8f2e9b616a3501931695bb978cb60b1f",
+  "bib_sha256": "0cef1b689da3a397d6e25ebd265a46764ff3c19c515bcfee852735c34cbad11c",
+  "pdf_sha256": "c793cc7145cecf2bbf5fc924653dffd43ec4f02392cf745ff4b45858c3e3ee10",
+  "ieee_class_sha256": "c972aca108fda004c3514d63658e02816da2e54d9a1451e870b9bd970e003f55",
+  "model_results_master_unchanged": true,
+  "deep_verification": {},
+  "claims": [
+    {
+      "macro": "BaseIIDPct",
+      "value": 98.14566747886747,
+      "display": "98.15",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * baseline/iid_f1_mean",
+      "manuscript_occurrences": 3,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "BaseRecPct",
+      "value": 98.71497584541062,
+      "display": "98.71",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * baseline/iid_recall_mean",
+      "manuscript_occurrences": 2,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "BaseHBPct",
+      "value": 41.584158415841586,
+      "display": "41.58",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * baseline/hard_benign_fpr_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "BaseExtPct",
+      "value": 20.67307692307692,
+      "display": "20.67",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * baseline/external_hb_fpr_mean",
+      "manuscript_occurrences": 5,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "BaseObfPct",
+      "value": 98.5679012345679,
+      "display": "98.57",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * baseline/obfuscated_recall_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "BaseDom",
+      "value": 0.9033427901821935,
+      "display": "0.9033",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "baseline/domain_ood_f1_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "BaseStructPct",
+      "value": 77.47747747747749,
+      "display": "77.48",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * baseline/structural_ood_fpr_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "CurHBPct",
+      "value": 5.86633663366336,
+      "display": "5.87",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * curated/hard_benign_fpr_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "CurExtPct",
+      "value": 18.46153846153846,
+      "display": "18.46",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * curated/external_hb_fpr_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "RandExtPct",
+      "value": 7.3076923076922995,
+      "display": "7.31",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * random_real/external_hb_fpr_mean",
+      "manuscript_occurrences": 3,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "PGIIDPct",
+      "value": 98.26359321855016,
+      "display": "98.26",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * provguard_1000/iid_f1_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "PGRecPct",
+      "value": 98.68599033816425,
+      "display": "98.69",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * provguard_1000/iid_recall_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "PGHBPct",
+      "value": 13.83663366336633,
+      "display": "13.84",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * provguard_1000/hard_benign_fpr_mean",
+      "manuscript_occurrences": 3,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "PGExtPct",
+      "value": 4.23076923076923,
+      "display": "4.23",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * provguard_1000/external_hb_fpr_mean",
+      "manuscript_occurrences": 7,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "PGObfPct",
+      "value": 98.76543209876544,
+      "display": "98.77",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * provguard_1000/obfuscated_recall_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "PGDom",
+      "value": 0.8838949737437785,
+      "display": "0.8839",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "provguard_1000/domain_ood_f1_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "PGStructPct",
+      "value": 37.53753753753753,
+      "display": "37.54",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "100 * provguard_1000/structural_ood_fpr_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "CurCuratedFPR",
+      "value": 0.015,
+      "display": "0.0150",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "curated/curated_hb_fpr_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "PGCuratedFPR",
+      "value": 0.1716666666666667,
+      "display": "0.1717",
+      "source": "reports/PRIMARY_RESULTS.csv",
+      "expression": "provguard_1000/curated_hb_fpr_mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d43819eac8e6999e676687a00f10e660ccd31c97f0e59cce69f02ab93f1241fb"
+    },
+    {
+      "macro": "BaseHBDropPP",
+      "value": 27.74752475247525,
+      "display": "27.75",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "baseline/hard_benign absolute delta * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "BaseHBDropRel",
+      "value": 66.72619047619047,
+      "display": "66.7",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "baseline/hard_benign relative delta * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "BaseExtDropPP",
+      "value": 16.44230769230769,
+      "display": "16.44",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "baseline/external_hb absolute delta * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "BaseExtDropRel",
+      "value": 79.53488372093022,
+      "display": "79.5",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "baseline/external_hb relative delta * 100",
+      "manuscript_occurrences": 2,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "BaseIIDChangePP",
+      "value": 0.11792573968270001,
+      "display": "+0.12",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "baseline/iid_f1 change * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "BaseRecChangePP",
+      "value": -0.02898550724637,
+      "display": "-0.03",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "baseline/iid_recall change * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "BaseDomChangePP",
+      "value": -1.9447816438414998,
+      "display": "-1.94",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "baseline/domain_ood_f1 change * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "RandHBDropPP",
+      "value": 6.311881188118811,
+      "display": "6.31",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "random_real/hard_benign absolute delta * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "RandExtDropPP",
+      "value": 3.07692307692307,
+      "display": "3.08",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "random_real/external_hb absolute delta * 100",
+      "manuscript_occurrences": 2,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "RandExtDropRel",
+      "value": 42.10526315789472,
+      "display": "42.1",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "random_real/external_hb relative delta * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "CurExtDropPP",
+      "value": 14.23076923076923,
+      "display": "14.23",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "curated/external_hb absolute delta * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "CurExtDropRel",
+      "value": 77.08333333333333,
+      "display": "77.1",
+      "source": "reports/COMPARISON_RESULTS.csv",
+      "expression": "curated/external_hb relative delta * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "feac2bc0ad2c73961338813f1732cfe5d9aead823cdef47559aeb497a8fde949"
+    },
+    {
+      "macro": "RandHBCI",
+      "value": [
+        -0.0049504950495049,
+        0.1408415841584158
+      ],
+      "display": "[-0.0050,\\,0.1408]",
+      "source": "reports/STATISTICAL_RESULTS.csv",
+      "expression": "random_real vs provguard_1000/usable_hard_benign/AGGREGATE 95% CI",
+      "manuscript_occurrences": 1,
+      "source_sha256": "da4d621f5fb2898694933b4b75634660b3cb4a569a85a4987725e79b6864b74a"
+    },
+    {
+      "macro": "RandExtCI",
+      "value": [
+        0.0096153846153846,
+        0.0548076923076923
+      ],
+      "display": "[0.0096,\\,0.0548]",
+      "source": "reports/STATISTICAL_RESULTS.csv",
+      "expression": "random_real vs provguard_1000/external_hard_benign/AGGREGATE 95% CI",
+      "manuscript_occurrences": 1,
+      "source_sha256": "da4d621f5fb2898694933b4b75634660b3cb4a569a85a4987725e79b6864b74a"
+    },
+    {
+      "macro": "PreserveIIDCI",
+      "value": [
+        -0.000594303579554789,
+        0.0033331857594577794
+      ],
+      "display": "[-0.0006,\\,0.0033]",
+      "source": "reports/hypothesis_verdicts.json",
+      "expression": "attack_preservation/iid_f1 paired-seed CI",
+      "manuscript_occurrences": 1,
+      "source_sha256": "8582a5eece0c63dddf3638bfb0863d5b1b727b834d0138d2601b48d0891177cf"
+    },
+    {
+      "macro": "PreserveRecCI",
+      "value": [
+        -0.0035748792270531293,
+        0.004347826086956519
+      ],
+      "display": "[-0.0036,\\,0.0043]",
+      "source": "reports/hypothesis_verdicts.json",
+      "expression": "attack_preservation/iid_recall paired-seed CI",
+      "manuscript_occurrences": 1,
+      "source_sha256": "8582a5eece0c63dddf3638bfb0863d5b1b727b834d0138d2601b48d0891177cf"
+    },
+    {
+      "macro": "NTrain",
+      "value": 27093.0,
+      "display": "27093",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NTrain",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NVal",
+      "value": 3989.0,
+      "display": "3989",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NVal",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NIID",
+      "value": 3918.0,
+      "display": "3918",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NIID",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NHB",
+      "value": 808.0,
+      "display": "808",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NHB",
+      "manuscript_occurrences": 3,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NReleasedHB",
+      "value": 1472.0,
+      "display": "1472",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NReleasedHB",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NWithheld",
+      "value": 664.0,
+      "display": "664",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NWithheld",
+      "manuscript_occurrences": 2,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NObf",
+      "value": 405.0,
+      "display": "405",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NObf",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NDomain",
+      "value": 2000.0,
+      "display": "2000",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NDomain",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NStruct",
+      "value": 1998.0,
+      "display": "1998",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NStruct",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NCandidatesBefore",
+      "value": 17535.0,
+      "display": "17535",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NCandidatesBefore",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NCandidates",
+      "value": 17400.0,
+      "display": "17400",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NCandidates",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NExactRemoved",
+      "value": 117.0,
+      "display": "117",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NExactRemoved",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NNearRemoved",
+      "value": 18.0,
+      "display": "18",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NNearRemoved",
+      "manuscript_occurrences": 1,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NCurAug",
+      "value": 343.0,
+      "display": "343",
+      "source": "reports/canonical_leakage_audit.json",
+      "expression": "NCurAug",
+      "manuscript_occurrences": 4,
+      "source_sha256": "7ade747b977b79090011354896496bbd95175590f78b27e4b8d41aa2d49e4062"
+    },
+    {
+      "macro": "NReviewed",
+      "value": 2927.0,
+      "display": "2927",
+      "source": "reports/semantic_adjudication_audit.json",
+      "expression": "NReviewed",
+      "manuscript_occurrences": 1,
+      "source_sha256": "636be0aa4c639d46b93a2a4b6ad333fd38026cdd3d6cc913e2b03854d0b56800"
+    },
+    {
+      "macro": "NApproved",
+      "value": 2923.0,
+      "display": "2923",
+      "source": "reports/semantic_adjudication_audit.json",
+      "expression": "NApproved",
+      "manuscript_occurrences": 1,
+      "source_sha256": "636be0aa4c639d46b93a2a4b6ad333fd38026cdd3d6cc913e2b03854d0b56800"
+    },
+    {
+      "macro": "NRejected",
+      "value": 3.0,
+      "display": "3",
+      "source": "reports/semantic_adjudication_audit.json",
+      "expression": "NRejected",
+      "manuscript_occurrences": 1,
+      "source_sha256": "636be0aa4c639d46b93a2a4b6ad333fd38026cdd3d6cc913e2b03854d0b56800"
+    },
+    {
+      "macro": "NAmbiguous",
+      "value": 1.0,
+      "display": "1",
+      "source": "reports/semantic_adjudication_audit.json",
+      "expression": "NAmbiguous",
+      "manuscript_occurrences": 1,
+      "source_sha256": "636be0aa4c639d46b93a2a4b6ad333fd38026cdd3d6cc913e2b03854d0b56800"
+    },
+    {
+      "macro": "NDollySelected",
+      "value": 429.0,
+      "display": "429",
+      "source": "reports/candidate_selection_audit.json",
+      "expression": "NDollySelected",
+      "manuscript_occurrences": 1,
+      "source_sha256": "940c272e67dc5efe9adda27694ec784974b5cc781822bc00e67a18caeadbfcd5"
+    },
+    {
+      "macro": "NOasstSelected",
+      "value": 571.0,
+      "display": "571",
+      "source": "reports/candidate_selection_audit.json",
+      "expression": "NOasstSelected",
+      "manuscript_occurrences": 1,
+      "source_sha256": "940c272e67dc5efe9adda27694ec784974b5cc781822bc00e67a18caeadbfcd5"
+    },
+    {
+      "macro": "NOverlap",
+      "value": 213.0,
+      "display": "213",
+      "source": "reports/candidate_selection_audit.json",
+      "expression": "NOverlap",
+      "manuscript_occurrences": 1,
+      "source_sha256": "940c272e67dc5efe9adda27694ec784974b5cc781822bc00e67a18caeadbfcd5"
+    },
+    {
+      "macro": "NLastRank",
+      "value": 1004.0,
+      "display": "1004",
+      "source": "reports/candidate_selection_audit.json",
+      "expression": "NLastRank",
+      "manuscript_occurrences": 1,
+      "source_sha256": "940c272e67dc5efe9adda27694ec784974b5cc781822bc00e67a18caeadbfcd5"
+    },
+    {
+      "macro": "NExternal",
+      "value": 208.0,
+      "display": "208",
+      "source": "upstream/data/pids_bench_v3/eval_subsets/hard_benign_test.csv",
+      "expression": "usable source dolly/oasst1",
+      "manuscript_occurrences": 4,
+      "source_sha256": "e3ddb1e6e9e04e1097b7bcf9a6f5e05b0a8d73e8d71b8d867f7ed85b89472cee"
+    },
+    {
+      "macro": "NCuratedHB",
+      "value": 600.0,
+      "display": "600",
+      "source": "upstream/data/pids_bench_v3/eval_subsets/hard_benign_test.csv",
+      "expression": "usable non-external rows",
+      "manuscript_occurrences": 3,
+      "source_sha256": "e3ddb1e6e9e04e1097b7bcf9a6f5e05b0a8d73e8d71b8d867f7ed85b89472cee"
+    },
+    {
+      "macro": "PrimaryK",
+      "value": 1000.0,
+      "display": "1000",
+      "source": "configs/protocol.json",
+      "expression": "primary_k",
+      "manuscript_occurrences": 10,
+      "source_sha256": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed"
+    },
+    {
+      "macro": "NSeeds",
+      "value": 5.0,
+      "display": "5",
+      "source": "configs/protocol.json",
+      "expression": "len(seeds)",
+      "manuscript_occurrences": 1,
+      "source_sha256": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed"
+    },
+    {
+      "macro": "MinChars",
+      "value": 20.0,
+      "display": "20",
+      "source": "configs/protocol.json",
+      "expression": "candidate_min_chars",
+      "manuscript_occurrences": 1,
+      "source_sha256": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed"
+    },
+    {
+      "macro": "NEpochs",
+      "value": 2.0,
+      "display": "2",
+      "source": "configs/protocol.json",
+      "expression": "epochs",
+      "manuscript_occurrences": 1,
+      "source_sha256": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed"
+    },
+    {
+      "macro": "NBatch",
+      "value": 16.0,
+      "display": "16",
+      "source": "configs/protocol.json",
+      "expression": "batch_size",
+      "manuscript_occurrences": 1,
+      "source_sha256": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed"
+    },
+    {
+      "macro": "MaxLength",
+      "value": 256.0,
+      "display": "256",
+      "source": "configs/protocol.json",
+      "expression": "max_length",
+      "manuscript_occurrences": 1,
+      "source_sha256": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed"
+    },
+    {
+      "macro": "NRuns",
+      "value": 30.0,
+      "display": "30",
+      "source": "artifacts/experiment_registry.json",
+      "expression": "count verified COMPLETED rows",
+      "manuscript_occurrences": 2,
+      "source_sha256": "49891c9532b161e8037951a6864815b4705f5e885fbab53cae5e6e14f6bdb9d1"
+    },
+    {
+      "macro": "Threshold",
+      "value": 0.5,
+      "display": "0.5",
+      "source": "configs/protocol.json",
+      "expression": "threshold",
+      "manuscript_occurrences": 3,
+      "source_sha256": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed"
+    },
+    {
+      "macro": "LeakThreshold",
+      "value": 0.9,
+      "display": "0.90",
+      "source": "configs/protocol.json",
+      "expression": "near_duplicate_threshold",
+      "manuscript_occurrences": 1,
+      "source_sha256": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed"
+    },
+    {
+      "macro": "WeightDecay",
+      "value": 0.01,
+      "display": "0.01",
+      "source": "configs/protocol.json",
+      "expression": "weight_decay",
+      "manuscript_occurrences": 1,
+      "source_sha256": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed"
+    },
+    {
+      "macro": "MaxGradNorm",
+      "value": 1.0,
+      "display": "1.0",
+      "source": "configs/protocol.json",
+      "expression": "max_gradient_norm",
+      "manuscript_occurrences": 1,
+      "source_sha256": "2431feef88529e1803c13ebb034a142134efbe65b67f69da1ecccdee963c42ed"
+    },
+    {
+      "macro": "BootstrapN",
+      "value": 10000.0,
+      "display": "10000",
+      "source": "reports/STATISTICAL_RESULTS.csv",
+      "expression": "bootstrap_repetitions",
+      "manuscript_occurrences": 2,
+      "source_sha256": "da4d621f5fb2898694933b4b75634660b3cb4a569a85a4987725e79b6864b74a"
+    },
+    {
+      "macro": "HardPGMean",
+      "value": 0.198910106357632,
+      "display": "0.198910",
+      "source": "reports/HARDNESS_ANALYSIS.csv",
+      "expression": "provguard_1000/mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "ad264668f2e648a72c92cab0b92aa8f17c72b25378270c1429cb843dd5a5d31e"
+    },
+    {
+      "macro": "HardPGMedian",
+      "value": 0.0167378171366483,
+      "display": "0.016738",
+      "source": "reports/HARDNESS_ANALYSIS.csv",
+      "expression": "provguard_1000/median",
+      "manuscript_occurrences": 1,
+      "source_sha256": "ad264668f2e648a72c92cab0b92aa8f17c72b25378270c1429cb843dd5a5d31e"
+    },
+    {
+      "macro": "HardPGFlagN",
+      "value": 172.0,
+      "display": "172",
+      "source": "reports/HARDNESS_ANALYSIS.csv",
+      "expression": "provguard_1000/n_above_0.5",
+      "manuscript_occurrences": 2,
+      "source_sha256": "ad264668f2e648a72c92cab0b92aa8f17c72b25378270c1429cb843dd5a5d31e"
+    },
+    {
+      "macro": "HardRandMean",
+      "value": 0.0584244017154365,
+      "display": "0.058424",
+      "source": "reports/HARDNESS_ANALYSIS.csv",
+      "expression": "random_real_1000/mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "ad264668f2e648a72c92cab0b92aa8f17c72b25378270c1429cb843dd5a5d31e"
+    },
+    {
+      "macro": "HardRandMedian",
+      "value": 0.0009029272635718,
+      "display": "0.000903",
+      "source": "reports/HARDNESS_ANALYSIS.csv",
+      "expression": "random_real_1000/median",
+      "manuscript_occurrences": 1,
+      "source_sha256": "ad264668f2e648a72c92cab0b92aa8f17c72b25378270c1429cb843dd5a5d31e"
+    },
+    {
+      "macro": "HardRandFlagN",
+      "value": 53.0,
+      "display": "53",
+      "source": "reports/HARDNESS_ANALYSIS.csv",
+      "expression": "random_real_1000/n_above_0.5",
+      "manuscript_occurrences": 1,
+      "source_sha256": "ad264668f2e648a72c92cab0b92aa8f17c72b25378270c1429cb843dd5a5d31e"
+    },
+    {
+      "macro": "HardCurMean",
+      "value": 0.4931975858218934,
+      "display": "0.493198",
+      "source": "reports/HARDNESS_ANALYSIS.csv",
+      "expression": "curated/mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "ad264668f2e648a72c92cab0b92aa8f17c72b25378270c1429cb843dd5a5d31e"
+    },
+    {
+      "macro": "KSmallHBPct",
+      "value": 12.4009900990099,
+      "display": "12.40",
+      "source": "reports/ABLATION_RESULTS.csv",
+      "expression": "provguard_250/hard_benign_fpr_mean * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d3149ddfaf97b36dbdc0f0231371816efb0afe90ec3b349ccdc664aecd6f2a5b"
+    },
+    {
+      "macro": "KMediumExtPct",
+      "value": 3.4615384615384603,
+      "display": "3.46",
+      "source": "reports/ABLATION_RESULTS.csv",
+      "expression": "provguard_500/external_hb_fpr_mean * 100",
+      "manuscript_occurrences": 1,
+      "source_sha256": "d3149ddfaf97b36dbdc0f0231371816efb0afe90ec3b349ccdc664aecd6f2a5b"
+    },
+    {
+      "macro": "SourceDollyDollyFPR",
+      "value": 0.0,
+      "display": "0.0000",
+      "source": "reports/SECONDARY_RESULTS.csv",
+      "expression": "provguard_dolly_250/dolly_fpr mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "4910a8db328ab5dac5f1cfbda52de6aa831fa431891f233709775fbaab74d489"
+    },
+    {
+      "macro": "SourceDollyOasstFPR",
+      "value": 0.20952380952380945,
+      "display": "0.2095",
+      "source": "reports/SECONDARY_RESULTS.csv",
+      "expression": "provguard_dolly_250/oasst1_fpr mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "4910a8db328ab5dac5f1cfbda52de6aa831fa431891f233709775fbaab74d489"
+    },
+    {
+      "macro": "SourceOasstDollyFPR",
+      "value": 0.019607843137254832,
+      "display": "0.0196",
+      "source": "reports/SECONDARY_RESULTS.csv",
+      "expression": "provguard_oasst1_250/dolly_fpr mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "4910a8db328ab5dac5f1cfbda52de6aa831fa431891f233709775fbaab74d489"
+    },
+    {
+      "macro": "SourceOasstOasstFPR",
+      "value": 0.06190476190476187,
+      "display": "0.0619",
+      "source": "reports/SECONDARY_RESULTS.csv",
+      "expression": "provguard_oasst1_250/oasst1_fpr mean",
+      "manuscript_occurrences": 1,
+      "source_sha256": "4910a8db328ab5dac5f1cfbda52de6aa831fa431891f233709775fbaab74d489"
+    },
+    {
+      "macro": "SourceSeedN",
+      "value": 3.0,
+      "display": "3",
+      "source": "reports/SECONDARY_RESULTS.csv",
+      "expression": "source arm seed_n",
+      "manuscript_occurrences": 1,
+      "source_sha256": "4910a8db328ab5dac5f1cfbda52de6aa831fa431891f233709775fbaab74d489"
+    },
+    {
+      "macro": "NDollyExternal",
+      "value": 68.0,
+      "display": "68",
+      "source": "reports/SECONDARY_RESULTS.csv",
+      "expression": "dolly_n",
+      "manuscript_occurrences": 1,
+      "source_sha256": "4910a8db328ab5dac5f1cfbda52de6aa831fa431891f233709775fbaab74d489"
+    },
+    {
+      "macro": "NOasstExternal",
+      "value": 140.0,
+      "display": "140",
+      "source": "reports/SECONDARY_RESULTS.csv",
+      "expression": "oasst1_n",
+      "manuscript_occurrences": 1,
+      "source_sha256": "4910a8db328ab5dac5f1cfbda52de6aa831fa431891f233709775fbaab74d489"
+    },
+    {
+      "macro": "FixedFP",
+      "value": 245.0,
+      "display": "245.0",
+      "source": "reports/ERROR_TRANSITIONS.csv",
+      "expression": "FP_FIXED mean count per seed",
+      "manuscript_occurrences": 1,
+      "source_sha256": "0ccc4ec463094e97c7fe74a2bd8bf66a53785298acaf99b0b6a7a59a529ec263"
+    },
+    {
+      "macro": "NewFP",
+      "value": 20.8,
+      "display": "20.8",
+      "source": "reports/ERROR_TRANSITIONS.csv",
+      "expression": "NEW_FP mean count per seed",
+      "manuscript_occurrences": 1,
+      "source_sha256": "0ccc4ec463094e97c7fe74a2bd8bf66a53785298acaf99b0b6a7a59a529ec263"
+    }
+  ],
+  "single_file_tex": true,
+  "embedded_tables_checked": 3
+}

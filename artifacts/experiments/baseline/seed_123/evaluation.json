@@ -1,0 +1,1454 @@
+{
+  "threshold": 0.5,
+  "benchmark_integrity": {
+    "train": {
+      "sha256": "859124bfffe20483b337956efcb11c6bdaf6191835150f51a5e6da272ee5a2eb",
+      "rows": 27093,
+      "usable_text_n": 27093,
+      "missing_text_n": 0
+    },
+    "val": {
+      "sha256": "1445c0b33c220078d967fa34bb4da5e2981842ce288925b8f2542a4f9352cc64",
+      "rows": 3989,
+      "usable_text_n": 3989,
+      "missing_text_n": 0
+    },
+    "test": {
+      "sha256": "149092dc6a7a83d3da73e8c7b413ea5e215e3f96c5565767b6db56b3b7835d96",
+      "rows": 3918,
+      "usable_text_n": 3918,
+      "missing_text_n": 0
+    },
+    "hard_benign": {
+      "sha256": "e3ddb1e6e9e04e1097b7bcf9a6f5e05b0a8d73e8d71b8d867f7ed85b89472cee",
+      "rows": 1472,
+      "usable_text_n": 808,
+      "missing_text_n": 664
+    },
+    "balanced_subtype": {
+      "sha256": "210e339329081b97ce95d2dfe4f4581e19bc83dd16a23b86cd36bd15b9ff2023",
+      "rows": 2297,
+      "usable_text_n": 2297,
+      "missing_text_n": 0
+    },
+    "obfuscated": {
+      "sha256": "b151322f05ef83922c734c589804fc7eab53331b61b5ad153c72aaf683f7c691",
+      "rows": 405,
+      "usable_text_n": 405,
+      "missing_text_n": 0
+    },
+    "domain_ood": {
+      "sha256": "d14acb99a69ac10559fde9ee22d0f20aa7a5816c4f48f279838d12ed0a6944f0",
+      "rows": 2000,
+      "usable_text_n": 2000,
+      "missing_text_n": 0
+    },
+    "structural_ood": {
+      "sha256": "63d56a8ebbd0639404158b51b35863fc87b02e9869ee2526f5f90eaa48108dad",
+      "rows": 1998,
+      "usable_text_n": 1998,
+      "missing_text_n": 0
+    }
+  },
+  "sets": {
+    "val": {
+      "n": 3989,
+      "f1": 0.9883,
+      "precision": 0.9835,
+      "recall": 0.9932,
+      "fpr": 0.0175,
+      "fnr": 0.0068,
+      "threshold": 0.5,
+      "roc_auc": 0.9989323027898228,
+      "excluded_missing_n": 0,
+      "groups": {
+        "source": {
+          "alpaca_benign": {
+            "n": 975,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0031,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "chatbot_instructions_benign": {
+            "n": 612,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0163,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "deepset_injection": {
+            "n": 15,
+            "f1": 0.9655,
+            "precision": 1.0,
+            "recall": 0.9333,
+            "fpr": 0.0,
+            "fnr": 0.0667,
+            "threshold": 0.5
+          },
+          "qualifire": {
+            "n": 94,
+            "f1": 0.9947,
+            "precision": 1.0,
+            "recall": 0.9894,
+            "fpr": 0.0,
+            "fnr": 0.0106,
+            "threshold": 0.5
+          },
+          "sharegpt": {
+            "n": 169,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.1006,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "spml_injection": {
+            "n": 1141,
+            "f1": 0.9952,
+            "precision": 1.0,
+            "recall": 0.9904,
+            "fpr": 0.0,
+            "fnr": 0.0096,
+            "threshold": 0.5
+          },
+          "stackexchange": {
+            "n": 57,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "template": {
+            "n": 926,
+            "f1": 0.9969,
+            "precision": 0.995,
+            "recall": 0.9987,
+            "fpr": 0.0308,
+            "fnr": 0.0013,
+            "threshold": 0.5
+          }
+        },
+        "source_type": {
+          "real": {
+            "n": 3063,
+            "f1": 0.9829,
+            "precision": 0.9763,
+            "recall": 0.9896,
+            "fpr": 0.0165,
+            "fnr": 0.0104,
+            "threshold": 0.5
+          },
+          "template": {
+            "n": 926,
+            "f1": 0.9969,
+            "precision": 0.995,
+            "recall": 0.9987,
+            "fpr": 0.0308,
+            "fnr": 0.0013,
+            "threshold": 0.5
+          }
+        },
+        "attack_type": {
+          "contextual_manipulation": {
+            "n": 420,
+            "f1": 0.9988,
+            "precision": 1.0,
+            "recall": 0.9976,
+            "fpr": 0.0,
+            "fnr": 0.0024,
+            "threshold": 0.5
+          },
+          "data_exfiltration": {
+            "n": 231,
+            "f1": 0.9978,
+            "precision": 1.0,
+            "recall": 0.9957,
+            "fpr": 0.0,
+            "fnr": 0.0043,
+            "threshold": 0.5
+          },
+          "direct_override": {
+            "n": 734,
+            "f1": 0.9918,
+            "precision": 1.0,
+            "recall": 0.9837,
+            "fpr": 0.0,
+            "fnr": 0.0163,
+            "threshold": 0.5
+          },
+          "encoded_attack": {
+            "n": 141,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "none": {
+            "n": 1943,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0175,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "roleplay_attack": {
+            "n": 366,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "tool_injection": {
+            "n": 154,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        },
+        "obfuscation": {
+          "base64_wrap": {
+            "n": 71,
+            "f1": 0.8687,
+            "precision": 0.7679,
+            "recall": 1.0,
+            "fpr": 0.4643,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "homoglyph": {
+            "n": 118,
+            "f1": 0.9811,
+            "precision": 0.9811,
+            "recall": 0.9811,
+            "fpr": 0.0154,
+            "fnr": 0.0189,
+            "threshold": 0.5
+          },
+          "markdown_split": {
+            "n": 117,
+            "f1": 0.9925,
+            "precision": 1.0,
+            "recall": 0.9851,
+            "fpr": 0.0,
+            "fnr": 0.0149,
+            "threshold": 0.5
+          },
+          "none": {
+            "n": 3189,
+            "f1": 0.9918,
+            "precision": 0.9903,
+            "recall": 0.9933,
+            "fpr": 0.0104,
+            "fnr": 0.0067,
+            "threshold": 0.5
+          },
+          "rot13_wrap": {
+            "n": 85,
+            "f1": 0.963,
+            "precision": 0.9512,
+            "recall": 0.975,
+            "fpr": 0.0444,
+            "fnr": 0.025,
+            "threshold": 0.5
+          },
+          "spacing_jitter": {
+            "n": 131,
+            "f1": 0.9926,
+            "precision": 0.9853,
+            "recall": 1.0,
+            "fpr": 0.0156,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "unicode_confusables": {
+            "n": 156,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "zero_width": {
+            "n": 122,
+            "f1": 0.9913,
+            "precision": 0.9828,
+            "recall": 1.0,
+            "fpr": 0.0154,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        }
+      }
+    },
+    "test": {
+      "n": 3918,
+      "f1": 0.9825,
+      "precision": 0.9757,
+      "recall": 0.9894,
+      "fpr": 0.0276,
+      "fnr": 0.0106,
+      "threshold": 0.5,
+      "roc_auc": 0.9981107660455486,
+      "excluded_missing_n": 0,
+      "groups": {
+        "source": {
+          "alpaca_benign": {
+            "n": 852,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0176,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "chatbot_instructions_benign": {
+            "n": 607,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0148,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "deepset_injection": {
+            "n": 24,
+            "f1": 0.8571,
+            "precision": 1.0,
+            "recall": 0.75,
+            "fpr": 0.0,
+            "fnr": 0.25,
+            "threshold": 0.5
+          },
+          "qualifire": {
+            "n": 120,
+            "f1": 0.9831,
+            "precision": 1.0,
+            "recall": 0.9667,
+            "fpr": 0.0,
+            "fnr": 0.0333,
+            "threshold": 0.5
+          },
+          "sharegpt": {
+            "n": 182,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.1429,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "spml_injection": {
+            "n": 1125,
+            "f1": 0.9955,
+            "precision": 1.0,
+            "recall": 0.9911,
+            "fpr": 0.0,
+            "fnr": 0.0089,
+            "threshold": 0.5
+          },
+          "stackexchange": {
+            "n": 74,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0135,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "template": {
+            "n": 934,
+            "f1": 0.9988,
+            "precision": 1.0,
+            "recall": 0.9975,
+            "fpr": 0.0,
+            "fnr": 0.0025,
+            "threshold": 0.5
+          }
+        },
+        "source_type": {
+          "real": {
+            "n": 2984,
+            "f1": 0.9724,
+            "precision": 0.9608,
+            "recall": 0.9842,
+            "fpr": 0.0297,
+            "fnr": 0.0158,
+            "threshold": 0.5
+          },
+          "template": {
+            "n": 934,
+            "f1": 0.9988,
+            "precision": 1.0,
+            "recall": 0.9975,
+            "fpr": 0.0,
+            "fnr": 0.0025,
+            "threshold": 0.5
+          }
+        },
+        "attack_type": {
+          "contextual_manipulation": {
+            "n": 417,
+            "f1": 0.9988,
+            "precision": 1.0,
+            "recall": 0.9976,
+            "fpr": 0.0,
+            "fnr": 0.0024,
+            "threshold": 0.5
+          },
+          "data_exfiltration": {
+            "n": 228,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "direct_override": {
+            "n": 747,
+            "f1": 0.9864,
+            "precision": 1.0,
+            "recall": 0.9732,
+            "fpr": 0.0,
+            "fnr": 0.0268,
+            "threshold": 0.5
+          },
+          "encoded_attack": {
+            "n": 145,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "none": {
+            "n": 1848,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0276,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "roleplay_attack": {
+            "n": 381,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "tool_injection": {
+            "n": 152,
+            "f1": 0.9967,
+            "precision": 1.0,
+            "recall": 0.9934,
+            "fpr": 0.0,
+            "fnr": 0.0066,
+            "threshold": 0.5
+          }
+        },
+        "obfuscation": {
+          "base64_wrap": {
+            "n": 88,
+            "f1": 0.8099,
+            "precision": 0.6901,
+            "recall": 0.98,
+            "fpr": 0.5789,
+            "fnr": 0.02,
+            "threshold": 0.5
+          },
+          "homoglyph": {
+            "n": 111,
+            "f1": 0.9735,
+            "precision": 0.9483,
+            "recall": 1.0,
+            "fpr": 0.0536,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "markdown_split": {
+            "n": 118,
+            "f1": 0.9748,
+            "precision": 0.9508,
+            "recall": 1.0,
+            "fpr": 0.05,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "none": {
+            "n": 3133,
+            "f1": 0.9883,
+            "precision": 0.9886,
+            "recall": 0.988,
+            "fpr": 0.0129,
+            "fnr": 0.012,
+            "threshold": 0.5
+          },
+          "rot13_wrap": {
+            "n": 67,
+            "f1": 0.962,
+            "precision": 0.9268,
+            "recall": 1.0,
+            "fpr": 0.1034,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "spacing_jitter": {
+            "n": 130,
+            "f1": 0.9836,
+            "precision": 0.9836,
+            "recall": 0.9836,
+            "fpr": 0.0145,
+            "fnr": 0.0164,
+            "threshold": 0.5
+          },
+          "unicode_confusables": {
+            "n": 161,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "zero_width": {
+            "n": 110,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        }
+      }
+    },
+    "hard_benign": {
+      "n": 808,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": null,
+      "fpr": 0.5223,
+      "fnr": 0.0,
+      "threshold": 0.5,
+      "roc_auc": null,
+      "excluded_missing_n": 664,
+      "groups": {
+        "source": {
+          "dolly": {
+            "n": 18,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.2222,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "dolly_ai_adjacent": {
+            "n": 50,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.02,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_attack_analysis": {
+            "n": 75,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.3467,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_fiction_roleplay_benign": {
+            "n": 75,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.56,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_guardrail_design": {
+            "n": 75,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.8933,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_imperative_benign": {
+            "n": 75,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.44,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_policy_meta": {
+            "n": 75,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.7467,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_redteam_framing": {
+            "n": 75,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.7067,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_security_education": {
+            "n": 75,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.3467,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_technical_documentation": {
+            "n": 75,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.9733,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "oasst1": {
+            "n": 40,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.4,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "oasst1_ai_adjacent": {
+            "n": 100,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.25,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        },
+        "source_type": {
+          "curated": {
+            "n": 600,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.6267,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "real": {
+            "n": 208,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.2212,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        },
+        "attack_type": {
+          "none": {
+            "n": 808,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.5223,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        },
+        "obfuscation": {
+          "none": {
+            "n": 808,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.5223,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        }
+      }
+    },
+    "balanced_subtype": {
+      "n": 2297,
+      "f1": 0.9797,
+      "precision": 0.968,
+      "recall": 0.9918,
+      "fpr": 0.03,
+      "fnr": 0.0082,
+      "threshold": 0.5,
+      "roc_auc": 0.9981305074445458,
+      "excluded_missing_n": 0,
+      "groups": {
+        "source": {
+          "alpaca_benign": {
+            "n": 543,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0239,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "chatbot_instructions_benign": {
+            "n": 411,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0122,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "deepset_injection": {
+            "n": 7,
+            "f1": 0.7273,
+            "precision": 1.0,
+            "recall": 0.5714,
+            "fpr": 0.0,
+            "fnr": 0.4286,
+            "threshold": 0.5
+          },
+          "qualifire": {
+            "n": 27,
+            "f1": 0.9615,
+            "precision": 1.0,
+            "recall": 0.9259,
+            "fpr": 0.0,
+            "fnr": 0.0741,
+            "threshold": 0.5
+          },
+          "sharegpt": {
+            "n": 121,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.1488,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "spml_injection": {
+            "n": 462,
+            "f1": 0.9978,
+            "precision": 1.0,
+            "recall": 0.9957,
+            "fpr": 0.0,
+            "fnr": 0.0043,
+            "threshold": 0.5
+          },
+          "stackexchange": {
+            "n": 45,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "template": {
+            "n": 681,
+            "f1": 0.9983,
+            "precision": 1.0,
+            "recall": 0.9967,
+            "fpr": 0.0,
+            "fnr": 0.0033,
+            "threshold": 0.5
+          }
+        },
+        "source_type": {
+          "real": {
+            "n": 1616,
+            "f1": 0.9579,
+            "precision": 0.9314,
+            "recall": 0.9859,
+            "fpr": 0.0321,
+            "fnr": 0.0141,
+            "threshold": 0.5
+          },
+          "template": {
+            "n": 681,
+            "f1": 0.9983,
+            "precision": 1.0,
+            "recall": 0.9967,
+            "fpr": 0.0,
+            "fnr": 0.0033,
+            "threshold": 0.5
+          }
+        },
+        "attack_type": {
+          "contextual_manipulation": {
+            "n": 200,
+            "f1": 0.9975,
+            "precision": 1.0,
+            "recall": 0.995,
+            "fpr": 0.0,
+            "fnr": 0.005,
+            "threshold": 0.5
+          },
+          "data_exfiltration": {
+            "n": 200,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "direct_override": {
+            "n": 200,
+            "f1": 0.9822,
+            "precision": 1.0,
+            "recall": 0.965,
+            "fpr": 0.0,
+            "fnr": 0.035,
+            "threshold": 0.5
+          },
+          "encoded_attack": {
+            "n": 145,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "none": {
+            "n": 1200,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.03,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "roleplay_attack": {
+            "n": 200,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "tool_injection": {
+            "n": 152,
+            "f1": 0.9967,
+            "precision": 1.0,
+            "recall": 0.9934,
+            "fpr": 0.0,
+            "fnr": 0.0066,
+            "threshold": 0.5
+          }
+        },
+        "obfuscation": {
+          "base64_wrap": {
+            "n": 52,
+            "f1": 0.7429,
+            "precision": 0.6047,
+            "recall": 0.963,
+            "fpr": 0.68,
+            "fnr": 0.037,
+            "threshold": 0.5
+          },
+          "homoglyph": {
+            "n": 66,
+            "f1": 0.9434,
+            "precision": 0.8929,
+            "recall": 1.0,
+            "fpr": 0.0732,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "markdown_split": {
+            "n": 71,
+            "f1": 0.9846,
+            "precision": 0.9697,
+            "recall": 1.0,
+            "fpr": 0.0256,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "none": {
+            "n": 1842,
+            "f1": 0.9898,
+            "precision": 0.9876,
+            "recall": 0.9921,
+            "fpr": 0.0115,
+            "fnr": 0.0079,
+            "threshold": 0.5
+          },
+          "rot13_wrap": {
+            "n": 45,
+            "f1": 0.9412,
+            "precision": 0.8889,
+            "recall": 1.0,
+            "fpr": 0.1429,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "spacing_jitter": {
+            "n": 69,
+            "f1": 0.9667,
+            "precision": 0.9667,
+            "recall": 0.9667,
+            "fpr": 0.0256,
+            "fnr": 0.0333,
+            "threshold": 0.5
+          },
+          "unicode_confusables": {
+            "n": 84,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "zero_width": {
+            "n": 68,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        }
+      }
+    },
+    "obfuscated": {
+      "n": 405,
+      "f1": 0.9975,
+      "precision": 1.0,
+      "recall": 0.9951,
+      "fpr": null,
+      "fnr": 0.0049,
+      "threshold": 0.5,
+      "roc_auc": null,
+      "excluded_missing_n": 0,
+      "groups": {
+        "source": {
+          "deepset_injection": {
+            "n": 2,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "qualifire": {
+            "n": 26,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "spml_injection": {
+            "n": 224,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "template": {
+            "n": 153,
+            "f1": 0.9934,
+            "precision": 1.0,
+            "recall": 0.9869,
+            "fpr": 0.0,
+            "fnr": 0.0131,
+            "threshold": 0.5
+          }
+        },
+        "source_type": {
+          "real": {
+            "n": 252,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "template": {
+            "n": 153,
+            "f1": 0.9934,
+            "precision": 1.0,
+            "recall": 0.9869,
+            "fpr": 0.0,
+            "fnr": 0.0131,
+            "threshold": 0.5
+          }
+        },
+        "attack_type": {
+          "contextual_manipulation": {
+            "n": 78,
+            "f1": 0.9935,
+            "precision": 1.0,
+            "recall": 0.9872,
+            "fpr": 0.0,
+            "fnr": 0.0128,
+            "threshold": 0.5
+          },
+          "data_exfiltration": {
+            "n": 42,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "direct_override": {
+            "n": 159,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "encoded_attack": {
+            "n": 35,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "roleplay_attack": {
+            "n": 66,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "tool_injection": {
+            "n": 25,
+            "f1": 0.9796,
+            "precision": 1.0,
+            "recall": 0.96,
+            "fpr": 0.0,
+            "fnr": 0.04,
+            "threshold": 0.5
+          }
+        },
+        "obfuscation": {
+          "base64_wrap": {
+            "n": 50,
+            "f1": 0.9899,
+            "precision": 1.0,
+            "recall": 0.98,
+            "fpr": 0.0,
+            "fnr": 0.02,
+            "threshold": 0.5
+          },
+          "homoglyph": {
+            "n": 55,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "markdown_split": {
+            "n": 58,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "rot13_wrap": {
+            "n": 38,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "spacing_jitter": {
+            "n": 61,
+            "f1": 0.9917,
+            "precision": 1.0,
+            "recall": 0.9836,
+            "fpr": 0.0,
+            "fnr": 0.0164,
+            "threshold": 0.5
+          },
+          "unicode_confusables": {
+            "n": 90,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "zero_width": {
+            "n": 53,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        }
+      }
+    },
+    "domain_ood": {
+      "n": 2000,
+      "f1": 0.9227,
+      "precision": 0.9886,
+      "recall": 0.865,
+      "fpr": 0.01,
+      "fnr": 0.135,
+      "threshold": 0.5,
+      "roc_auc": 0.9838929999999999,
+      "excluded_missing_n": 0,
+      "groups": {
+        "source": {
+          "MedQuAD": {
+            "n": 250,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.008,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "code_gpt4omini": {
+            "n": 250,
+            "f1": 0.6301,
+            "precision": 1.0,
+            "recall": 0.46,
+            "fpr": 0.0,
+            "fnr": 0.54,
+            "threshold": 0.5
+          },
+          "code_search_net_python": {
+            "n": 250,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.012,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "finance_gpt4omini": {
+            "n": 250,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "financial_qa_10k": {
+            "n": 250,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.008,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "legal_gpt4omini": {
+            "n": 250,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "lex_glue_ecthr": {
+            "n": 250,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.012,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "medical_gpt4omini": {
+            "n": 250,
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        },
+        "domain": {
+          "code": {
+            "n": 500,
+            "f1": 0.625,
+            "precision": 0.9746,
+            "recall": 0.46,
+            "fpr": 0.012,
+            "fnr": 0.54,
+            "threshold": 0.5
+          },
+          "finance": {
+            "n": 500,
+            "f1": 0.996,
+            "precision": 0.9921,
+            "recall": 1.0,
+            "fpr": 0.008,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "legal": {
+            "n": 500,
+            "f1": 0.994,
+            "precision": 0.9881,
+            "recall": 1.0,
+            "fpr": 0.012,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "medical": {
+            "n": 500,
+            "f1": 0.996,
+            "precision": 0.9921,
+            "recall": 1.0,
+            "fpr": 0.008,
+            "fnr": 0.0,
+            "threshold": 0.5
+          }
+        }
+      }
+    },
+    "structural_ood": {
+      "n": 1998,
+      "f1": 0.6769,
+      "precision": 0.5258,
+      "recall": 0.9499,
+      "fpr": 0.8569,
+      "fnr": 0.0501,
+      "threshold": 0.5,
+      "roc_auc": 0.6858289721152584,
+      "excluded_missing_n": 0,
+      "groups": {
+        "source": {
+          "dolly": {
+            "n": 9,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.7778,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "dolly_ai_adjacent": {
+            "n": 33,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.6364,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_attack_analysis": {
+            "n": 45,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.7556,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_fiction_roleplay_benign": {
+            "n": 51,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.9804,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_guardrail_design": {
+            "n": 39,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.9487,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_imperative_benign": {
+            "n": 45,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 1.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_policy_meta": {
+            "n": 69,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.9275,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_redteam_framing": {
+            "n": 57,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.8947,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_security_education": {
+            "n": 72,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.7639,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "hard_benign_technical_documentation": {
+            "n": 36,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 1.0,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "lmsys": {
+            "n": 237,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.8776,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "lmsys_ai_adjacent": {
+            "n": 201,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.806,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "oasst1": {
+            "n": 39,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.8974,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "oasst1_ai_adjacent": {
+            "n": 66,
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "fpr": 0.7727,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "structural_seed_gpt4omini": {
+            "n": 999,
+            "f1": 0.9743,
+            "precision": 1.0,
+            "recall": 0.9499,
+            "fpr": 0.0,
+            "fnr": 0.0501,
+            "threshold": 0.5
+          }
+        },
+        "transform_type": {
+          "instruction_prefix_mimic": {
+            "n": 666,
+            "f1": 0.67,
+            "precision": 0.5038,
+            "recall": 1.0,
+            "fpr": 0.985,
+            "fnr": 0.0,
+            "threshold": 0.5
+          },
+          "json_wrap": {
+            "n": 666,
+            "f1": 0.7029,
+            "precision": 0.5714,
+            "recall": 0.9129,
+            "fpr": 0.6847,
+            "fnr": 0.0871,
+            "threshold": 0.5
+          },
+          "prompt_dilute": {
+            "n": 666,
+            "f1": 0.6603,
+            "precision": 0.5098,
+            "recall": 0.9369,
+            "fpr": 0.9009,
+            "fnr": 0.0631,
+            "threshold": 0.5
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+family,comparison,evaluation_source,training_seed_n,seeds,evaluation_n,absolute_fpr_reduction,bootstrap_ci_lower,bootstrap_ci_upper,bootstrap_repetitions,analysis
+source,baseline vs provguard_dolly_250,oasst1,3,"13,42,123",140,0.04523809523809524,-0.016666666666666666,0.10714285714285714,10000,exploratory crossed training-seed/shared-prompt bootstrap; unadjusted pointwise CI
+source,baseline vs provguard_oasst1_250,dolly,3,"13,42,123",68,0.05392156862745098,0.004901960784313725,0.11764705882352941,10000,exploratory crossed training-seed/shared-prompt bootstrap; unadjusted pointwise CI

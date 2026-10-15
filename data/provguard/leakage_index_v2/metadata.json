@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "representation": "TF-IDF char_wb 3-5, L2 normalized, float32",
+  "threshold": 0.9,
+  "reference_n": 39808,
+  "canonical_corpus_n": 57596,
+  "reference_text_sha256": "421a51e5b1ac1836b574c097b24899cdfdc83f0ef5f27d1703c42e00c3e791f2",
+  "canonical_corpus_sha256": "b132a3a5beeaa16a0321618eb33e58d5898d616c83ea15f4cca071a2bafdfdee",
+  "artifacts": {
+    "vectorizer.joblib": "42a584f8be367dd4fe7c0377a9c4187fdf466db3c5385a3ba655b61915a9e00f",
+    "references.npz": "a6f113ac973787190969c25ba6ce9f376bb1626d7172527638a39f97717c5ea0",
+    "references.json": "77fe0cc90233ad9663f7f87d8c2ec946e2b8c9f43f9d6f76e3a45b1614e36dad"
+  }
+}

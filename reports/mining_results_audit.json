@@ -1,0 +1,27 @@
+{
+  "selected_n": 1000,
+  "random_n": 1000,
+  "selected_source_n": {
+    "dolly": 932,
+    "oasst1": 68
+  },
+  "random_source_n": {
+    "dolly": 932,
+    "oasst1": 68
+  },
+  "approved_n": 4075,
+  "ambiguous_excluded_n": 13325,
+  "explicit_remove_decisions_n": 0,
+  "human_reviewed_n": 0,
+  "hardness_min": 0.0006130107637242,
+  "hardness_max": 0.0082709082877651,
+  "hardness_mean": 0.0006880169509203766,
+  "random_hardness_mean": 0.0005816246759640721,
+  "flagged_by_any_selector_n": 0,
+  "arm_overlap_n": 314,
+  "k_counts": {
+    "250": 250,
+    "500": 500,
+    "1000": 1000
+  }
+}

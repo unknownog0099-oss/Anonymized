@@ -1,0 +1,77 @@
+{
+  "primary_k": 1000,
+  "nested_k": [
+    250,
+    500,
+    1000
+  ],
+  "selection": "descending mean baseline score after paired semantic adjudication",
+  "selector_seeds": [
+    13,
+    42,
+    123
+  ],
+  "rank_complete_through": 1004,
+  "paired_review_n": 2927,
+  "selected_source_counts": {
+    "oasst1": 571,
+    "dolly": 429
+  },
+  "random_source_counts": {
+    "oasst1": 571,
+    "dolly": 429
+  },
+  "matched_strata": {
+    "dolly:0": 6,
+    "dolly:1": 17,
+    "dolly:2": 88,
+    "dolly:3": 318,
+    "oasst1:0": 5,
+    "oasst1:1": 16,
+    "oasst1:2": 55,
+    "oasst1:3": 495
+  },
+  "random_seed": 42,
+  "random_overlap_n": 213,
+  "augmentation_sha256": {
+    "provguard_250.csv": "1f921950d64e3b3e78bc43eb21f46a24161d7044b1acc42d2b06847aa516d530",
+    "provguard_500.csv": "f39468916b162c3fa1a84095ea913dff083433ffc587bcf7c172254bd0052b79",
+    "provguard_1000.csv": "9160353dae93eeecfe45ee5f1cab9283a876d2c651eab05589f09a41c34755a8",
+    "random_real_1000.csv": "5936cf77dd495a8ebbce44fe2e3ed9bff1a70b03e37c9931990b18ffe4aef275",
+    "curated_hn.csv": "4992576820850edde02f63f3e3809af3290104fefeeac119f6bba1a0dfcf1137"
+  },
+  "canonical_index_corpus_sha256": "b132a3a5beeaa16a0321618eb33e58d5898d616c83ea15f4cca071a2bafdfdee",
+  "semantic_review_sha256": "5b0466ffec38fb5ae62df4cf852b3f9d6ed1ef25aac2af496b3aa088edc72768",
+  "hardness": [
+    {
+      "method": "provguard_1000",
+      "n": 1000,
+      "min": 0.004750300606247,
+      "q1": 0.0068935510268298,
+      "median": 0.0167378171366483,
+      "mean": 0.19891010635763204,
+      "q3": 0.3307593522670989,
+      "max": 0.999864399433136,
+      "n_above_0.5": 172,
+      "n_above_0.25": 294,
+      "n_above_0.1": 359,
+      "n_above_0.05": 401,
+      "n_above_0.01": 612
+    },
+    {
+      "method": "random_real_1000",
+      "n": 1000,
+      "min": 0.0003396219957115,
+      "q1": 0.0005271870104479001,
+      "median": 0.00090292726357185,
+      "mean": 0.05842440171543657,
+      "q3": 0.0037132921640173748,
+      "max": 0.9993959863980612,
+      "n_above_0.5": 53,
+      "n_above_0.25": 84,
+      "n_above_0.1": 96,
+      "n_above_0.05": 104,
+      "n_above_0.01": 145
+    }
+  ]
+}
